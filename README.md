@@ -16,16 +16,15 @@ Welcome to The Iron Yard and to the Front End engineering course. It's going to 
 - **medium**: a great blogging platform so that you can write about your experience
 
 
-###Week 1
+###Week 1 Overview
 
 **Day 1:** HTML Review
-|:Day  |:Topic|:Assignment|:Learning Objectives|
+|Day  |Topic|Assignment|Learning Objectives|
 |------|------|-------------------|--------------------|
-| Day 1  | Basic HTML + Basic CSS + Terminal | 1. Simple Page w/ major elements<br/> 2. Create `gen-project.sh` in `/bin` | *Students will learn the basics of creating a basic site and basic file system navigation in the terminal* |
-| Day 2  | | | |
-| Day 3  | | | |
+| Day 1  | Basic HTML, Basic CSS, Terminal | (1) Simple Page w/ major elements<br/> (2) Create `gen-project.sh` in `/bin` | *Learn the basics of creating a basic site and basic file system operations in the terminal* |
+| Day 2  | Box Model, Layout Fundamentals, Git  | (1) Margin/Padding boxes <br> (2)Save code using git | *Learning behavior of block, inline-block, inline elements in the browser and using git to save versions of work* |
+| Day 3  |  | | |
 | Day 4  | | | |
-| **Lab** | Responsive T-Shirts|
 
 
 *Learning Objectives:* 
