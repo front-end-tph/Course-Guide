@@ -20,12 +20,14 @@ Welcome to The Iron Yard and to the Front End engineering course. It's going to 
 
 **Day 1:** HTML Review
 
-|Day  |Topic|Assignment|Learning Objectives|
+|Day  | Topics | Assignment | Learning Objectives |
 |------|------|-------------------|--------------------|
-| Day 1  | Basic HTML, Basic CSS, Terminal | (1) Simple Page w/ major elements<br/> (2) Create `gen-project.sh` in `/bin` | *Learn the basics of creating a basic site and basic file system operations in the terminal* |
-| Day 2  | Box Model, Layout Fundamentals, Git  | (1) Margin/Padding boxes <br> (2)Save code using git | *Learning behavior of block, inline-block, inline elements in the browser and using git to save versions of work* |
-| Day 3  |  | | |
-| Day 4  | | | |
+|  1  | Basic HTML<br/> Basic CSS<br/> Terminal | (1) Simple Page w/ major elements
+<br/><br/> (2) Create `gen-project.sh` in `/bin` | *Learn the basics of creating a basic site and basic file system operations in the terminal* |
+|  2  | Box Model<br/> Border/Margin/Padding Fundamentals<br/> Background + Color Fundamentals <br/> Git  | (1) Margin/Padding boxes <br><br/> (2)Save code using git | *Learning behavior of block, inline-block, inline elements in the browser and using git to save versions of work* |
+|  3  |  Media Queries + Responsive Layouts <br/> Github | (1)Build a responsive layout for a blog <br/><br/>(2)Push work to github | *Learn how to create mobile-first layouts with `@media and screen(min-width: xx)` and push to github* |
+|  4  | Absolute/Fixed/Relative Positioning <br/><br/> Pseudo Classes + Advanced Selectors <br/><br/> gh-pages | *Precisely position elements on a page and push all work to gh-pages*  |
+|  **Lab**  | Responsive T-Shirts |
 
 
 *Learning Objectives:* 
