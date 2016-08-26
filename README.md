@@ -26,7 +26,7 @@ Welcome to The Iron Yard and to the Front End engineering course. It's going to 
 <br/><br/> (2) Create `gen-project.sh` in `/bin` | *Learn the basics of creating a basic site and basic file system operations in the terminal* |
 |  2  | Box Model<br/> Border/Margin/Padding Fundamentals<br/> Background + Color Fundamentals <br/> Git  | (1) Margin/Padding boxes <br><br/> (2)Save code using git | *Learning behavior of block, inline-block, inline elements in the browser and using git to save versions of work* |
 |  3  |  Media Queries + Responsive Layouts <br/> Github | (1)Build a responsive layout for a blog <br/><br/>(2)Push work to github | *Learn how to create mobile-first layouts with `@media and screen(min-width: xx)` and push to github* |
-|  4  | Absolute/Fixed/Relative Positioning <br/><br/> Pseudo Classes + Advanced Selectors <br/><br/> gh-pages | *Precisely position elements on a page and push all work to gh-pages*  |
+|  4  | Absolute/Fixed/Relative Positioning <br/><br/> Pseudo Classes + Advanced Selectors <br/><br/> gh-pages | XX No exercise yet XX  | *Precisely position elements on a page and push all work to gh-pages*  |
 |  **Lab**  | Responsive T-Shirts |
 
 
