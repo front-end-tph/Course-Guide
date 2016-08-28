@@ -35,21 +35,22 @@ Week 9 -- "Flux" Architecture
 
 |Day  | Topics | Assignment | Learning Objectives |
 |------|------|-------------------|--------------------|
-|  1  | +Basic HTML<br/> +Basic CSS<br/> +Terminal | (1) Simple Page w/ major elements<br/><br/> (2) Create `gen-project.sh` in `/bin` | *Learn the basics of creating a basic site and basic file system operations in the terminal* |
-|  2  | Box Model<br/><br/> +Border/Margin/Padding Fundamentals<br/><br/> + Background & Color Fundamentals <br/><br/> Git  <br/><br/> Chrome Inspector   | (1) Margin/Padding boxes <br><br/> (2)Save code using git | *Learning behavior of block, inline-block, inline elements in the browser and using git to save versions of work* |
-|  3  |  +Media Queries & Responsive Layouts <br/><br/> +Github | (1)Build a responsive layout for a blog <br/><br/>(2)Push work to github | *Learn how to create mobile-first layouts with `@media and screen(min-width: xx)` and push to github* |
-|  4  | Absolute/Fixed/Relative Positioning <br/><br/> +Pseudo Classes <br/><br/> +Advanced Selectors <br/><br/>+Font Icons <br/><br/> <br/><br/> gh-pages | ~~ None Yet ~~  | *Precisely position elements on a page and push all work to gh-pages*  |
+|  1  | +Basic HTML<br/> +Basic CSS<br/> +Terminal | (1) Simple Page w/ major elements<br/><br/> (2) Create `gen-project.sh` in `/bin` | 
+|  2  | Box Model<br/><br/> +Border/Margin/Padding Fundamentals<br/><br/> + Background & Color Fundamentals <br/><br/> Git  <br/><br/> Chrome Inspector   | (1) Margin/Padding boxes <br><br/> (2)Save code using git | 
+|  3  |  +Media Queries & Responsive Layouts <br/><br/> +Github | (1)Build a responsive layout for a blog <br/><br/>(2)Push work to github | 
+|  4  | Absolute/Fixed/Relative Positioning <br/><br/> +Pseudo Classes <br/><br/> +Advanced Selectors <br/><br/>+Font Icons <br/><br/> <br/><br/> gh-pages | ~~ None Yet ~~  |
 |  **Lab**  | Responsive T-Shirts |
 
 
 
 ###Week 2 Overview
-|Day  | Topics | Assignment | Learning Objectives |
-|------|------|-------------------|--------------------|
-|1| +CSS frameworks <br/><br/> +Common UI Components  <br/><br/>+Reading Documentation   | ~~ NONE YET ~~  | *create a layout and use the components for rapid prototyping*   
-|2| +SCSS (CSS Preprocessor)<br/><br/>| New layout, build w/ scss | *use scss variables, mixins, & nesting to create a styled page using scss* |
-|3| +Common CSS Patterns <br/><br/> +Advanced CSS Techniques| ~~ NONE YET ~~ | *toggle-check-state, media query mixin, off-canvas, ems & rems, combine layouts with custom stylesheets*|
-|4| +Intro to Javascript | ~~ NONE YET ~~ | *Students should be able to use variables, do math, do true/false, do if/else*  |
+|Day  | Topics | Assignment | 
+|------|------|-------------------|
+|1| +CSS frameworks <br/><br/> +Common UI Components  <br/><br/>+Reading Documentation   | ~~ NONE YET ~~  | 
+|2| +SCSS (CSS Preprocessor)<br/><br/>| New layout, build w/ scss |
+|3| +Common CSS Patterns <br/><br/> +Advanced CSS Techniques| ~~ NONE YET ~~ | 
+|4| +Intro to Javascript | ~~ NONE YET ~~ | 
+|  **Lab**  | Responsive T-Shirts |
 
 ###Week 3
 
