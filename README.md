@@ -97,6 +97,10 @@ Week 9 -- "Flux" Architecture
 |4| +Events in React <br/><br/> +The Virtual DOM | Todo List
 |  **Lab**  | Todo List |
 ###Week 8
+|Day  | Topics | Assignment | 
+|------|------|-------------------|
+|1| +Testing <br/><br/> +mochaJS & chai | Finish Up TodoList/Previous Assignments, Make Tests Pass |
+|2| +Full Stack JS <br/><br/> +MongoDB| ~~ NONE YET ~~ | 
 
 ###Week 9
 
