@@ -1,0 +1,15 @@
+{
+  "name": "code-test-1",
+  "version": "1.0.0",
+  "description": "testing analytic problem solving through code examples",
+  "main": "exercise-module.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha exercise-module.test.js"
+  },
+  "author": "t3patterson",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.0.2",
+    "should": "^11.1.0"
+  }
+}
