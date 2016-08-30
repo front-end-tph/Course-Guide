@@ -29,7 +29,7 @@
 
 NOTE: Your life will be easier the sooner you learn to tab-out file names & directores.
 
-###Student Activity -- The Terminal -- Part 1
+###Student Activity -- The Terminal -- Task 1
 1. Create a new directory: terminal-sandbox
 2. Inside `/terminal-sandbox` create `instructions.txt` and `about.txt` file and 3 directores: `user-data`, `current`, `archive`
 3. create `data-2014.csv`, `data-2015.csv` in `/archive` 
@@ -38,6 +38,27 @@ NOTE: Your life will be easier the sooner you learn to tab-out file names & dire
 6. remove the `/archive` directory
 7. remove the `.txt` files that start with `st` in the `/user-data` directory
 
+
+###Lesson Plan -- The terminal -- Part 2:
+There are some additional commands, and you can use them as you get acquainted. Becoming familiar with the terminal is strange for awhile but eventually it becomes 2nd nature.
+
+#####Other Common Commands
+1. Copy with `cp`
+2. Paste/rename with `mv`
+3. input information into files: `echo "something to the file" > «filename.ext»`
+4. show file contents `cat «filename.ext»`
+
+#####Not only do we execute commands on our local file system but we can also run programs from our terminal. -- e.g. 
+- `vim` as a text editor 
+- `curl` for transferring data over http   
+- `brew` for installing applications 
+- `zip` for zipping up files
+
+
+
+
+###Student Activity -- The Terminal -- Task 2
+Create a shell script.
 
 #####Common Unix Commands
 `cd`
