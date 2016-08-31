@@ -1,9 +1,32 @@
 ##Day 1
 
-###The terminal & your file system
-*Learning Goal -- know how to navigate the file system, inspect folders, make directories, create files, delete directories/files*
+##Summary The terminal & your file system
+*Learning Goal* 
 
-###Lesson Plan -- The terminal -- Part 1:
+*-- (1) know how to navigate the file system, inspect folders, make directories, create files, delete directories/files*
+
+*-- (2) put basic HTML elements on the page*
+
+#####Common Unix Commands
+`cd`
+`pwd`
+`ls`
+`mkdir`
+`rmdir`
+`rm` / `rm -rf`
+`touch`
+`echo «x» > «filename».«ext»`
+`clear`
+`cp`
+`mv`
+
+#####Navigation
+`..`
+`.`
+`/`
+`~`
+
+##Lesson Plan -- The terminal -- Part 1:
 (1) I want you to open Finder & go to the home directory (Shift + `CMD` + H)
 
 (2) Open the terminal and go to the home directory. How do you know? Checkout the location with `pwd`. Home directory is `/Users/«you»`
@@ -32,54 +55,16 @@ NOTE: Your life will be easier the sooner you learn to tab-out file names & dire
 ###Student Activity -- The Terminal -- Task 1
 1. Create a new directory: terminal-sandbox
 2. Inside `/terminal-sandbox` create `instructions.txt` and `about.txt` file and 3 directores: `user-data`, `current`, `archive`
-3. create `data-2014.csv`, `data-2015.csv` in `/archive` 
+3. create `data-2014.csv`, `data-2015.csv` in `/archive`    
 4. create `data-2016.csv`, in `current`
 5. create `steve.txt`, `shana.txt`, `stephanie.txt`, `samantha.txt`, `samir.txt`
 6. remove the `/archive` directory
 7. remove the `.txt` files that start with `st` in the `/user-data` directory
 
 
-###Lesson Plan -- The terminal -- Part 2:
-There are some additional commands, and you can use them as you get acquainted. Becoming familiar with the terminal is strange for awhile but eventually it becomes 2nd nature.
-
-#####Other Common Commands
-1. Copy with `cp`
-2. Paste/rename with `mv`
-3. input information into files: `echo "something to the file" > «filename.ext»`
-4. show file contents `cat «filename.ext»`
-
-#####Not only do we execute commands on our local file system but we can also run programs from our terminal. -- e.g. 
-- `vim` as a text editor 
-- `curl` for transferring data over http   
-- `brew` for installing applications 
-- `zip` for zipping up files
-
-
 
 
 ###Student Activity -- The Terminal -- Task 2
-Create a shell script.
-
-#####Common Unix Commands
-`cd`
-`pwd`
-`ls`
-`mkdir`
-`rmdir`
-`rm` / `rm -rf`
-`touch`
-`echo «x» > «filename».«ext»`
-`clear`
-`cp`
-`mv`
-
-#####Navigation
-`..`
-`.`
-`/`
-`~`
-
-
 ###Task : Create a gen-project tool
 INPUT
 `$ bash gen-project.sh`
@@ -89,6 +74,10 @@ INPUT
 3. Creates *js* and *css* folders inside root directory
 4. Creates a *styles.css* inside *css* directory
 5. Creates a *app.js* inside *js* directory
+
+
+
+
 
 
 
