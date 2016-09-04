@@ -8,6 +8,8 @@ They have provided us with the copy as well as the images and logos, and we will
 ###The Assignment
 Create the html and CSS for the mockup, making sure that you create a column layout. Use appropriate margin and padding and use inline-block elements where appropriate.
 
+![mockup](./mfah-column-layout-column-layout-example.png)
+
 **NOTE: At the top of your stylesheet make sure you apply the style rule `box-sizing: border-box` to *all* elements**
 
 ```css
