@@ -1,4 +1,4 @@
-#CSS Basics - Recreate Mockup of Site
+#CSS Basics - Create Layout and Styles form Designer Mockup of Site
 
 ###Context
 The Museum of Fine Arts Houston wants to create a static webpage talking about their architectural history and current commitments.  
@@ -8,7 +8,9 @@ They have provided us with the copy as well as the images and logos, and we will
 ###The Assignment
 Create the html and CSS for the mockup, making sure that you create a column layout. Use appropriate margin and padding and use inline-block elements where appropriate.
 
-![mockup](./mfah-column-layout-column-layout-example.png)
+![mockup](./mfah-simple-column-layout-mockup.png)
+
+The copywriting text can be found [here](./mfah-architecture-site-copy.txt)
 
 **NOTE: At the top of your stylesheet make sure you apply the style rule `box-sizing: border-box` to *all* elements**
 
