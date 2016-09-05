@@ -1,7 +1,7 @@
 #Basic CSS - Recreating Web Components
 
 ###Blog Layout
-![nice typeface](./nice-typeface.png)
+![nice typeface](./example-components/nice-typeface.png)
 
 #####*Design Specs*
 fonts: Georgia & Geneva
@@ -10,7 +10,7 @@ line-height: 1.25
 
 <hr/>
 ###Menu List
-![menu list](./menu-list.png)
+![menu list](./example-components/menu-list.png)
 
 #####*Design Specs*
 fonts: Avenir
@@ -18,7 +18,7 @@ color: `#66CC99`
 
 <hr/>
 ###Icon Set
-![inline block icon set](./inline-icon-set.png)
+![inline block icon set](./example-components/inline-icon-set.png)
 
 #####*Design Specs*
 fonts: Georgia & Geneva
@@ -31,7 +31,7 @@ images:
 
 <hr/>
 ###Navigation Menu
-![mini nav menu](./mini-nav-menu.png)
+![mini nav menu](./example-components/mini-nav-menu.png)
 
 #####*Design Specs*
 font: Futura
@@ -40,7 +40,7 @@ color: rgb(205,92,92)
 
 <hr/>
 ###Multi Column Layout
-![multi column layout](./basic-column-layout.png)
+![multi column layout](./example-components/basic-column-layout.png)
 
 #####*Design Specs*
 font: Helvetica Neue
@@ -49,7 +49,7 @@ link color: `#DE5233`
 
 <hr/>
 ###Page Layout
-![layout](./extended-layout.png)
+![layout](./example-components/extended-layout.png)
 
 #####*Design Specs*
 font: Avenir
