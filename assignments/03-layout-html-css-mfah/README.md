@@ -6,9 +6,15 @@ The Museum of Fine Arts Houston wants to create a static webpage talking about t
 They have provided us with the copy as well as the images and logos, and we will need to place that content on the page with the styles shown in the markup.
 
 ###The Assignment
-Create the html and CSS for the mockup, making sure that you create a column layout. Use appropriate margin and padding and use inline-block elements where appropriate.
+Create the html and CSS for the mockup, making sure that you create a mobile-first layout. Use appropriate margin and padding and use inline-block elements where appropriate.
 
-![mockup](./mfah-simple-column-layout-mockup.png)
+
+####The mobile layout
+![mobile](./mfah-mobile-layout-mockup.png)
+
+
+####The full-screen layout
+![full](./mfah-mobile-layout-mockup.png)
 
 The copywriting text can be found [here](./mfah-architecture-site-copy.txt)
 
