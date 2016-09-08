@@ -14,9 +14,13 @@ Create the html and CSS for the mockup, making sure that you create a mobile-fir
 
 
 ####The full-screen layout
-![full](./mfah-mobile-layout-mockup.png)
+![full](./mfah-mobile-layout-mockup.gif)
 
-The copywriting text can be found [here](./mfah-architecture-site-copy.txt)
+####Additional
+
+The **copywriting text** can be found [here](./mfah-architecture-site-copy.txt).
+
+The **image assets** can be found [here](https://github.com/t3patterson/TIY-2016-Q3/tree/master/assignments/03-layout-html-css-mfah/assets). 
 
 **NOTE: At the top of your stylesheet make sure you apply the style rule `box-sizing: border-box` to *all* elements**
 
