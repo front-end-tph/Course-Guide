@@ -1,4 +1,4 @@
-#Basic CSS - Recreating Web Components
+#Assignment 2 - Basic CSS - Recreating Web Components
 ##Instructions
 Use what you've learned of margin, padding, border, and the block, inline-block elements to recreate the site components shown below.
 
