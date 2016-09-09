@@ -41,8 +41,8 @@ Mark Rothko, Untitled (Seagram Mural Sketch), 1959. National Gallery of Art, Was
 
 «MFAH The Museum of Fine Arts Logo»
 ```
-<hr/>
 
+<hr/>
 ###Image resource links
 - [River Oaks District Logo](https://www.filestackapi.com/api/file/NNpLztTxTAmJocy2iCJQ)
 - [Rothko Artwork Mural](https://www.filestackapi.com/api/file/sc3rUXfESL2wrpnemPJh)

@@ -35,10 +35,10 @@ Week 9 -- "Flux" Architecture
 
 |Day  | Topics | Assignment | 
 |------|------|-------------------|
-|  1  | +Basic HTML<br/> +Basic CSS<br/> +Terminal | (1) Simple Page w/ major elements<br/><br/> (2) Create `gen-project.sh` in `/bin` | 
-|  2  | +Box Model<br/><br/> +Border/Margin/Padding Fundamentals<br/><br/> + Background & Color Fundamentals <br/><br/> +Git  <br/><br/> +Chrome Inspector   | (1) Margin/Padding boxes <br><br/> (2)Save code using git | 
-|  3  |  +Media Queries & Responsive Layouts <br/><br/> +Github <br/><br/> +HTML input components | (1)Build a responsive layout for a blog <br/><br/>(2)Push work to github | 
-|  4  | +CSS Positioning <br/><br/> +Pseudo Classes <br/><br/> +Advanced Selectors <br/><br/>+Font Icons <br/><br/> <br/><br/> gh-pages | ~~ None Yet ~~  |
+|  1  | +Basic HTML<br/> +Basic CSS<br/> +Terminal | (1) HTML MFAH-Rothko<br/><br/> (2) Create `gen-project.sh` in `/bin` | 
+|  2  | +Box Model<br/><br/> +Border/Margin/Padding Fundamentals<br/><br/> + Background & Color Fundamentals <br/><br/> +Git  <br/><br/> +Chrome Inspector   | (1) Web Components Assignment <br><br/> (2)Save code using git | 
+|  3  | +CSS Positioning <br/><br/> +Media Queries & Responsive Layouts <br/><br/> +Github <br/><br/> +HTML input components | (1)MFAH-Architectural History  <br/><br/>(2)Push work to github | 
+|  4  |  +Pseudo Classes <br/><br/> +Advanced Selectors <br/><br/>+Font Icons <br/><br/> <br/><br/> gh-pages | MFAH-Architectural History--cont'd  |
 |  **Lab**  | Responsive T-Shirts |
 
 
@@ -46,8 +46,8 @@ Week 9 -- "Flux" Architecture
 ###Week 2 Overview
 |Day  | Topics | Assignment | 
 |------|------|-------------------|
-|1| +CSS frameworks <br/><br/> +Common UI Components  <br/><br/>+Reading Documentation   | ~~ NONE YET ~~  | 
-|2| +SCSS (CSS Preprocessor)<br/><br/>| New layout, build w/ scss |
+|1| +SCSS (CSS Preprocessor) <br/><br/> +`sass --watch scss/styles.scss:css/styles.css`| ~~ NONE YET ~~  | 
+|2| <br/><br/>+CSS frameworks <br/><br/> +Common UI Components  <br/><br/>+Reading Documentation  | New layout, build w/ scss |
 |3| +Common CSS Patterns <br/><br/> +Advanced CSS Techniques| ~~ NONE YET ~~ | 
 |4| +Intro to Javascript<br/>*Datatypes, var, console.log()* | ~~ NONE YET ~~ | 
 |  **Lab**  | Javascript Basics -- |
