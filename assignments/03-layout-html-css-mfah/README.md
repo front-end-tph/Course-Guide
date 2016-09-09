@@ -1,4 +1,4 @@
-#CSS Basics - Creating Full Page Responsive Layouts
+#CSS Intermediate - Creating Full Page Responsive Layouts
 
 ##Description
 The Museum of Fine Arts Houston wants to create a static webpage that shows their architectural history and future projects.  
