@@ -38,18 +38,18 @@ You should:
 
 ##From the Designer
 ###The mobile layout
-![mobile](https://github.com/t3patterson/TIY-2016-Q3/blob/master/assignments/04-advanced-mobile-layout/responsive-mobile-screen.gif)
+![mobile](https://github.com/t3patterson/TIY-2016-Q3/blob/master/assignments/04-LAB-advanced-mobile-layout/responsive-mobile-screen.gif)
 
 <hr>
 ###The full-screen layout
-![full](https://github.com/t3patterson/TIY-2016-Q3/blob/master/assignments/04-advanced-mobile-layout/responsive-full-screen.gif)
+![full](https://github.com/t3patterson/TIY-2016-Q3/blob/master/assignments/04-LAB-advanced-mobile-layout/responsive-full-screen.gif)
 
 <hr>
 ##Additional
 
-The **copywriter's text** and **associated image filenames** can be found [here](https://github.com/t3patterson/TIY-2016-Q3/blob/master/assignments/04-advanced-mobile-layout/sb-copy.txt).
+The **copywriter's text** and **associated image filenames** can be found [here](https://github.com/t3patterson/TIY-2016-Q3/blob/master/assignments/04-LAB-advanced-mobile-layout/sb-copy.txt).
 
-The **image assets** can be found [here](https://github.com/t3patterson/TIY-2016-Q3/tree/master/assignments/04-advanced-mobile-layout/assets). 
+The **image assets** can be found [here](https://github.com/t3patterson/TIY-2016-Q3/tree/master/assignments/04-LAB-advanced-mobile-layout/assets). 
 
 **NOTE: At the top of your stylesheet make sure you apply the style rule `box-sizing: border-box` to *all* elements**
 
