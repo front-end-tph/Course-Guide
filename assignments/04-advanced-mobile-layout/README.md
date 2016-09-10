@@ -33,12 +33,12 @@ You should:
   - 1 column on mobile (< 768px)
   - multi-columns on tablet and bigger (> 768px)
 - a Github repository and a live static site on Github Pages. 
-
+- **Note:** you will only be using 12 of the images from the example shown above
 <hr>
 
 ##From the Designer
 ###The mobile layout
-![mobile](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/03-layout-html-css-mfah/mfah-mobile-layout-mockup.png)
+![mobile](https://github.com/t3patterson/TIY-2016-Q3/blob/master/assignments/04-advanced-mobile-layout/responsive-mobile-screen.gif)
 
 <hr>
 ###The full-screen layout
@@ -47,9 +47,9 @@ You should:
 <hr>
 ##Additional
 
-The **copywriter's text** can be found [here](./mfah-architecture-site-copy.txt).
+The **copywriter's text** and **associated image filenames** can be found [here](./mfah-architecture-site-copy.txt).
 
-The **image assets** can be found [here](https://github.com/t3patterson/TIY-2016-Q3/tree/master/assignments/03-layout-html-css-mfah/assets). 
+The **image assets** can be found [here](https://github.com/t3patterson/TIY-2016-Q3/tree/master/assignments/04-advanced-mobile-layout/assets). 
 
 **NOTE: At the top of your stylesheet make sure you apply the style rule `box-sizing: border-box` to *all* elements**
 
