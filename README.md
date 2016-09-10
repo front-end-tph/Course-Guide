@@ -45,7 +45,7 @@ Week 9 -- "Flux" Architecture
 |------|------|-------------------|
 |  1  | +Basic HTML<br/> +Basic CSS<br/> +Terminal | (1) HTML MFAH-Rothko<br/><br/> (2) Create `gen-project.sh` in `/bin` | 
 |  2  | +Box Model<br/> +Border/Margin/Padding Fundamentals<br/> + Background & Color Fundamentals <br/> +Git  <br/> +Chrome Inspector   | (1) Web Components Assignment <br><br/> (2)Save code using git | 
-|  3  | +CSS Positioning <br/> +Media Queries & Responsive Layouts <br/> +Github <br/> +HTML input components | (1)MFAH-Architectural History  <br/>(2)Push work to github | 
+|  3  | +CSS Positioning <br/> +Media Queries & Responsive Layouts <br/> +Github | (1)MFAH-Architectural History  <br/>(2)Push work to github | 
 |  4  |  +Pseudo Classes <br/> +Advanced Selectors <br/>+Font Icons <br/>+gh-pages | MFAH-Architectural History--cont'd  |
 |  **Lab**  | Responsive T-Shirts |
 
@@ -54,7 +54,7 @@ Week 9 -- "Flux" Architecture
 ###Week 2 Overview
 |Day  | Topics | Assignment | 
 |------|------|-------------------|
-|1| +SCSS (CSS Preprocessor) <br/> +`sass --watch scss/styles.scss:css/styles.css` +Forms & Tables| ~~ NONE YET ~~  | 
+|1| +SCSS (CSS Preprocessor) <br/> +`sass --watch scss/styles.scss:css/styles.css` <br/>+Forms & Tables| ~~ NONE YET ~~  | 
 |2| <br/>+CSS frameworks <br/> +Common UI Components  <br/>+Reading Documentation  | New layout, build w/ scss |
 |3| +Common CSS Patterns <br/> +Advanced CSS Techniques| ~~ NONE YET ~~ | 
 |4| +Intro to Javascript<br/>*Datatypes, var, console.log()* | ~~ NONE YET ~~ | 
