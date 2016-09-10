@@ -42,12 +42,12 @@ You should:
 
 <hr>
 ###The full-screen layout
-![full](https://github.com/t3patterson/TIY-2016-Q3/blob/master/assignments/03-layout-html-css-mfah/mfah-fullscreen.gif)
+![full](https://github.com/t3patterson/TIY-2016-Q3/blob/master/assignments/04-advanced-mobile-layout/responsive-full-screen.gif)
 
 <hr>
 ##Additional
 
-The **copywriter's text** and **associated image filenames** can be found [here](./mfah-architecture-site-copy.txt).
+The **copywriter's text** and **associated image filenames** can be found [here](https://github.com/t3patterson/TIY-2016-Q3/blob/master/assignments/04-advanced-mobile-layout/sb-copy.txt).
 
 The **image assets** can be found [here](https://github.com/t3patterson/TIY-2016-Q3/tree/master/assignments/04-advanced-mobile-layout/assets). 
 
