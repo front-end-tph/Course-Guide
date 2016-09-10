@@ -8,13 +8,21 @@ Welcome to The Iron Yard and to the Front End engineering course. It's going to 
 
 ###Course Outline
 Week 1 -- HTML + CSS
+
 Week 2 -- Enhanced CSS (SCSS + Frameworks)
+
 Week 3 -- Javascript
+
 Week 4 -- Advanced Javascript + JS in the Browser
+
 Week 5 -- Javascript APIs
+
 Week 6 -- Backbone
+
 Week 7 -- React 
+
 Week 8 -- Node, Express, MongoDB + RESTful architecture
+
 Week 9 -- "Flux" Architecture
 
 ###Configuration
