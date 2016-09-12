@@ -1,10 +1,5 @@
 #The Iron Yard
-##Front End Engineering Syllabus - Sep 2016
-
-*The limits of my language mean the limits of my world.*
--Ludwig Wittgenstein
-
-Welcome to The Iron Yard and to the Front End engineering course. It's going to be a very challenging 12 weeks and I'm happy you've all decided to take on this challenge.
+##Front End Engineering Course Guide - Sep 2016
 
 ###Course Outline
 Week 1 -- HTML + CSS
@@ -32,6 +27,8 @@ Week 9 -- "Flux" Architecture
 - **slack**: tiystudents.slack.com, tiycharleston.slack.com
 - **tiyo**: the iron yard platform for submitting assignments
 - **Google Chrome** we will use Chrome for this cohort because of its superior inspector tools for debugging our code.
+- **node** : allows us to run `.js` in the terminal 
+- **npm**: allows us to install `.js` packages
 
 ####Recommended
 - **f.lux**: save your eyes and sleep better
