@@ -1,5 +1,5 @@
 #The Iron Yard
-##Front End Engineering Overview - Sep 2016
+##Front End Engineering Course Overview - Sep 2016
 
 > *The limits of my language mean the limits of my world.*
 > 
@@ -24,19 +24,20 @@ Week 8 -- Node, Express, MongoDB + RESTful architecture
 
 Week 9 -- "Flux" Architecture
 
-###Configuration
+##Configuration
 ####Mandatory
 - **git**: set up git in your terminal
 - **github**: set up a github account
 - **slack**: tiystudents.slack.com, tiycharleston.slack.com
 - **tiyo**: the iron yard platform for submitting assignments
 - **Google Chrome** we will use Chrome for this cohort because of its superior inspector tools for debugging our code.
+- **node** : allows us to run `.js` in the terminal 
+- **npm**: allows us to install `.js` packages
 
 ####Recommended
 - **f.lux**: save your eyes and sleep better
 - **codepen.io**: a great sandbox for goofing around with code
 - **medium**: a great blogging platform so that you can write about your experience
-- **trellow**: a great tool to keep yourself organized
 
 ##Weekly Overview
 ###Week 1 
