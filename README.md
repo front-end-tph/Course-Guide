@@ -1,10 +1,9 @@
 #The Iron Yard
-##Front End Engineering Syllabus - Sep 2016
+##Front End Engineering Overview - Sep 2016
 
-*The limits of my language mean the limits of my world.*
--Ludwig Wittgenstein
-
-Welcome to The Iron Yard and to the Front End engineering course. It's going to be a very challenging 12 weeks and I'm happy you've all decided to take on this challenge.
+> *The limits of my language mean the limits of my world.*
+> 
+> -Ludwig Wittgenstein
 
 ###Course Outline
 Week 1 -- HTML + CSS
@@ -37,14 +36,15 @@ Week 9 -- "Flux" Architecture
 - **f.lux**: save your eyes and sleep better
 - **codepen.io**: a great sandbox for goofing around with code
 - **medium**: a great blogging platform so that you can write about your experience
+- **trellow**: a great tool to keep yourself organized
 
-
-###Week 1 Overview
+##Weekly Overview
+###Week 1 
 
 |Day  | Topics | 
 |------|------|-------------------|
-|  1  | +Basic HTML<br/> +Basic CSS<br/> +Terminal |
-|  2  | +Box Model<br/> +Border/Margin/Padding Fundamentals<br/> + Background & Color Fundamentals <br/> +Git  <br/> +Chrome Inspector   | 
+|  1  | +Basic HTML<br/> +Terminal |
+|  2  | +Basic CSS<br/> +Box Model (Border/Margin/Padding Fundamentals)<br/> + Background & Color Fundamentals <br/> +Git  <br/> +Chrome Inspector   | 
 |  3  | +CSS Positioning <br/> +Media Queries & Responsive Layouts <br/> +Github | 
 |  4  |  +Pseudo Classes <br/> +Advanced Selectors <br/>+Font Icons <br/>+gh-pages | 
 |  **Lab**  | Responsive T-Shirts |
@@ -57,7 +57,7 @@ Week 9 -- "Flux" Architecture
 |1| +SCSS (CSS Preprocessor) <br/> +`sass --watch scss/styles.scss:css/styles.css` <br/>+Forms & Tables| ~~ NONE YET ~~  |
 |2|+CSS frameworks <br/> +Common UI Components  <br/>+Reading Documentation  | New layout, build w/ scss |
 |3| +Common CSS Patterns <br/> +Advanced CSS Techniques|
-|4| +Intro to Javascript<br/>*Datatypes, var, console.log()* | 
+|4| +Intro to Javascript<br/>*Datatypes, `var`, `console.log()`* | 
 |  **Lab**  | Javascript Basics |
 
 ###Week 3
@@ -76,7 +76,7 @@ Week 9 -- "Flux" Architecture
 |2| +Javascript Constructor Functions +`this` keyword<br/> +Javascript Prototype<br/> |
 |3| +Javascript on the DOM 2 <br/>+Collecting Input | 
 |4|  +Javascript `Date` Object <br/>+`setTimeout` <br/> +`setInterval`| 
-|  **Lab**  | Color Clock |
+|  **Lab**  | HTML-CSS-JS Color Clock |
 
 ###Week 5
 |Day  | Topics | 
@@ -84,7 +84,7 @@ Week 9 -- "Flux" Architecture
 |1| +Asynchronous Javascript & the Event Loop <br/> + APIs + Documentation <br/> +`$.getJSON` <br/>| 
 |2| +API data in your application  <br/> +Promises | 
 |3| +Routing Views with changes `window.location.hash`   <br/> +Controller Functions <br/>+View Constructors | |4| +Javascript Prototype<br/> +Javascript Date Object| 
-|  **Lab**  | Github |
+|  **Lab**  | Github Repositories Clone|
 
 ###Week 6
 |Day  | Topics | 
@@ -93,7 +93,7 @@ Week 9 -- "Flux" Architecture
 |2| +Backbone Models <br/> +Backbone Collections | 
 |3| +Backbone Views  <br/> +Connecting Backbone Views to Backbone Models | 
 |4| +Backbone MV*<br/> +Backbone Events<br/>| 
-|  **Lab**  | Etsy |
+|  **Lab**  | Etsy Clone |
 
 ###Week 7
 |Day  | Topics | 
@@ -103,6 +103,7 @@ Week 9 -- "Flux" Architecture
 |3| +React State  <br/> +React & Backbone  |  React Fun House   |
 |4| +Events in React <br/> +The Virtual DOM |
 |  **Lab**  | Todo List |
+
 ###Week 8
 |Day  | Topics | 
 |------|------|-------------------|

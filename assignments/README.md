@@ -38,24 +38,24 @@ Week 9 -- "Flux" Architecture
 - **codepen.io**: a great sandbox for goofing around with code
 - **medium**: a great blogging platform so that you can write about your experience
 
+##Assignment Schedule
 
-###Week 1 Overview
+###Week 1
 
 | Topics | Assignment |
 ---|----------|
-| +Basic HTML<br/> +Basic CSS<br/> +Terminal | (1) HTML MFAH-Rothko<br/><br/> (2) Create `gen-project.sh` in `/bin` |
-| +Box Model<br/> +Border/Margin/Padding Fundamentals<br/> + Background & Color Fundamentals <br/> +Git  <br/> +Chrome Inspector   | (1) Web Components Assignment <br><br/> (2)Save code using git |
+| +Basic HTML<br/> > +Terminal | (1) HTML MFAH-Rothko<br/><br/> (2) Create `gen-project.sh` in `/bin` |
+| +Basic CSS<br/>+Box Model (Border/Margin/Padding Fundamentals)<br/> + Background & Color Fundamentals <br/> +Git  <br/> +Chrome Inspector   | (1) Web Components Assignment <br><br/> (2)Save code using git |
 | +CSS Positioning <br/> +Media Queries & Responsive Layouts <br/> +Github | (1)MFAH-Architectural History  <br/>(2)Push work to github |
 |  +Pseudo Classes <br/> +Advanced Selectors <br/>+Font Icons <br/>+gh-pages | MFAH-Architectural History--cont'd  |
 |  **Lab**  | Responsive T-Shirts |
 
 
-
-###Week 2 Overview
+###Week 2
 |Topics | Assignment |
 |------|-------------------|
 | +SCSS (CSS Preprocessor) <br/> +`sass --watch scss/styles.scss:css/styles.css` <br/>+Forms & Tables| ~~ NONE YET ~~  |
-| <br/>+CSS frameworks <br/> +Common UI Components  <br/>+Reading Documentation  | New layout, build w/ scss |
+|+CSS frameworks <br/> +Common UI Components  <br/>+Reading Documentation  | New layout, build w/ scss |
 | +Common CSS Patterns <br/> +Advanced CSS Techniques| ~~ NONE YET ~~ |
 |+Intro to Javascript<br/>*Datatypes, var, console.log()* | ~~ NONE YET ~~ |
 |  **Lab**  | Javascript Basics -- |
