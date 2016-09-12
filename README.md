@@ -84,7 +84,8 @@ Week 9 -- "Flux" Architecture
 |------|------|-------------------|
 |1| +Asynchronous Javascript & the Event Loop <br/> + APIs + Documentation <br/> +`$.getJSON` <br/>| 
 |2| +API data in your application  <br/> +Promises | 
-|3| +Routing Views with changes `window.location.hash`   <br/> +Controller Functions <br/>+View Constructors | |4| +Javascript Prototype<br/> +Javascript Date Object| 
+|3| +Routing Views with changes `window.location.hash`   <br/> +Controller Functions <br/>+View Constructors | 
+|4| +Javascript Prototype<br/> +Javascript Date Object| 
 |  **Lab**  | Github Repositories Clone|
 
 ###Week 6
@@ -93,8 +94,8 @@ Week 9 -- "Flux" Architecture
 |1| +Intro to Backbone <br/> +Backbone Router | 
 |2| +Backbone Models <br/> +Backbone Collections | 
 |3| +Backbone Views  <br/> +Connecting Backbone Views to Backbone Models | 
-|4| +Backbone MV*<br/> +Backbone Events<br/>| 
-|  **Lab**  | Etsy Clone |
+|4| +Backbone on the backend<br/> +Backbone Events<br/>| 
+|  **Lab**  | Collaboration w/ Backend Students |
 
 ###Week 7
 |Day  | Topics | 
@@ -110,8 +111,8 @@ Week 9 -- "Flux" Architecture
 |------|------|-------------------|
 |1| +Testing <br/> +mochaJS & chai | Make Tests Pass |
 |2| +NodeJS<br/> +Express| 
-|3| +MongoDB| ~~ NONE YET ~~ | 
-|4| +Authentication| ~~ NONE YET ~~ | 
+|3| +MongoDB<br/> +REST architecture| 
+|4| +Authentication| 
 |  **Lab**  | Blogging Application (Due Wednesday) |
 
 ###Week 9
@@ -119,6 +120,6 @@ Week 9 -- "Flux" Architecture
 |------|------|-------------------|
 |1| +Flux | Blogging Application (Due Wednesday)|
 |2| +More Flux| Blogging Application |
-|3| +Collaboration w/ Backend| Wireframe  |
-|4| +Collaboration w/ Backend| Build Application  |
+|3| +Collaboration w/ Backend|
+|4| +Collaboration w/ Backend| 
 |  **Lab**  | Collaboration w/ Backend students |
