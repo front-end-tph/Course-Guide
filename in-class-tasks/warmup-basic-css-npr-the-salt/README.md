@@ -1,11 +1,11 @@
 #CSS Basics - Recreate Simple Layout
 
-###The Mockup
+##The Mockup
 ![npr salt](./images/npr-basic-css-mockup.png)
 
 
 
-###Design Specs
+##Design Specs
 ```
 **font for 'the salt':**
 'Palatino'
