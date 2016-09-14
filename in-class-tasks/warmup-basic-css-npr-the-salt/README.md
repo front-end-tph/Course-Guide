@@ -1,7 +1,7 @@
 #CSS Basics - Recreate Simple Layout
 
 ###The Mockup
-!(npr salt)[./images/npr-basic-css-mockup.png]
+![npr salt](./images/npr-basic-css-mockup.png)
 
 
 
