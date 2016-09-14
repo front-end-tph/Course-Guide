@@ -6,6 +6,7 @@
 
 
 ###Design Specs
+```
 **font for 'the salt':**
 'Palatino'
 
@@ -30,3 +31,4 @@
 
 **dark gray font color (in 'Correction' and button at bottom):**
 #636363
+```
