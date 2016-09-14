@@ -18,6 +18,7 @@ Welcome to The Iron Yard and to the Front End engineering course. It's going to 
 
 - Lecture is from `9:00 AM to 12:00 Monday-Thursday`, with breaks during that time. Depending on the topic, we may end earlier or later. :-)
 - Lab time is from `1 PM to 5 PM Monday-Thursday` and `9 AM to 5 PM` on Friday!
+<<<<<<< HEAD
 - Reviews with the TA will take place Tuesdays and Thursdays from 4 p.m. - ? (2+ hrs)
 - #IronPints Friday at 4.00pm at our local bars.
 
@@ -27,6 +28,9 @@ If you are sick, running late, have to take care of a car, etc... ping your inst
 
 Also, you need to ask questions. If you aren't, you either aren't involved/paying attention or you aren't understanding enough to ask a question. :-) Asking questions is a muscle, and you need to exercise that muscle! Even someone participates with "just a question", it benefits the classroom. Great learners ask great questions – never forget that!
 
+=======
+- #IronPints Friday at 3.30pm at our local bars.
+>>>>>>> a033317fc50daef895764b6caacc6e48462bd3c7
 
 **Office hours and one-on-one instruction**
 
