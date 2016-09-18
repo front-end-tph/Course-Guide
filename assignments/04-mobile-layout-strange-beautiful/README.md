@@ -32,20 +32,20 @@ You should:
 
 ##From the Designer
 ###The mobile layout
-![mobile]()
+![mobile](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/04-mobile-layout-strange-beautiful/mockup/sb-mobile.png)
 
 <hr>
 ###The tablet layout
-![tablet]()
+![tablet](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/04-mobile-layout-strange-beautiful/mockup/sb-tablet.png)
 
 <hr>
 ###The full-screen layout
-![full]()
+![full](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/04-mobile-layout-strange-beautiful/mockup/sb-desktop.png)
 
 <hr>
 ##Additional
 
-####
+####To Configure SCSS
 1. Create an `scss` directory and create a `main.scss` file within. 
 2. From the project's root directory, run: 
   ```
