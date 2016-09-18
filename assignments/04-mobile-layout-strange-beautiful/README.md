@@ -16,7 +16,7 @@ You should:
 - use media-queries and the inline-block technique for aligning columns
 - use fluid widths (%) on columns so that they dynamically adjust to screen width
 - use CSS selectors to target HTML classes for shared styles
-- use make use of SCSS: variables, mixins, and nesting
+- make use of SCSS features:  variables, mixins, and nesting
 - be mindful of margin and padding and when/where to use them
 
 ##Deliverables 
@@ -44,6 +44,8 @@ You should:
 
 <hr>
 ##Additional
+####The images
+
 
 ####To Configure SCSS
 1. Create an `scss` directory and create a `main.scss` file within. 
