@@ -1,4 +1,4 @@
-#CSS Advanced - Responsive Layouts, Targeted Positioning, CSS Pseudo-Selectors
+#CSS + SCSS + Mobile-First Responsive Layouts
 
 ##Description
 Simple & Beautiful is an archive of interesting works combined from several artists' feeds. We are tasked with the assignment of building a responsive, static site on mobile, mid-sized, and large-sized screens.
@@ -45,7 +45,7 @@ You should:
 <hr>
 ##Additional
 ####The images
-
+[link to zip file](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/04-mobile-layout-strange-beautiful/images.zip)
 
 ####To Configure SCSS
 1. Create an `scss` directory and create a `main.scss` file within. 
@@ -68,3 +68,11 @@ You should:
 
 The font stack for the project is: Helvetica Neue, Helvetica, sans-serif
 
+
+###Adventure Mode
+Create a menu that appears on hover for the desktop version.
+![adventure mode](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/04-mobile-layout-strange-beautiful/mockup/sb-adventure-mode-hover-menu.gif)
+
+###Epic Mode 
+Create a menu whose display toggles on click for the mobile version.
+![epic mode](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/04-mobile-layout-strange-beautiful/mockup/sb-epic-mode-toggle-menu.gif)
