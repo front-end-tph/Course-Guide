@@ -1,4 +1,4 @@
-#CSS Positoning
+#Assignment - CSS Positoning
 
 Use relative + absolute positioning to create these components:
 
@@ -15,7 +15,8 @@ You will need to find a way to position the *Shop Now* button and the shopping-b
 
 You may have to use the `background: url ...` CSS  along with `background-size: cover;` in css for the image.
 
-![rsvp-shop](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/08-css-positioning/rsvp-shop/rsvp-shop-mockup.jpg)
+![rsvp-shop](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/08-css-positioning/rsvp-shop/rsvp-shop-mockup.png)
 
 
 Download the images:
+https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/08-css-positioning/assignment-08-files.zip
