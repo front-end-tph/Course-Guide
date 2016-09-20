@@ -1,0 +1,28 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Palatino Linotype", "Palatino", serif;
+   margin: 0;
+}
+
+img {
+   display: block;
+   width: 100%;
+}
+
+#app-container{
+   max-width: 960px;
+
+}
+
+/*Your Styles here*/
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 1024px){
+
+}
