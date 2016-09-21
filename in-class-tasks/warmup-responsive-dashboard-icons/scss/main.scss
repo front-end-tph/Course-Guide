@@ -1,0 +1,90 @@
+@import "./imports/normalize";
+@import "./imports/helpers";
+
+@mixin grouped-btn-styles($bg-color, $txt-color) {
+   background: $bg-color;
+   text-align: center;
+   color: $txt-color;
+   text-align: center;
+   line-height: 30px;
+   border: 0;
+   cursor: pointer;
+
+   &:hover{
+      background: $txt-color;
+      color: $bg-color;
+   }
+}
+
+
+*{
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   font-family: 'GillSans';
+   font-weight: 400;
+}
+
+
+
+
+#app-container{
+   .header{
+      background: url('../images/spaced-out.jpg') center center no-repeat;
+      background-size: cover;
+      height: 80vh;
+      text-align: center;
+      color: #fff;
+
+
+      h1{font-weight: 400;}
+      button {
+         width: 100px;
+         margin: 0 10px;
+         &.btn-go{ @include grouped-btn-styles(#1BA39C, #fff) ;}
+         &.btn-cancel{ @include grouped-btn-styles(#D64541, #fff); }
+      }
+
+   }
+
+   .more-info{
+      text-align: center;
+      height: 50vh;
+
+      .btn-more-info{
+         position: relative;
+         @include grouped-btn-styles(#fff, #333);
+         border: 2px solid #333;
+         transform: translate(0, -50%);
+         padding: 0 40px;
+
+      }
+   }
+
+// *******************************************
+// Your Work Below
+// *******************************************
+
+   ul.nav-bar{
+      padding:0;
+      background: #333;
+      color: #fff;
+
+      li {
+         padding: 20px;
+      }
+   }
+
+   @media screen and (min-width: 768px){
+
+
+
+   }
+
+   @media screen and (min-width: 1024px){
+
+   }
+// *******************************************
+}
