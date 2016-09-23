@@ -1,7 +1,7 @@
-#CSS Framework
+#CSS Framework - Room.me
 
 ###Description
-Room.me is a company that offers a service of connecting potential roommates based on interests, user preferences, and lifestyle. The company is expanding their user base, and pairings are determined using a proprietary matching algorithm. We are looking to rebuild a slightly enhanced version their current landing page.
+Room.me is a company that offers a service of connecting potential roommates based on interests, user preferences, and lifestyle. The company is expanding their user base, and pairings are determined using a proprietary matching algorithm. We are looking to rebuild a slightly enhanced version of their current landing page.
 
 ###Objectives
 ####Learning Objectives
@@ -23,7 +23,7 @@ After completing this assignment you should be able to
 - a `style.css` file inside a `css` directory whose CSS are processed and compiling from `main.scss` in a `scss` directory
 - a site that displays responsively as shown below
 - a Github repository and a live static site on Github Pages.
-- **Note:** the mobile menu doesn't have to be toggle-able
+- **Note:** the mobile menu doesn't have to be toggle-able on Normal Mode
 
 <hr>
 
@@ -45,7 +45,7 @@ After completing this assignment you should be able to
 
 
 ####Image Assets
-[link to zip file](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/06-css-frameworks-solrod-strandd/image-assets.zip)
+[link to zip file](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/07-css-frameworks-room-me/images.zip)
 <small>(you will have to download from github and move it to your project directory)</small>
 
 ####Make sure you include Bootstrap and fontawesome in your `<head/>` *before* your `style.css` file
@@ -72,3 +72,4 @@ After completing this assignment you should be able to
 ```
 
 ##Adventurer Mode
+Create a toggleable dropdown for the mobile menu. 
