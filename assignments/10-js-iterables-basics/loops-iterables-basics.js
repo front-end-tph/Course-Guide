@@ -33,11 +33,13 @@ var allNames = [
     "Wayne",
     "Theodore",
     "Ingrid",
-    "Fred"
+    "Fred",
     "Yvette"
 ]
 
 var shortList = shortiesOnly(allNames)
 console.assert( shortList.length === 4 )
+// checks to see that FRED is INCUDED in the array.
 console.assert( shortList.indexOf('Fred') != -1 )
+// checks to see that WAYNE is NOT in the array.
 console.assert( shortList.indexOf('Wayne') === -1 )
