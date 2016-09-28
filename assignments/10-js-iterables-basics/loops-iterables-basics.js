@@ -14,9 +14,10 @@ var simpList = [
 ]
 
 var modifiedNamesList = simpOrSamp(simpList)
-log( modifiedNamesList[1] === "OJ Sampson" )
-log( modifiedNamesList[2] === "Marge Sampson" )
-log( modifiedNamesList[5] === "Maggie Simpson" )
+
+console.assert( modifiedNamesList[1] === "OJ Sampson" )
+console.assert( modifiedNamesList[2] === "Marge Sampson" )
+console.assert( modifiedNamesList[5] === "Maggie Simpson" )
 
 
 ////------------------------------------------------------------------
