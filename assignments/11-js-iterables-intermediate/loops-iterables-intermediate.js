@@ -6,10 +6,10 @@
 
 
 
-console.assert(sumOfArray([1, 2]) === 3);
+console.assert(sumOfArray([3, 4]) === 7);
 console.assert(sumOfArray([]) === 0);
-console.assert(sumOfArray([1, 2, 3]) === 6);
-console.assert(sumOfArray([10, 9, 8]) === 27);
+console.assert(sumOfArray([1, 2, 3, 4]) === 10);
+console.assert(sumOfArray([10, 9, 8, 3, 4, 5, 6]) === 45);
 
 // PART 1
 
@@ -19,7 +19,7 @@ console.assert(sumOfArray([10, 9, 8]) === 27);
 
 console.assert(maxOfArray([2,4,3]) === 4)
 console.assert(maxOfArray([10,9,8,100,7,6]) === 100)
-console.assert(isNaN(maxOfArray([1,2,'bucklemyshoe'])))
+console.assert( maxOfArray([1,8,'bucklemyshoe', 7] === null ) )
 
 /**
  * PART 2
