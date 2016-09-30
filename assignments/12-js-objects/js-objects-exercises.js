@@ -1,4 +1,4 @@
-// NORMAL MODE ( 0 - 4 )
+// NORMAL MODE ( 0 - 6)
 
 
 // Part 0
