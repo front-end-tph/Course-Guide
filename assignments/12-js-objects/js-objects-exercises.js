@@ -27,24 +27,20 @@ console.assert(flipColor(tile2).color === "blue")
 // Write a function called getFullNames that takes an array
 // of objects with first and last names and returns an array
 // of strings, where each string is a customer's full name.
-
 var customers = [
     { first: 'Joe', last: 'Blogs'},
     { first: 'John', last: 'Smith'},
     { first: 'Dave', last: 'Jones'},
     { first: 'Jack', last: 'White'}
 ]
-
 console.assert(getFullNames(customers)[1] === "John Smith")
 console.assert(getFullNames(customers)[3] === "Jack White")
-
-
 // Part 2
 // Write a function that accepts an an array of strings
 // with first and last names and returns an array of objects
 // that each have the property `firstName` and `lastName` and
 // corresponding value
-​
+
 var realNinjas = [
   'Chuck Norris',
   'Jackie Chan',
@@ -53,14 +49,13 @@ var realNinjas = [
   'Michelle Yeoh',
   'Jet Li'
 ]
-​
-​
+
 var ninjaListOfObjects = createListOfObjects(realNinjas)
-​
+
 console.assert(typeof ninjaListOfObjects[0] === "object")
 console.assert(ninjaListOfObjects[0].firstName === "Chuck")
 console.assert(ninjaListOfObjects[1].lastName === "Chan")
-​console.assert(ninjaListOfObjects[3].firstName === "Billy")
+console.assert(ninjaListOfObjects[3].firstName === "Billy")
 
 
 
@@ -160,7 +155,7 @@ console.assert( reversed['2b'] === 'apartment_no' )
 var users = [
    { willis: 'president@gmail.com',hobby: 'basketball' , favoriteFood: "pate" },
    { benzo: 'bonjourben@yahoo.com', hobby:'dealmaking' , favoriteFood: "steak" },
-   { yammer: 'yeb@aol.com', hobby: 'portraiture', , favoriteFood: "croissant" }
+   { yammer: 'yeb@aol.com', hobby: 'portraiture',  favoriteFood: "croissant" }
 ]
 // should yield: [{'president@gmail.com': 'obama',basketball: 'hobby'}, ....]
 
