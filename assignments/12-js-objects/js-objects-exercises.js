@@ -149,7 +149,7 @@ var reversed = reverseObject(object)
 console.assert( reversed['2b'] === 'apartment_no' )
 
 //******************************
-// ADVENTURE MODE ( 7 - 11 )
+// ADVENTURE MODE ( 7 - 10 )
 
 // Part 7
 
@@ -195,7 +195,7 @@ console.assert( personalizedResult === "Hi, my name is Frank, and the \
  //  you may need to use the special `this` keyword for this problem.
 
 
- // Part 11
+ // Part 10
 
  // Write a function where() that takes two inputs, a list of objects and
  // a properties object. It should return a new list containing only those
