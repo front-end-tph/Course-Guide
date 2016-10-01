@@ -183,9 +183,15 @@ var tellEm = function() {
     return "I know what is going on here"
 }
 
-var personalizedResult = politeObject.personalize(helloWorld)
-console.assert( personalizedResult === "Hi, my name is Frank, and the \
-    result is I know what is going on here." )
+var promoteJS = function(){
+   return "JavaScript is quite amazing"
+}
+
+var personalizedResult = politeObject.personalize(tellEm)
+var anotherPersonalNote = politeObject.personalize(promoteJS)
+
+console.assert( personalizedResult === "Hi, my name is Frank, and the result is I know what is going on here." )
+console.assert( anotherPersonalNote === "Hi, my name is Frank, and the result is JavaScript is quite amazing." )
 
  //  you may need to use the special `this` keyword for this problem.
 
