@@ -54,7 +54,7 @@ var tasks = [
     html_id: "inject-html",
    task: "<p><em><u>Demo:</u></em><br/> When the 'Push Me' <code>&lt;button&gt;</code> element is pushed, insert an <code>&lth2&gt;</code> element with some text inside <code>&lt;div class='answer-box'&gt;</code>\
    <br/><br/><em><u>Instructions:</u></em><br/> You will do all your work in the <code>main.js</code> file of this directory. </p>",
-   link: "gifs/yowch.gif"
+   link: "gifs/inject-html.gif"
   },
   {
      html_id: "double",
