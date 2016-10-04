@@ -8,8 +8,7 @@ document.querySelector("#inject-html button").addEventListener('click',function(
 document.querySelector("#double button").addEventListener('click',function(){
   // TASK #2
   var answerPTagWithValue = document.querySelector('#compoundInvestment')
-  console.log(answerPTagWithValue.innerHTML += "woahwoah")
-
+  // you do the rest
 
 })
 
@@ -36,6 +35,5 @@ document.querySelector("#pig-latin button").addEventListener('click',function(){
 })
 
 document.querySelector("#cycle-image button").addEventListener('click',function(){
-
-
+   //TASK #8
 })
