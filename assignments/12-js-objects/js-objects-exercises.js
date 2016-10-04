@@ -159,7 +159,7 @@ var users = [
 ]
 // should yield: [{'president@gmail.com': 'obama',basketball: 'hobby'}, ....]
 
-var flippedUsers = reverseObjects(users)
+var flippedUsers = reverseAll(users)
 
 console.assert( flippedUsers[0]['president@gmail.com'] === 'willis' )
 console.assert( flippedUsers[1]['bonjourben@yahoo.com'] === 'benzo' )
