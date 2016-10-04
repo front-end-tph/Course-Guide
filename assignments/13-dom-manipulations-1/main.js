@@ -35,11 +35,7 @@ document.querySelector("#pig-latin button").addEventListener('click',function(){
   // TASK #7
 })
 
-var value = 1
 document.querySelector("#cycle-image button").addEventListener('click',function(){
-   // TASK #8
-   var imgEl = document.querySelector('#city-img')
-   imgEl.src="./images/city-photo-"+ (value % 10 + 1)    +".jpg"
-   value +=1
+
 
 })
