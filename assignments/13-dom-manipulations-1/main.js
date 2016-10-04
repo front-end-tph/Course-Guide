@@ -1,6 +1,8 @@
 
-document.querySelector("#thanks button").addEventListener('click',function(){
+document.querySelector("#inject-html button").addEventListener('click',function(){
   // TASK #1
+  var answerBoxEl = document.querySelector('#inject-html .answer-box')
+  answerBoxEl.innerHTML = "<h3>Here is some text for you!!</h3>"
 })
 
 document.querySelector("#double button").addEventListener('click',function(){
@@ -30,5 +32,6 @@ document.querySelector("#pig-latin button").addEventListener('click',function(){
 })
 
 document.querySelector("#cycle-image button").addEventListener('click',function(){
-  // TASK #8
+   // TASK #8
+
 })

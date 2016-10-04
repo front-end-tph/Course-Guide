@@ -92,7 +92,13 @@ hr.q-divider{
 
 #pig-latin .answer-box ul {
   background: #3498db;
+  padding: 1.6rem;
 }
+
+#pig-latin .answer-box ul li {
+  line-height: 1.5;
+}
+
 
 /* ---------------------- */
 /* blow-up styles formatting*/
@@ -120,6 +126,10 @@ hr.q-divider{
   width: 50px; height: 50px;
   display: inline-block;
   margin-left: 5px;
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+  line-height: 50px;
 }
 
 #reverse-squares .answer-box span.s1{
@@ -154,3 +164,15 @@ hr.q-divider{
   margin-left: 8rem;
 }
 
+/*cycle-img formatting*/
+
+img#city-img{
+   max-width: 300px;
+   display: block;
+   margin: 0 auto;
+}
+
+/*user-list formatting*/
+#user-list li {
+   line-height: 1.35;
+}

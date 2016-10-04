@@ -28,7 +28,7 @@ function generatePromptAndDemoHTML(obj, index){
 }
 
 var tasks = [
-  { 
+  {
     html_id: "pig-latin",
     task: "Make each element in the list read backwards.",
     link: "gifs/tasks.gif"
@@ -40,7 +40,7 @@ var tasks = [
           "At that point make it reduce back to its original size of 40px x 40px ",
     link: "gifs/circle-red.gif"
   },
-  {  
+  {
     html_id: "reverse-squares",
     task: "Flip the squares to opposite order",
     link: "gifs/flip.gif"
@@ -50,33 +50,40 @@ var tasks = [
     task: "Change the color of the circle from white to black, and vice-versa",
     link: "gifs/circle-bw.gif"
   },
-  {html_id: "thanks",
-  task: "Cause the browser to produce an alert box that says 'yowch! don't click me so hard!'",
-  link: "gifs/yowch.gif"},
-  {html_id: "double",
-  task: "Each click of the button should double the value of the number below.",
-  link: 'gifs/double.gif'
+  {
+    html_id: "inject-html",
+   task: "<p><em><u>Demo:</u></em><br/> When the 'Push Me' <code>&lt;button&gt;</code> element is pushed, insert an <code>&lth2&gt;</code> element with some text inside <code>&lt;div class='answer-box'&gt;</code>\
+   <br/><br/><em><u>Instructions:</u></em><br/> You will do all your work in the <code>main.js</code> file of this directory. The </p>",
+   link: "gifs/yowch.gif"
   },
-  {html_id: "remove",
-  task: "Remove each element of the list below that has the class 'inactive'.",
-  link: 'gifs/remove.gif'
-  },  
-  {html_id: "cycle-image",
-  task: "By increasing the number at the end of this image's 'src' attribute, you can cycle through different city photos. To cycle forever, you may need to use the % operator!",
-  link: 'gifs/cities.gif'}
+  {
+     html_id: "double",
+     task: "Each click of the button should double the value of the number below.",
+     link: 'gifs/double.gif'
+  },
+  {
+     html_id: "remove",
+     task: "Remove each element of the list below that has the class 'inactive'.",
+     link: 'gifs/remove.gif'
+  },
+  {
+     html_id: "cycle-image",
+     task: "<u>Adventure Mode</u><br/><br/>By increasing the number inside of the image's 'src' attribute, you can cycle through different city photos. To cycle forever, you may need to use the % operator!",
+     link: 'gifs/cities.gif'
+  }
 ]
 
 function findEl(els, fn){
   var foundEl = {}
   for (var i = 0; i < els.length; i++){
-    
+
     if (fn(els[i],i,els) === true){
       foundEl = {
         el: els[i],
         index: i
       }
       break;
-    } 
+    }
   }
 
   return foundEl
@@ -92,5 +99,3 @@ tasks.forEach(function(t, i){
 
   qs(cssSelector).innerHTML = generatePromptAndDemoHTML(t,el.index ) + qs(cssSelector).innerHTML
 })
-
-

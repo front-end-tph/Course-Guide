@@ -157,7 +157,7 @@ var users = [
    { benzo: 'bonjourben@yahoo.com', hobby:'dealmaking' , favoriteFood: "steak" },
    { yammer: 'yeb@aol.com', hobby: 'portraiture',  favoriteFood: "croissant" }
 ]
-// should yield: [{'president@gmail.com': 'obama',basketball: 'hobby'}, ....]
+// should yield: [{'president@gmail.com': 'willis',basketball: 'hobby'}, ....]
 
 var flippedUsers = reverseAll(users)
 
