@@ -1,0 +1,262 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Helvetica Neue';
+}
+
+hr.q-divider{
+  margin: 80px 0;
+}
+
+.exercise-container{
+  font-size: 0;
+  text-align: center;
+}
+.exercise-container > * {
+  font-size: medium;
+}
+
+.prompt h3{
+  font-size: 30px;
+  font-weight:200;
+  background: #7f8c8d;
+  color: #eee;
+  padding: 6px 10px;
+  margin:0;
+}
+
+.prompt p {
+  background: #eee;
+  font-size: 18px;
+  padding: 20px 18px;
+  margin: 0;
+  font-weight:600;
+}
+
+.exercise-container > *{
+  font-size: medium;
+}
+
+
+.content-box{
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.content-box h4 {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 21px;
+  margin: 10px 0 ;
+}
+
+.teacher-demo h4{
+  background: #2980b9;
+}
+
+.student-workspace h4{
+  background: #27ae60;
+}
+
+.student-workspace button{
+  padding: 13px;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 15px auto;
+  background: #f1c40f;
+  border: 1px solid #333;
+  font-weight: 700;
+}
+.student-workspace button:hover{
+  background: #f39c12;
+}
+
+
+.answer-box{
+  background: #bdc3c7;
+  padding: 50px 15px;
+}
+
+.teacher-demo img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*TASK 1*/
+
+.nav-menu {
+  visibility: visible;
+  opacity: 1;
+  background: beige;
+  padding: 15px;
+  text-align: center;
+  transition: 1s opacity ease;
+}
+
+.nav-menu-hidden {
+  opacity: 0;
+}
+
+.nav-menu a {
+  padding: 0 15px;
+  color: #555;
+  text-decoration: none;
+  border-left: 1px solid #666;
+}
+
+.nav-menu a:first-child {
+  border-left: none;
+}
+
+/*TASK 2*/
+
+#add-guest .answer-box {
+  text-align: center;
+}
+#add-guest input {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 6px;
+  font-size: 1.125rem;
+}
+
+#add-guest ul {
+  border: 3px solid #555;
+  max-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#add-guest .guest {
+  list-style: none;
+  margin: 0;
+  padding: 10px 6px;
+  text-align: left;
+}
+
+#add-guest .guest:nth-child(even) {
+  background: #E08283;
+}
+
+/*TASK 3*/
+
+#add-guest-bonus .answer-box {
+  text-align: center;
+}
+#add-guest-bonus input {
+   display: block;
+   margin: 15px auto;
+   padding: 10px 6px;
+   font-size: 1.125rem;
+}
+
+#add-guest-bonus ul {
+  border: 3px solid #555;
+  max-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#add-guest-bonus .guest {
+   list-style: none;
+   margin: 0;
+   padding: 10px 45px 10px 6px;
+   text-align: left;
+   position: relative;
+}
+
+#add-guest-bonus .guest:nth-child(even) {
+  background: #89C4F4;
+}
+
+#add-guest-bonus button.remove {
+    position: absolute;
+    top: 5%; right: 5px;
+    padding: 0;
+    text-align: center;
+    width: 40px;
+    height: 90%;
+    background: #96281B;
+    color: #fff;
+    border: 0;
+    margin: 0;
+    }
+
+
+/*
+ * Task 2 - Juggling Lists
+*/
+ .good-standing-section,
+ .probation-section  {
+    padding: 6px;
+ }
+
+ .good-standing-section{
+    background: #86E2D5;
+    text-align: left;
+ }
+ .probation-section{
+    text-align: left;
+    background: #F4B350;
+ }
+
+.good-standing-section ul,
+.probation-section ul {
+   padding: 10px;
+}
+
+.probation-section li,
+.good-standing-section li{
+   padding: 10px;
+   list-style-type: none;
+   width: 90% auto;
+   margin: 6px 0;
+   color: #fff;
+   text-shadow: 1px 1px 1px #333;
+   cursor: pointer;
+}
+
+.good-standing-list li{
+   background: #049372;
+}
+
+.good-standing-list li:hover{
+   background: #1BA39C;
+}
+
+.probation-list li{
+   background: #F39C12;
+}
+
+.probation-list li:hover{
+   background: #EB974E;
+}
+
+/*
+ * Task 2 - Options
+ */
+.wish-list{ font-size: 0; max-width: 600px; margin: 0 auto;}
+.wish-list > *{
+   text-align: center;
+   font-size: medium; width: 33.3333%;
+   display: inline-block;
+   vertical-align: top;
+   padding-top: 25px;
+   cursor: pointer;
+}
+
+.wish-list > *:hover{
+   background: #5C97BF;
+}
+
+ .selected {
+   background:  #67809F;
+   color: #fff;
+}
