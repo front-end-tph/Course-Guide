@@ -33,4 +33,4 @@ You should:
 
 - a Github repository and a live static site on Github Pages.
 
-###Normal Modes
+###Normal Mode
