@@ -33,4 +33,19 @@ You should:
 
 - a Github repository and a live static site on Github Pages.
 
-###Normal Mode
+### Normal Mode
+##### Adding Inputs + Starting the Timer
+![basic mode](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-normal-part-1.gif?raw=true)
+
+##### The Final Countdown
+![basic mode 2](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-normal-part-2.gif?raw=true)
+
+### Explorer Mode
+##### Change Background at One Minute
+![explorer mode](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-explorer-mode-part-2.gif?raw=true)
+
+##### And Change it Back at theEnd
+![explorer mode](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-explorer-mode-part-2.gif?raw=true)
+
+### Epic Mode
+![epic mode](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-epic-mode.gif?raw=true)
