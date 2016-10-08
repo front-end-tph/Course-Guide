@@ -41,10 +41,10 @@ You should:
 ![basic mode 2](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-normal-part-2.gif?raw=true)
 
 ### Explorer Mode
-##### Change Background at One Minute
+##### <mark>Change Background at One Minute</mark>
 ![explorer mode](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-explorer-mode-part-2.gif?raw=true)
 
-##### And Change it Back at theEnd
+##### <mark>And Change it Back at theEnd</mark>
 ![explorer mode](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-explorer-mode-part-2.gif?raw=true)
 
 ### Epic Mode
