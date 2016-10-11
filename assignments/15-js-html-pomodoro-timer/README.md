@@ -48,4 +48,10 @@ You should:
 ![explorer mode](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-explorer-mode-part-2.gif?raw=true)
 
 ### Epic Mode
+- Create a list of pomodoros
+- You can either 'start' a pomodoro or 'remove' one
+- Flash error notifications in the top right for:
+  - When a user tries to run 2 pomodoros concurrently
+  - When a user tries to submit a pomodoro task with no input
+
 ![epic mode](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-epic-mode.gif?raw=true)
