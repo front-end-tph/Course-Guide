@@ -40,9 +40,9 @@ You should:
 ##### (2) The Final Countdown
 ![basic mode 2](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-normal-part-2.gif?raw=true)
 
-### Explorer Mode
+### Explorer Mode (optional)
 ##### (1) Change Background at One Minute
-![explorer mode](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-explorer-mode-part-2.gif?raw=true)
+![explorer mode](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-explorer-mode-part-1.gif?raw=true)
 
 ##### (2)And Change it Back at theEnd
 ![explorer mode](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-explorer-mode-part-2.gif?raw=true)
