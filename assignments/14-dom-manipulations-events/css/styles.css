@@ -146,17 +146,17 @@ hr.q-divider{
 
 /*TASK 3*/
 
-#add-guest-bonus .answer-box {
+#add-item-bonus .answer-box {
   text-align: center;
 }
-#add-guest-bonus input {
+#add-item-bonus input {
    display: block;
    margin: 15px auto;
    padding: 10px 6px;
    font-size: 1.125rem;
 }
 
-#add-guest-bonus ul {
+#add-item-bonus ul {
   border: 3px solid #555;
   max-width: 400px;
   margin: 0 auto;
@@ -164,7 +164,7 @@ hr.q-divider{
   padding: 0;
 }
 
-#add-guest-bonus .guest {
+#add-item-bonus .guest {
    list-style: none;
    margin: 0;
    padding: 10px 45px 10px 6px;
@@ -172,11 +172,11 @@ hr.q-divider{
    position: relative;
 }
 
-#add-guest-bonus .guest:nth-child(even) {
+#add-item-bonus .guest:nth-child(even) {
   background: #89C4F4;
 }
 
-#add-guest-bonus button.remove {
+#add-item-bonus button.remove {
     position: absolute;
     top: 5%; right: 5px;
     padding: 0;

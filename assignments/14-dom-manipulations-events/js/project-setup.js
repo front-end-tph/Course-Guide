@@ -40,7 +40,8 @@ var tasks = [
   },
   {
     html_id: "list-2-list",
-    task: "When you click on an element it should be put on the other list",
+    task: "When you click on an element it should be put on the other list\
+     <br/><br/>To solve this you will need to select all of the <code>&lt;li&gt;</code> elements, iterate over them and put an event listener (<code>.addEventListener</code>)  on each element.</em>",
     link: "gifs/move-list-items.gif"
   },
   {
@@ -49,7 +50,7 @@ var tasks = [
     link: "gifs/guestList.gif"
   },
   {
-    html_id: "add-guest-bonus",
+    html_id: "add-item-bonus",
     task: "<u>Adventure Mode </u><br/><br/>Each added item should come with a remove button. Clicking that button should remove the item from the list.",
     link: "gifs/add-to-list-and-delete.gif"
   },
