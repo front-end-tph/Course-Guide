@@ -45,19 +45,20 @@ Prework is material that ensures you have the basic foundation required for the 
         - https://teamtreehouse.com/library/css-layout-basics        
         - https://teamtreehouse.com/library/responsive-layouts
 
-    4. 1. Learn to use the terminal (estimated time, 4 hours)
 
-        The command line is an interface to the internals of your computer, as opposed to the graphical user interface (GUI) that we commonly use. A lot of the tools that are used in developing modern web applications originate or utilize the command line because it is fast, efficient, and enhances productivity while allowing for maximum configuration.
+    4. Learn to use the terminal (estimated time, 4 hours)
+
+        The command line is an interface to the internals of your computer, as opposed to the graphical user interface (GUI) that we commonly use. A lot of the tools that are used in developing modern web applications originate from or utilize the command line because it is fast, efficient, and enhances productivity while allowing for maximum configuration.
 
          We will be using the command line extensively in our class, but the point of this prework is not to be an expert, just to start to get comfortable.
 
         Especially if you’ve never used the command line before, you may want to go through these more than once. Make sure not just to read/watch, but really dive in and use the commands that you learn about.
 
-        Read the following article and complete the course from learnpythonthehardway :        
+        Read the following article and complete the course from learnpythonthehardway:        
 
          https://learnpythonthehardway.org/book/appendixa.html
 
     5. If you are ready for more advanced stuff, then you can get started with this bonus material:
 
-    - watch these podcasts (there are new releases approx. every week): http://www.atozcss.com/
-    - Still hungry for more? Have a read through Cody Lindley's: **Javascript Enlightenment*: http://www.javascriptenlightenment.com/JavaScript_Enlightenment.pdf
+    - watch this podcasts  series: https://www.sitepoint.com/premium/screencasts/atoz-css-css-keyframe-animations
+    - Still hungry for more? Have a read through Cody Lindley's **Javascript Enlightenment** to start working toward *mastery* of the fundamentals of the Javascript programming language: http://www.javascriptenlightenment.com/JavaScript_Enlightenment.pdf
