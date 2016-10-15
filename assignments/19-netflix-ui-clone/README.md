@@ -53,10 +53,11 @@ var userList = {
 ```
 
 
-
 ###Adventure Mode
+Create a feature that when the user clicks on one of the images, a more full description appears along with the image in a header-div on the page. To complete this, you will need to be very deliberate with how you are manipulating the DOM and how you are adding event-listeners to the image-tiles at the bottom of the page. 
 
-###Master Mode
+![gif demo](./netflix-ui-adventure-mode.gif)
+
 
 ##Deliverables
 
