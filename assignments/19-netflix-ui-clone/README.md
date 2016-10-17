@@ -1,4 +1,4 @@
-#Intro-APIs
+#Intro to Hash Routing - Netflix UI Clone
 
 ##Objectives
 
@@ -19,7 +19,6 @@
 * hub create [repoName]
 * include a script tag in your `index.html` that links to the jquery source code (make sure you put it *above* your own script)
 * hack away at your `app.js` to create the patterns below!
-* load the
 
 ##Resources
 
@@ -39,7 +38,7 @@ Once the hash changes, it should fetch **all** of the data-records for that user
 
 **Hint:** *You may have to make a request for each show to accomplish this*
 
-![gif demo](./netflix-ui-assignment-demo.gif)
+![gif demo](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/raw/master/assignments/19-netflix-ui-clone/netflix-ui-assignment-demo.gif)
 
 
 Here is the starting data:
@@ -52,11 +51,10 @@ var userList = {
 }
 ```
 
-
 ###Adventure Mode
-Create a feature that when the user clicks on one of the images, a more full description appears along with the image in a header-div on the page. To complete this, you will need to be very deliberate with how you are manipulating the DOM and how you are adding event-listeners to the image-tiles at the bottom of the page. 
+Create a feature that when the user clicks on one of the images, a more full description appears along with the image in a header-div on the page. To complete this, you will need to be very deliberate with how you are manipulating the DOM and how you are adding event-listeners to the image-tiles at the bottom of the page.
 
-![gif demo](./netflix-ui-adventure-mode.gif)
+![gif demo](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/19-netflix-ui-clone/netflix-ui-adventure-mode.gif?raw=true)
 
 
 ##Deliverables
