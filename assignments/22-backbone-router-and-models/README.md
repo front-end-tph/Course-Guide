@@ -1,4 +1,4 @@
-# Basic CRUD Application
+# Backbone Routing + Backbone Models/Collections -- Superbuys
 
 ## Objectives
 
@@ -13,9 +13,9 @@ After completing this assignment, you should be able to:
 ## Details
 
 ### Instructions
-1. Unzip [the starter file]() into your `~/TIY/assignments` directory
+1. Download and then unzip [the project files](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/22-backbone-router-and-models/backbone-router-and-models.zip) into your `~/TIY/assignments` directory.
 
-2. *All* data is feteched from: `https://www.googleapis.com/books/v1/volumes?q=subject:«subject-name»`. Examples:
+2. *All* book data is fetched from: `https://www.googleapis.com/books/v1/volumes?q=subject:«subject-name»`. Examples:
   - https://www.googleapis.com/books/v1/volumes?q=subject:mystery
   - https://www.googleapis.com/books/v1/volumes?q=subject:fiction
 
@@ -34,8 +34,11 @@ Create a simple application that fetches data from the Google Books API. It shou
   - `#books/«general-category»`
   - `""` (home route)
 
+![gif](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/22-backbone-router-and-models/mockups/superbuys-routing-and-models.gif)
+
+
 ## Explorer Mode
 Add a search feature.
 
 ##Adventure Mode
-Add the UI logic for breadcrumbs and a sidebar based on the results.
+Add the UI logic for breadcrumbs and a sidebar
