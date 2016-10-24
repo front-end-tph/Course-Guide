@@ -1,0 +1,59 @@
+@import "./imports/_normalize.scss";
+$site-red: #BE1924;
+$site-blue: #1E2A43;
+$site-beige: #E6DECE;
+
+@mixin column-container(){
+   font-size: 0;
+   letter-spacing: 0;
+   > * {
+      vertical-align: top;
+      font-size: initial;
+      letter-spacing: initial;
+      display: inline-block;
+   }
+}
+
+*{ box-sizing: border-box }
+
+img {
+   width: 100%;
+   display: block;
+}
+
+body{
+   font-family: 'Abhaya Libre', 'Palatino', serif;
+
+}
+
+#app-container{
+   // default site styles
+   header{
+      background: $site-blue;
+      padding: 15px;
+      img {
+         max-width: 300px; margin: 0 auto;
+      }
+   }
+   nav {
+      font-size: 0;
+      font-family: "Roboto", "Helvetica", "sans-serif";
+      background: $site-red;
+      color: #fff;
+      @include column-container();
+      span {
+         border: 2px $site-red solid;
+         text-align: center;
+         width: 20%;
+         margin: 0 auto;
+         display: inline-block;
+         font-weight: 700;
+         padding: 10px 0;
+         &.active{
+            color: $site-red;
+            background: #fff;
+         }
+      }
+   }
+   //-------------
+}
