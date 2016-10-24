@@ -13,7 +13,8 @@ After completing this assignment, you should be able to:
 ## Details
 
 ### Instructions
-1. Clone this repository
+1. Unzip [the starter file]() into your `~/TIY/assignments` directory
+
 2. *All* data is feteched from: `https://www.googleapis.com/books/v1/volumes?q=subject:«subject-name»`. Examples:
   - https://www.googleapis.com/books/v1/volumes?q=subject:mystery
   - https://www.googleapis.com/books/v1/volumes?q=subject:fiction
