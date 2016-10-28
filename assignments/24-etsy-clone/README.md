@@ -1,4 +1,4 @@
-# Etsy
+# Etsy Clone
 
 ## Objectives
 
@@ -14,7 +14,9 @@ After completing this assignment, you should be able to:
 * Demonstrate knowledge of `new`, constructors, and the prototype chain
 
 ## Setup
-1. clone [*simple-server*](https://github.com/TIY-Charleston-Front-End-Engineering/simple-server) repo into **assignment-20-etsy-clone** project-directory
+
+
+1. `cd` into your `~/TIY/assignments` directory and clone [*simple-server*](https://github.com/TIY-Charleston-Front-End-Engineering/simple-server) repo into **assignment-20-etsy-clone** project-directory
 ```sh
 git clone git@github.com:TIY-Charleston-Front-End-Engineering/simple-server.git assignment-20-etsy-clone
 # cd npm install
