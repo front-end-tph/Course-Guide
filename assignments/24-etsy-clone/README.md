@@ -17,29 +17,25 @@ After completing this assignment, you should be able to:
 
 
 1. `cd` into your `~/TIY/assignments` directory and clone [*simple-server*](https://github.com/TIY-Charleston-Front-End-Engineering/simple-server) repo into **assignment-20-etsy-clone** project-directory
-```sh
-git clone git@github.com:TIY-Charleston-Front-End-Engineering/simple-server.git assignment-20-etsy-clone
-# cd npm install
-# then git init
-# then hub create <projectName> to create the repo on Github, too
-# then setup your project files (i.e. download package.json and run `npm install`)
-```
+  ```sh
+  git clone git@github.com:TIY-Charleston-Front-End-Engineering/simple-server.git assignment-20-etsy-clone
+  ```
 
 2. `cd` into assignment-20-etsy-clone, remove the origin, and create your remote repo on github
-```sh
-git remote remove origin
-hub create
-```
+  ```sh
+  git remote remove origin
+  hub create
+  ```
 
 3. Install the project's dependencies from the `package.json`
-```sh
-npm install
-```
+  ```sh
+  npm install
+  ```
 
 4. After installation completes, start the local server
-```sh
-npm run go
-```
+  ```sh
+  npm run go
+  ```
 
 ## Deliverables
 
