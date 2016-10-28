@@ -21,7 +21,7 @@ After completing this assignment, you should be able to:
   git clone git@github.com:TIY-Charleston-Front-End-Engineering/simple-server.git assignment-20-etsy-clone
   ```
 
-2. `cd` into assignment-20-etsy-clone, remove the origin, and create your remote repo on github
+2. `cd` into `assignment-20-etsy-clone/, remove the origin, and create your remote repo on github
   ```sh
   git remote remove origin
   hub create
