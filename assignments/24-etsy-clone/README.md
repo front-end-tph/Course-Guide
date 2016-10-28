@@ -15,7 +15,7 @@ After completing this assignment, you should be able to:
 
 ## Setup
 
-
+####The Project Build
 1. `cd` into your `~/TIY/assignments` directory and clone [*simple-server*](https://github.com/TIY-Charleston-Front-End-Engineering/simple-server) repo into **assignment-20-etsy-clone** project-directory
   ```sh
   git clone git@github.com:TIY-Charleston-Front-End-Engineering/simple-server.git assignment-20-etsy-clone
@@ -36,6 +36,17 @@ After completing this assignment, you should be able to:
   ```sh
   npm run go
   ```
+
+####Etsy API
+
+1) Create a personal account with etsy
+
+2) Create a new app
+https://www.etsy.com/developers/register
+  - use `https://github.io/«your-github-profile-name»` as the url
+
+3) Get the key (which you will include as a query string parameter)
+
 
 ## Deliverables
 
