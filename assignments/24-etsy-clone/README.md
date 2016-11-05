@@ -39,13 +39,13 @@ After completing this assignment, you should be able to:
 
 ####Etsy API
 
-1) Create a personal account with etsy
+1. Create a personal account with etsy
 
-2) Create a new app
+2. Create a new app
 https://www.etsy.com/developers/register
   - use `https://github.io/«your-github-profile-name»` as the url
 
-3) Get the key (which you will include as a query string parameter)
+3. Get the key (which you will include as a query string parameter)
 
 
 ## Deliverables
