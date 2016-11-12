@@ -46,19 +46,41 @@ Prework is material that ensures you have the basic foundation required for the 
         - https://teamtreehouse.com/library/responsive-layouts
 
 
-    4. Learn to use the terminal (estimated time, 4 hours)
+    5. Complete Some Code Exercises
 
-        The command line is an interface to the internals of your computer, as opposed to the graphical user interface (GUI) that we commonly use. A lot of the tools that are used in developing modern web applications originate from or utilize the command line because it is fast, efficient, and enhances productivity while allowing for maximum configuration.
+      Want more? Start applying your knowledge to solve coding challenges. Below is a list of problems where you can try to implement what you've learned above to improve your skills.
 
-         We will be using the command line extensively in our class, but the point of this prework is not to be an expert, just to start to get comfortable.
+      - Function Basics
+        -  [`addTen()`](https://goo.gl/qjHYh0)
+        -  [`doubleNum()`](https://goo.gl/fnRDvK)
+      - String Manipulation
+        -  [`sayItTwice()`](https://goo.gl/CMNzTR)
+        -  [`secondToLast()`](https://goo.gl/aieXAj)
+        -  [`firstShallBeLast()`](https://goo.gl/IfSjmh)
+        -  [`genChatScript()`](https://goo.gl/AEDgXR)
+      - If/Else, Booleans + Comparators (<, >, ===)
+        -  [`isNegative()`](https://goo.gl/fR848Q)
+        -  [`isSoBig()`](https://goo.gl/0JM2kb)
+        -  [`flipNum()`](https://goo.gl/n71AcC)
+      - Iteration (using for-loops on strings + arrays)
+         -  [`hasQ()`](https://goo.gl/1zIzso)
+         -  [`hasEnthusiasm()`](hhttps://goo.gl/DpRpVn)
+         -  [`doubleAll()`](https://goo.gl/ehNux3)
 
-        Especially if you’ve never used the command line before, you may want to go through these more than once. Make sure not just to read/watch, but really dive in and use the commands that you learn about.
 
-        Read the following article and complete the course from learnpythonthehardway:        
+     5. Learn to use the terminal (estimated time, 4 hours)
 
-         https://learnpythonthehardway.org/book/appendixa.html
+         The command line is an interface to the internals of your computer, as opposed to the graphical user interface (GUI) that we commonly use. A lot of the tools that are used in developing modern web applications originate from or utilize the command line because it is fast, efficient, and enhances productivity while allowing for maximum configuration.
 
-    5. If you are ready for more advanced stuff, then you can get started with this bonus material:
+          We will be using the command line extensively in our class, but the point of this prework is not to be an expert, just to start to get comfortable.
+
+         Especially if you’ve never used the command line before, you may want to go through these more than once. Make sure not just to read/watch, but really dive in and use the commands that you learn about.
+
+         Read the following article and complete the course from learnpythonthehardway:        
+
+          https://learnpythonthehardway.org/book/appendixa.html
+
+    6. If you are ready for more advanced stuff, then you can get started with this bonus material:
 
     - watch this podcasts  series: https://www.sitepoint.com/premium/screencasts/atoz-css-css-keyframe-animations
     - Still hungry for more? Have a read through Cody Lindley's **Javascript Enlightenment** to start working toward *mastery* of the fundamentals of the Javascript programming language: http://www.javascriptenlightenment.com/JavaScript_Enlightenment.pdf
