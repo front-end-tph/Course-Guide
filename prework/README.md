@@ -50,22 +50,26 @@ Prework is material that ensures you have the basic foundation required for the 
 
       Want more? Start applying your knowledge to solve coding challenges. Below is a list of problems where you can try to implement what you've learned above to improve your skills.
 
+      If you can complete these (with the help of googling for answers), you will be in *outstanding* shape before you start the cohort. If you are unable despite your best efforts, don't worry you will learn them eventually.   
+
       - Function Basics
         -  [`addTen()`](https://goo.gl/qjHYh0)
         -  [`doubleNum()`](https://goo.gl/fnRDvK)
       - String Manipulation
         -  [`sayItTwice()`](https://goo.gl/CMNzTR)
         -  [`secondToLast()`](https://goo.gl/aieXAj)
-        -  [`firstShallBeLast()`](https://goo.gl/IfSjmh)
+        -  [`capitalizeFirst()`](https://goo.gl/rjZ1pT)
         -  [`genChatScript()`](https://goo.gl/AEDgXR)
+        -  [`firstShallBeLast()`](https://goo.gl/IfSjmh)
       - If/Else, Booleans + Comparators (<, >, ===)
         -  [`isNegative()`](https://goo.gl/fR848Q)
         -  [`isSoBig()`](https://goo.gl/0JM2kb)
         -  [`flipNum()`](https://goo.gl/n71AcC)
       - Iteration (using for-loops on strings + arrays)
          -  [`hasQ()`](https://goo.gl/1zIzso)
-         -  [`hasEnthusiasm()`](hhttps://goo.gl/DpRpVn)
+         -  [`hasEnthusiasm()`](https://goo.gl/DpRpVn)
          -  [`doubleAll()`](https://goo.gl/ehNux3)
+         -  [`arrayToString()`](https://goo.gl/2K6mdv)
 
 
      5. Learn to use the terminal (estimated time, 4 hours)
