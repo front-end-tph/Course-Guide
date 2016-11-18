@@ -50,11 +50,12 @@ Prework is material that ensures you have the basic foundation required for the 
 
       Want more? Start applying your knowledge to solve coding challenges. Below is a list of problems where you can try to implement what you've learned above to improve your skills.
 
-      If you can complete these (with the help of googling for answers), you will be in *outstanding* shape before you start the cohort. If you are unable despite your best efforts, don't worry you will learn them eventually.   
+      If you can complete these (with the help of googling for answers), you will be in *outstanding* shape before you start the cohort. If you are unable to complete all of them despite your best efforts, don't worry you will learn them eventually.   
 
       - Function Basics
         -  [`addTen()`](https://goo.gl/qjHYh0)
         -  [`doubleNum()`](https://goo.gl/fnRDvK)
+        -  [`inchesToCm()`](https://goo.gl/ri5gkB)
       - String Manipulation
         -  [`sayItTwice()`](https://goo.gl/CMNzTR)
         -  [`secondToLast()`](https://goo.gl/aieXAj)
@@ -64,6 +65,7 @@ Prework is material that ensures you have the basic foundation required for the 
       - If/Else, Booleans + Comparators (<, >, ===)
         -  [`isNegative()`](https://goo.gl/fR848Q)
         -  [`isSoBig()`](https://goo.gl/0JM2kb)
+        -  [`love7()`](https://goo.gl/RdY8gY)
         -  [`flipNum()`](https://goo.gl/n71AcC)
       - Iteration (using for-loops on strings + arrays)
          -  [`hasQ()`](https://goo.gl/1zIzso)
