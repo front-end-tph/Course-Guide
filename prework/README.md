@@ -4,15 +4,16 @@ Prework is material that ensures you have the basic foundation required for the 
 
 ## Before enrollment
 
-  1. Work through the JavaScript track on CodeAcademy: http://www.codecademy.com/tracks/javascript. Go as far as you need in order to complete the task in (2), below.
+  1. Work through the JavaScript track on CodeAcademy: http://www.codecademy.com/tracks/javascript. 
 
-  2. Attempt the 23-question assessment here: http://tinyurl.com/jdfrdaa. You don't need to get every question right; you don't even need to *attempt* every question. Once you've completed as many as you can, send your (numbered) responses to the front-end javascript instructor. His email is travis.hubbard@theironyard.com.
+  2. You should be able to answer the following questions:
+     - What is a variable? When do we use it?
+     - What is a function? Why might we use it and what are the three main parts?
+     - What is an array? How could they be useful to us?
+     - What is a for-loop? Why might we use it? What do we typically loop over?
 
-  A few notes on the coding environment linked in the above url:
 
-  - Use the `log` function to write output to the right-hand pane. For example, try typing `log('hello world')` in the left-hand pane. You'll make heavy use of those `log` statements to debug and inspect variables.
-  - With every keystroke you make in the left-hand pane, all the code in that region will be re-evaluated, and all output will be shown on the right.
-
+ 
 
 ## After enrollment
 
@@ -50,7 +51,7 @@ Prework is material that ensures you have the basic foundation required for the 
 
       Want more? Start applying your knowledge to solve coding challenges. Below is a list of problems where you can try to implement what you've learned above to improve your skills.
 
-      If you can complete these (with the help of googling for answers), you will be in *outstanding* shape before you start the cohort. If you are unable to complete all of them despite your best efforts, don't worry you will learn them eventually.   
+      If you can complete these (with the help of googling for assistance), you will be in *outstanding* shape before you start the cohort. If you are unable to complete all of them despite your best efforts, don't worry you will learn them eventually.   
 
       - Function Basics
         -  [`addTen()`](https://goo.gl/qjHYh0)
@@ -60,18 +61,25 @@ Prework is material that ensures you have the basic foundation required for the 
         -  [`sayItTwice()`](https://goo.gl/CMNzTR)
         -  [`secondToLast()`](https://goo.gl/aieXAj)
         -  [`capitalizeFirst()`](https://goo.gl/rjZ1pT)
-        -  [`genChatScript()`](https://goo.gl/AEDgXR)
         -  [`firstShallBeLast()`](https://goo.gl/IfSjmh)
+        -  [`encapsulate()`](https://goo.gl/t3tEBJ)
+        -  [`flipLastWithFirst()`](https://goo.gl/lB33HY)
       - If/Else, Booleans + Comparators (<, >, ===)
         -  [`isNegative()`](https://goo.gl/fR848Q)
         -  [`isSoBig()`](https://goo.gl/0JM2kb)
-        -  [`love7()`](https://goo.gl/RdY8gY)
         -  [`flipNum()`](https://goo.gl/n71AcC)
+        -  [`makes10()`](https://goo.gl/yyiSzT)
+        -  [`love7()`](https://goo.gl/RdY8gY)
       - Iteration (using for-loops on strings + arrays)
          -  [`hasQ()`](https://goo.gl/1zIzso)
          -  [`hasEnthusiasm()`](https://goo.gl/DpRpVn)
          -  [`doubleAll()`](https://goo.gl/ehNux3)
          -  [`arrayToString()`](https://goo.gl/2K6mdv)
+      
+       A few notes on the coding environment linked in the above url:
+
+       - Use the `log` function to write output to the right-hand pane. For example, try typing `log('hello world')` in the left-hand pane. You'll make heavy use of those `log` statements to debug and inspect variables.
+       - With every keystroke you make in the left-hand pane, all the code in that region will   be re-evaluated, and all output will be shown on the right.
 
 
      5. Learn to use the terminal (estimated time, 4 hours)
