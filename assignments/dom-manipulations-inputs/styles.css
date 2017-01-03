@@ -1,0 +1,209 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+button:focus,
+input:focus{
+   outline: 0;
+}
+
+hr.q-divider{
+  margin: 80px 0;
+}
+
+.exercise-container{
+  font-size: 0;
+}
+.exercise-container > * {
+  font-size: medium;
+}
+
+.prompt h3{
+  font-size: 30px;
+  font-weight:200;
+  background: #7f8c8d;
+  color: #eee;
+  padding: 6px 10px;
+  margin:0;
+}
+
+.prompt p {
+  background: #eee;
+  font-size: 18px;
+  padding: 20px 18px;
+  margin: 0;
+  font-weight:600;
+}
+
+span.hint{
+   font-weight: 200;
+   font-style: italic;
+}
+
+.exercise-container > *{
+  font-size: medium;
+}
+
+
+.content-box{
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.content-box h4 {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 21px;
+  margin: 10px 0 ;
+}
+
+.teacher-demo h4{
+  background: #2980b9;
+}
+
+.student-workspace h4{
+  background: #27ae60;
+}
+
+.student-workspace button{
+  padding: 13px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 6px;
+  background: #f1c40f;
+  border: 1px solid #333;
+  font-weight: 700;
+}
+.student-workspace button:hover{
+  background: #f39c12;
+}
+
+
+.answer-box{
+  background: #bdc3c7;
+  padding: 50px 15px;
+}
+
+.teacher-demo img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ---------------------- */
+/* Task 1 Clear Input Field
+/* ---------------------- */
+#reset-field input{
+   line-height: 2;
+   padding: 0 .5rem;
+   font-size: 1.5rem;
+}
+
+/* ---------------------- */
+/* Task 2 Validate Field
+/* ---------------------- */
+
+#validate-field input{
+   line-height: 2;
+   padding: 0 .5rem;
+   font-size: 1.5rem;
+}
+
+#validate-field p.flash-message{
+   background: #ddd;
+   margin: 0;
+   display: block;
+   width: 250px;
+   line-height: 2;
+   font-size: 1.25rem;
+   padding: 0 .5rem;
+}
+
+#validate-field p.flash-message.valid{
+   background: darkgreen;
+   color: #fff;
+}
+
+#validate-field p.flash-message.invalid{
+   background: darkred;
+   color: #fff;
+}
+
+/* ---------------------- */
+/* Task 3 Calculate Items
+/* ---------------------- */
+#calculate-items label{
+   line-height: 2;
+   padding: 0 .5rem;
+   display: block;
+   font-size: 1.25rem;
+
+}
+
+#calculate-items .summary{
+   border-top: 1px solid #333;
+   padding-top: 10px;
+}
+
+#calculate-items .summary span{
+   display: inline-block;
+   vertical-align: center
+}
+#calculate-items .summary span:first-child{font-weight: 700; font-size: 1.5rem;}
+
+#calculate-items .sum-total{
+   border: #1E824C 4px solid;
+   color: #1E824C ;
+   padding: 3px 5px;
+   font-weight: 600;
+   min-width: 30px;
+   font-size: 1.375rem;
+}
+
+
+
+
+/* ---------------------- */
+/* Task 4 Select From Option List
+/* ---------------------- */
+
+#select-to-show-more .show-options{
+   font-size: 0;
+}
+
+#select-to-show-more .show-options > *{
+   width: 40%;
+   margin-right: 5%;
+   display: inline-block;
+   vertical-align: top;
+   font-size: medium;
+}
+
+
+#select-to-show-more .more-info img {
+   display: block;
+   max-width: 250px;
+   width: 100%;
+}
+
+#select-to-show-more .more-info h5 {
+   font-size: 1.25rem;
+   margin : .25rem;
+}
+
+#select-to-show-more .more-info span{
+   font-weight: 400;
+   color: #3A539B;
+}
+
+#select-to-show-more .more-info p{
+   font-size: 1.0rem;
+   padding-left: .75rem;
+   font-weight: 400;
+}
