@@ -71,7 +71,7 @@ brew install ${binaries[@]}
 brew cask install --appdir="/Applications" ${apps[@]}
 brew cleanup
 
-$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 
 # Ask for the administrator password upfront
 echo "enter admin password NAOW t('.'t)"
