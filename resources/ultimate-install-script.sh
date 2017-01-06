@@ -61,8 +61,7 @@ apps=(
   mongodb
   mongochef
   skitch
-  mou
-  Caskroom/cask/slack
+  slack
 )
 
 # "installing binaries..."
@@ -358,7 +357,9 @@ defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 
 cat <<EOT >> ~/.bash_profile
 GREEN=$(tput setaf 2)
-PS1="\[\]\[${GREEN}\]\w :: \[${WHITE}\]\[${NORMAL}\]"
+BLACK=$(tput setaf 0)
+WHITE=$(tput setaf 7)
+PS1="\[\]\[${GREEN}\]\w :: \[${BLACK}\]\[${NORMAL}\]"
 EOT
 
 mkdir ~/TIY
