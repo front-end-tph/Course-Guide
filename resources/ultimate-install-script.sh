@@ -68,7 +68,7 @@ for i in "${apps[@]}"
 do
 	if [ ! -f /Applications/$i ]
 	then
-	  brew cask install --appdir="/Applications" $i
+	  brew cask install --appdir="/Applications/$i"
 	else 
 	  echo "$i already found!" 
 	fi
