@@ -74,7 +74,7 @@ brew cleanup
 PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 
 # Ask for the administrator password upfront
-echo "enter admin password NAOW t('.'t)"
+echo "\n enter admin password:"
 sudo -v
 
 # Keep-alive: update existing `sudo` time stamp until script has finished
@@ -336,11 +336,11 @@ defaults write org.m0k.transmission WarningLegal -bool false
 sudo pmset -a hibernatemode 0
 
 # "Remove the sleep image file to save disk space"
-sudo rm /Private/var/vm/sleepimage
-# "creating a zero-byte file instead"
-sudo touch /Private/var/vm/sleepimage
-# "and make sure it can't be rewritten"
-sudo chflags uchg /Private/var/vm/sleepimage
+# sudo rm /Private/var/vm/sleepimage
+# # "creating a zero-byte file instead"
+# sudo touch /Private/var/vm/sleepimage
+# # "and make sure it can't be rewritten"
+# sudo chflags uchg /Private/var/vm/sleepimage
 
 # "Disable the sudden motion sensor as it's not useful for SSDs"
 sudo pmset -a sms 0
