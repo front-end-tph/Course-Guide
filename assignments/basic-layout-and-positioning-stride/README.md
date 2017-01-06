@@ -38,7 +38,7 @@ To receive a passing grade on this assignment, you must
 <hr>
 
 ##Mockups
-
+![mockup](./mockups/stride-mockup-demo.gif)
 
 
 <hr>
@@ -47,7 +47,7 @@ To receive a passing grade on this assignment, you must
 
 
 ####Image Assets
-[link to zip file](#)
+[link to zip file](./images.zip)
 
 ####Make sure you load the google font in your `<head/>` *before* your `style.css` file
 ```html

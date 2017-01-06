@@ -354,7 +354,7 @@ defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 
 curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/resources/.bash_profile > ~/.bash_profile
 
-
+   
 mkdir ~/TIY
 cd ~/TIY
 mkdir assignments sandbox warmups notes
