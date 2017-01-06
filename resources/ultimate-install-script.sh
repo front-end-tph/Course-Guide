@@ -61,7 +61,6 @@ apps=(
   mongodb
   mongochef
   skitch
-  slack
 )
 
 for i in "${apps[@]}"
