@@ -71,7 +71,6 @@ do
 	else 
 	  echo "$i already found!" 
 	fi
-
 done
 
 # "installing binaries..."
