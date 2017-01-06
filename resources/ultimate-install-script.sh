@@ -61,23 +61,15 @@ apps=(
   mongodb
   mongochef
   skitch
+  mou
 )
-
-for i in "${apps[@]}"
-do
-	if [ ! -f /Applications/$i ]
-	then
-	  brew cask install --appdir="/Applications/$i"
-	else 
-	  echo "$i already found!" 
-	fi
-done
 
 # "installing binaries..."
 brew install ${binaries[@]}
 # Install apps to /Applications
 # Default is: /Users/$user/Applications
 # "installing apps..."
+brew cask install --appdir="/Applications" ${apps[@]}
 brew cleanup
 
 $PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
@@ -367,7 +359,7 @@ cat <<EOT >> ~/.bash_profile
 GREEN=$(tput setaf 2)
 BLACK=$(tput setaf 0)
 WHITE=$(tput setaf 7)
-PS1="\[\]\[${GREEN}\]\w :: \[${BLACK}\]\[${NORMAL}\]"
+PS1="\[\]\[${GREEN}\]\w :: \[${WHITE}\]\[${NORMAL}\]"
 EOT
 
 mkdir ~/TIY
