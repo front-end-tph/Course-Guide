@@ -65,7 +65,7 @@ apps=(
 
 for i in "${apps[@]}"
 do
-	ls /Applications/$i
+
 	if [ ! -f /Applications/$i ]
 	then
 	  brew cask install --appdir="/Applications/$i"
