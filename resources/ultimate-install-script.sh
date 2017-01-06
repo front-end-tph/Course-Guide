@@ -64,12 +64,22 @@ apps=(
   slack
 )
 
+for i in "${apps[@]}"
+do
+	if [ ! -f /Applications/$i ]
+	then
+	  brew cask install --appdir="/Applications" $i
+	else 
+	  echo "$i already found!" 
+	fi
+
+done
+
 # "installing binaries..."
 brew install ${binaries[@]}
 # Install apps to /Applications
 # Default is: /Users/$user/Applications
 # "installing apps..."
-brew cask install --appdir="/Applications" ${apps[@]}
 brew cleanup
 
 $PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
