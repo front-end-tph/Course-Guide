@@ -58,6 +58,8 @@ apps=(
   google-chrome
   atom
   flux
+  mongodb
+  mongochef
   skitch
   mou
   Caskroom/cask/slack
@@ -351,3 +353,14 @@ sudo pmset -a standbydelay 86400
 
 # "Disable annoying backswipe in Chrome"
 defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
+
+
+
+cat <<EOT >> ~/.bash_profile
+GREEN=$(tput setaf 2)
+PS1="\[\]\[${GREEN}\]\w :: \[${WHITE}\]\[${NORMAL}\]"
+EOT
+
+mkdir ~/TIY
+cd ~/TIY
+mkdir assignments sandbox warmups notes
