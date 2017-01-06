@@ -50,6 +50,7 @@ binaries=(
   node
   npm
   hub
+  mongodb
   wget
 )
 
@@ -58,7 +59,6 @@ apps=(
   google-chrome
   atom
   flux
-  mongodb
   mongochef
   skitch
 )
