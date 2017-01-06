@@ -59,6 +59,7 @@ apps=(
   atom
   flux
   skitch
+  mou
   Caskroom/cask/slack
 )
 
