@@ -352,14 +352,8 @@ sudo pmset -a standbydelay 86400
 # "Disable annoying backswipe in Chrome"
 defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 
+curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/resources/.bash_profile > ~/.bash_profile
 
-
-cat <<EOT >> ~/.bash_profile
-GREEN=$(tput setaf 2)
-BLACK=$(tput setaf 0)
-WHITE=$(tput setaf 7)
-PS1="\[\]\[${GREEN}\]\w :: \[${WHITE}\]\[${NORMAL}\]"
-EOT
 
 mkdir ~/TIY
 cd ~/TIY
