@@ -167,7 +167,6 @@ defaults write com.apple.screencapture type -string "png"
 
 # "Enabling subpixel font rendering on non-Apple LCDs"
 defaults write NSGlobalDomain AppleFontSmoothing -int 2
- z
 # "Enabling HiDPI display modes (requires restart)"
 sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
 
