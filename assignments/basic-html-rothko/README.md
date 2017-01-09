@@ -9,9 +9,7 @@ For now, we don't need to worry too much about styling; we just want to get the 
 ##The Assignment
 Create the html for the flier shown below using appropriate `<h>`, `<p>`, `<img>`, `<a>` and `<div>` tags.
 
-Use the `gen-project.sh` script to create the files and folders for the project. 
-
-All of your work and markup should be created in the `index.html` file, and make sure that you are using the HTML5 standard (with `<!DOCTYPE html>` declaration at the top of the file`).
+All of your work and markup should be created in an `index.html` file, and make sure that you are using the HTML5 standard (with `<!DOCTYPE html>` declaration at the top of the file).
 
 ###The flier
 ![rothko flier](https://www.filestackapi.com/api/file/kwGf6nseTRKw38c4mbDs)
