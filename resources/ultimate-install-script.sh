@@ -122,7 +122,7 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo Hos
 /System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user
 
 # "Disable smart quotes and smart dashes as they're annoying when typing code"
-defad
+# defad
 
 
 ###############################################################################
