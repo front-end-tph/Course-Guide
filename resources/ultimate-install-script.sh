@@ -60,7 +60,6 @@ apps=(
   atom
   flux
   mongochef
-  skitch
 )
 
 # "installing binaries..."
