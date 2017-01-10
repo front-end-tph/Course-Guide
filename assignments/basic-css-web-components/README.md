@@ -70,7 +70,9 @@ link background color: rgb(205,92,92)
 ```
 
 #####Hint
-- target only the top + bottom of the element with 'Currently:border with the `border-top` and `border-bottom` css-properties
+- target only the top + bottom of the element with 'Currently:#summer'  with the `border-top` and `border-bottom` css-properties
+- use `display: inline-block` to stack the nav-options next to each other.
+- use an `<input type="text"/>` tag to create the 'Search Site' input field where a user could potentially enter information.
 
 <hr/>
 
@@ -88,9 +90,10 @@ link color: `#DE5233`
 ##### Hint
 - use `display: inline-block` to stack the columns next to each other.
 
-## Adventurer Mode
 
 <hr/>
+## Adventurer Mode
+
 ###Complex Multi Column Layout
 ![layout](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/extended-layout.png)
 
