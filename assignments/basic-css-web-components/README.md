@@ -1,14 +1,21 @@
 #Assignment 2 - Basic CSS - Recreating Web Components
 ##Instructions
-Use what you've learned of margin, padding, border, and the block, inline-block elements to recreate the site components shown below.
+Use what you've learned of CSS styles and properties to recreate the site components shown below. You likely will need to use CSS properties like:
 
-You will need to create 5 `.html` and each one will link to a `style.css` file in the `<head>`.
+- `margin`, `padding`, `border`
+- `font-family`, `font-size`, `font-weight`, `color`
+- `width`, `height`
+- `background-color`
+- `text-align`
+- `display: block` and `display: inline-block`
 
 Recommended Setup:
 ```sh
-mkdir assignment-css-web-components
-cd assignment-css-web-components
-mkdir 1-simple-article  2-menu-list 3-icon-set 4-nav-menu 5-multi-col
+cd ~/TIY/assignments
+mkdir assignment-02
+cd assignment-02
+curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/basic-css-web-components/assignment-files.zip > assignment-files.zip
+unzip assignment-02
 ```
 
 **NOTE: make sure you include `*{box-sizing: border-box}*` at the top of your stylesheet**
