@@ -26,13 +26,16 @@ unzip assignment-02
 ![nice typeface](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/nice-typeface.png)
 
 #####Design Specs
+
 ```
 fonts: Georgia & Geneva
 line-height: 1.25
 background-color: FBF9F1
+link color: 77A8D2
 ```
 
 #####Hint
+
 + use a `<span>` tag and give it a class attribute to apply targeted styles to the 'Monotype' text
 
 <hr/>
