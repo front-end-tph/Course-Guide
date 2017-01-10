@@ -29,6 +29,7 @@ unzip assignment-02
 ```
 fonts: Georgia & Geneva
 line-height: 1.25
+background-color: FBF9F1
 ```
 
 #####Hint
@@ -44,13 +45,14 @@ fonts: Avenir
 color: `#66CC99`
 ```
 
+
 <hr/>
 ###Icon Set
 ![inline block icon set](./example-components/inline-icon-set.png)
 
 #####*Design Specs*
 ```
-fonts: Georgia & Geneva
+fonts: sans-serif
 images:
   facebook-icon-bw.png
   twitter-icon-bw.png
@@ -58,6 +60,9 @@ images:
   googleplus-icon-bw.png
   linkedin-icon-bw.png
 ```
+
+##### Hint
+- to link to the images in the `src` attribute, you may have to go up a directory (`../`) and then traverse down into `/images` 
 
 <hr/>
 ###Navigation Menu
@@ -69,7 +74,7 @@ font: Futura
 link background color: rgb(205,92,92)
 ```
 
-#####Hint
+##### Hint
 - target only the top + bottom of the element with 'Currently:#summer'  with the `border-top` and `border-bottom` css-properties
 - use `display: inline-block` to stack the nav-options next to each other.
 - use an `<input type="text"/>` tag to create the 'Search Site' input field where a user could potentially enter information.
@@ -78,7 +83,7 @@ link background color: rgb(205,92,92)
 
 ## Explorer Mode
 
-###Simple Multi Column Layout
+### Simple Multi Column Layout
 ![multi column layout](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/basic-column-layout.png)
 
 #####*Design Specs*
@@ -88,7 +93,7 @@ top-bar color: #004
 link color: `#DE5233`
 ```
 ##### Hint
-- use `display: inline-block` to stack the columns next to each other.
+- use `display: inline-block` to stack the columns next to each other and give each column a width of 25%.
 
 
 <hr/>
