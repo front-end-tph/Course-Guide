@@ -6,8 +6,8 @@ You will need to create 5 `.html` and each one will link to a `style.css` file i
 
 Recommended Setup:
 ```sh
-mkdir assignment-02-css-web-components
-cd assignment-02-css-web-components
+mkdir assignment-css-web-components
+cd assignment-css-web-components
 mkdir 1-simple-article  2-menu-list 3-icon-set 4-nav-menu 5-multi-col
 ```
 
@@ -16,7 +16,7 @@ mkdir 1-simple-article  2-menu-list 3-icon-set 4-nav-menu 5-multi-col
 ##Normal Mode
 
 ###Simple Article Layout
-![nice typeface](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/02-basic-css-web-components/example-components/nice-typeface.png)
+![nice typeface](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/nice-typeface.png)
 
 #####*Design Specs*
 ```
@@ -26,7 +26,7 @@ line-height: 1.25
 
 <hr/>
 ###Menu List
-![menu list](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/02-basic-css-web-components/example-components/menu-list.png)
+![menu list](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/menu-list.png)
 
 #####*Design Specs*
 ```
@@ -51,7 +51,7 @@ images:
 
 <hr/>
 ###Navigation Menu
-![mini nav menu](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/02-basic-css-web-components/example-components/mini-nav-menu.png)
+![mini nav menu](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/mini-nav-menu.png)
 
 #####*Design Specs*
 ```
@@ -61,7 +61,7 @@ link background color: rgb(205,92,92)
 
 <hr/>
 ###Multi Column Layout
-![multi column layout](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/02-basic-css-web-components/example-components/basic-column-layout.png)
+![multi column layout](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/basic-column-layout.png)
 
 #####*Design Specs*
 ```
@@ -74,7 +74,7 @@ link color: `#DE5233`
 ##Adventurer Mode
 <hr/>
 ###Page Layout
-![layout](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/02-basic-css-web-components/example-components/extended-layout.png)
+![layout](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/extended-layout.png)
 
 #####*Design Specs*
 ```
