@@ -9,7 +9,7 @@ Use what you've learned of CSS styles and properties to recreate the site compon
 - `text-align`
 - `display: block` and `display: inline-block`
 
-Recommended Setup:
+##Setup
 ```sh
 cd ~/TIY/assignments
 mkdir assignment-02
@@ -18,18 +18,21 @@ curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Cour
 unzip assignment-02
 ```
 
-**NOTE: make sure you include `*{box-sizing: border-box}*` at the top of your stylesheet**
+*NOTE:* You will likely want to include `*{box-sizing: border-box}` at the top of your stylesheet
 
 ##Normal Mode
 
 ###Simple Article Layout
 ![nice typeface](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/nice-typeface.png)
 
-#####*Design Specs*
+#####Design Specs
 ```
 fonts: Georgia & Geneva
 line-height: 1.25
 ```
+
+#####Hint
++ use a `<span>` tag and give it a class attribute to apply targeted styles to the 'Monotype' text
 
 <hr/>
 ###Menu List
@@ -66,8 +69,12 @@ font: Futura
 link background color: rgb(205,92,92)
 ```
 
+#####Hint
+- target only the top + bottom of the border with the `border-top` and `border-bottom` properties
 <hr/>
-###Multi Column Layout
+##Adventurer Mode
+
+###Simple Multi Column Layout
 ![multi column layout](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/basic-column-layout.png)
 
 #####*Design Specs*
@@ -76,11 +83,13 @@ font: Helvetica Neue
 top-bar color: #004
 link color: `#DE5233`
 ```
+##### Hint
+- use `display: inline-block` to stack the columns next to each other.
 
+##Explorer Mode
 
-##Adventurer Mode
 <hr/>
-###Page Layout
+###Complex Multi Column Layout
 ![layout](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/extended-layout.png)
 
 #####*Design Specs*
