@@ -70,9 +70,11 @@ link background color: rgb(205,92,92)
 ```
 
 #####Hint
-- target only the top + bottom of the border with the `border-top` and `border-bottom` properties
+- target only the top + bottom of the element with 'Currently:border with the `border-top` and `border-bottom` css-properties
+
 <hr/>
-##Adventurer Mode
+
+## Explorer Mode
 
 ###Simple Multi Column Layout
 ![multi column layout](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/basic-column-layout.png)
@@ -86,7 +88,7 @@ link color: `#DE5233`
 ##### Hint
 - use `display: inline-block` to stack the columns next to each other.
 
-##Explorer Mode
+## Adventurer Mode
 
 <hr/>
 ###Complex Multi Column Layout
