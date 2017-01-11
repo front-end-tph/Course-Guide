@@ -37,13 +37,14 @@ To receive a passing grade on this assignment, you must
 
 ##Setup
 
-Create up the assignment-folder and download the images into the assignment-folder.
+Create the assignment-folder and download the images into the assignment-folder.
 ```
 cd ~/TIY/assignments
 mkdir assignment-04
 cd assignment-04
 curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/basic-layout-and-positioning-stride/images.zip > images.zip 
 ```
+
 Inside of the `assignment-04/` directory you will need to: 
 + create the `index.html` 
 + `style.css` file in a `css/` folder
@@ -61,26 +62,47 @@ Inside of the `assignment-04/` directory you will need to:
 ##Part 1 -- Basic Layout
 ![mockup pt 1](./mockups/stride-layout-part-1.png)
 
+####Note: 
+- for the background image on the *Find Roommates You Like*, you will need to add the folowing CSS properties to : 
++ `background-image: url(../images/hero-splash')`
++ `background-size: cover`
+
+(Note: you do not use an `<img>` tag for an element with a background-image, you put  )
+
+
 ##Part 2 -- Navbar + Position Elements on the Page
 ![mockup](./mockups/stride-mockup-demo.gif)
 
 
 
 <hr>
-##Additional
-####Designer notes
+##Additional Designer notes
 
-####Make sure you load the google font in your `<head/>` *before* your `style.css` file
-```html
-<head>
-      ...<!--  your title, meta tags, etc. -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-      <link rel="stylesheet" href="./css/styles.css">
-</head>
+####Palette
+```
+orange color: #F55E05
+green color: #29BBAF
+light-green color: #B0E6E2
+font stack : "Libre Franklin", "Helvetica", "sans-serif"
 ```
 
-####Configuration
+####Font 
+1. Load the font from googlefonts:
 
+  ```html
+  <head>
+      ...<!--  your title, meta tags, etc. -->
+      <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:200,200i,400,400i,700,700i" rel="stylesheet">
+      <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  ```
+
+2. Reference in `.css`
+  ```css
+  body {
+     font-family:
+  }
+  ```
 
 ##Adventure Mode
 + Use the `:hover` pseudo class to apply hover-styles to the buttons

@@ -45,7 +45,7 @@ link color: 77A8D2
 #####*Design Specs*
 ```
 fonts: Avenir
-color: `#66CC99`
+selected itmem font color: `#66CC99`
 ```
 
 
@@ -65,7 +65,7 @@ images:
 ```
 
 ##### Hint
-- to link to the images in the `src` attribute, you may have to go up a directory (`../`) and then traverse down into `/images` 
+- to link to the images in the `src` attribute, you may have to go up a directory (`../`) in order to access the image-file in the `/images` directory 	
 
 <hr/>
 ###Navigation Menu
