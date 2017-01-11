@@ -35,19 +35,38 @@ To receive a passing grade on this assignment, you must
 - a `style.css` file
 - a repository on github titled `basic-layout-and-positioning-stride`
 
-<hr>
+##Setup
 
-##Mockups
+Create up the assignment-folder and download the images into the assignment-folder.
+```
+cd ~/TIY/assignments
+mkdir assignment-04
+cd assignment-04
+curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/basic-layout-and-positioning-stride/images.zip > images.zip 
+```
+Inside of the `assignment-04/` directory you will need to: 
++ create the `index.html` 
++ `style.css` file in a `css/` folder
++  link the `index.html` file to the `style.css` 
++ include in your `style.css`
+  ```css
+  * {
+      box-sizing: border-box
+  }
+  ```
+
+
+##Part 1 -- Basic Layout
+![mockup pt 2](./mockups/stride-layout-part1.png)
+
+##Part 2 -- Navbar + Position Elements on the Page
 ![mockup](./mockups/stride-mockup-demo.gif)
+
 
 
 <hr>
 ##Additional
 ####Designer notes
-
-
-####Image Assets
-[link to zip file](./images.zip)
 
 ####Make sure you load the google font in your `<head/>` *before* your `style.css` file
 ```html
@@ -59,13 +78,7 @@ To receive a passing grade on this assignment, you must
 ```
 
 ####Configuration
-**NOTE: At the top of your stylesheet make sure you apply the style rule `box-sizing: border-box` to *all* elements**
 
-```css
-* {
-    box-sizing: border-box
-}
-```
 
 ##Adventure Mode
 + Use the `:hover` pseudo class to apply hover-styles to the buttons
