@@ -48,16 +48,18 @@ Inside of the `assignment-04/` directory you will need to:
 + create the `index.html` 
 + `style.css` file in a `css/` folder
 +  link the `index.html` file to the `style.css` 
-+ include in your `style.css`
-  ```css
-  * {
-      box-sizing: border-box
-  }
-  ```
+
+**NOTE:** At the top of your stylesheet make sure you apply the style rule `box-sizing: border-box` to *all* elements
+
+```css
+* {
+    box-sizing: border-box
+}
+```
 
 
 ##Part 1 -- Basic Layout
-![mockup pt 2](./mockups/stride-layout-part1.png)
+![mockup pt 1](./mockups/stride-layout-part-1.png)
 
 ##Part 2 -- Navbar + Position Elements on the Page
 ![mockup](./mockups/stride-mockup-demo.gif)
