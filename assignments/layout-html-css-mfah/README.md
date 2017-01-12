@@ -26,7 +26,20 @@ You should:
 - a `style.css` file with the styles
 - a Github repository and a live static site on Github Pages.
 
-<hr>
+<hr/>
+##Setup
+1. In `~/TIY/assignments`, create a directory for this assignment (e.g. `assignment-05`).
+2. `cd` into the new assignment directory and create your project files & folders:
+  - `index.html`
+  - `css/`
+    - `style.css`
+3. Download the images and unzip:
+```
+curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/layout-html-css-mfah/image-files.zip > image-files.zip
+unzip image-files.zip
+```
+
+<hr/>
 
 ##Normal Mode
 Create a site based on the mockup as shown below.
@@ -46,11 +59,17 @@ Also note that the search box at the bottom right becomes hidden on < 768px.
 <hr>
 
 ##Additional Information
+#### Designer Specs
+- The font stack for the project is: Helvetica Neue, Helvetica, sans-serif
+- Blue fixed call-to-action in bottom-right background-color: #3A539B
+- Anchor tag color: #3E7FBB.
+- Red color: #DB4B38 
 
+
+#### Copywriter's Text
 The **copywriter's text** can be found [here](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/layout-html-css-mfah/mfah-architecture-site-copy.txt).
 
-The **image assets** can be found [here](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/tree/master/assignments/layout-html-css-mfah/assets).
-
+#### Suggested
 **NOTE: At the top of your stylesheet make sure you apply the style rule `box-sizing: border-box` to *all* elements**
 
 ```css
@@ -59,4 +78,3 @@ The **image assets** can be found [here](https://github.com/TIY-Charleston-Front
 }
 ```
 
-The font stack for the project is: Helvetica Neue, Helvetica, sans-serif
