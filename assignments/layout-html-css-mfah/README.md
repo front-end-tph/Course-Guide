@@ -32,7 +32,7 @@ You should:
 Create a site based on the mockup as shown below.
 
 ###The full-screen layout
-![full](https://github.com/t3patterson/TIY-2016-Q3/blob/master/assignments/03-layout-html-css-mfah/mfah-fullscreen.gif)
+![full](https://github.com/t3patterson/TIY-2016-Q3/blob/master/assignments/layout-html-css-mfah/mfah-fullscreen.gif)
 
 <hr>
 
@@ -41,15 +41,15 @@ Use media-queries to create a responsive site. The site should be one column on 
 
 Also note that the search box at the bottom right becomes hidden on < 768px.
 
-![mobile](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/03-layout-html-css-mfah/mfah-mobile-layout-mockup.png)
+![mobile](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/layout-html-css-mfah/mfah-mobile-layout-mockup.png)
 
 <hr>
 
 ##Additional Information
 
-The **copywriter's text** can be found [here](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/03-layout-html-css-mfah/mfah-architecture-site-copy.txt).
+The **copywriter's text** can be found [here](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/layout-html-css-mfah/mfah-architecture-site-copy.txt).
 
-The **image assets** can be found [here](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/tree/master/assignments/03-layout-html-css-mfah/assets).
+The **image assets** can be found [here](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/tree/master/assignments/layout-html-css-mfah/assets).
 
 **NOTE: At the top of your stylesheet make sure you apply the style rule `box-sizing: border-box` to *all* elements**
 
