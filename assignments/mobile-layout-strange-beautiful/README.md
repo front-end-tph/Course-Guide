@@ -22,64 +22,61 @@ You should:
 ##Deliverables 
 - an `index.html` file with the content
 
-- a project that compiles SCSS to CSS.
-  - there should be a `main.scss` in a `/scss` folder
-  - all the SCSS should compile to `styles.css` in a `css` folder
-  - the `index.html` should link to the `styles.css` file
-
 - a site that has a responsive layout for
   - mobile (< 768px)
-  - tablet (768px - 1024px)
-  - desktop (> 1024px)
+  - tablet (768px - 992px)
+  - desktop (> 992px)
 
-- a Github repository and a live static site on Github Pages. 
+- a Github repository
 
 <hr>
 
-##From the Designer
+##Mockups
 ###The mobile layout
-![mobile](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/04-mobile-layout-strange-beautiful/mockup/sb-mobile.png)
+![mobile](./mockup/sb-mobile.png)
 
 <hr>
 ###The tablet layout
-![tablet](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/04-mobile-layout-strange-beautiful/mockup/sb-tablet.png)
+![tablet](./mockup/sb-tablet.png)
 
 <hr>
 ###The full-screen layout
-![full](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/04-mobile-layout-strange-beautiful/mockup/sb-desktop.png)
+![full](./mockup/sb-desktop.png)
 
 <hr>
-##Additional
-####The images
-[link to zip file](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/04-mobile-layout-strange-beautiful/images.zip)
+##Setup
+1. In the Terminal, go to your `~/TIY/assignments`
+2. Make a folder for whatever number this assignment is (e.g. `assignment-06`)
+3. Change directories into the project's assignment folder that you just created
+4. Install the images with the curl command + unzip 
+  - In Terminal:
+  ```sh
+  curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/mobile-layout-strange-beautiful/images.zip > images.zip
 
-####To Configure SCSS
-1. Create a `scss` directory and create a `main.scss` file within. 
-2. From the project's root directory, run: 
+  unzip images.zip
   ```
-  sass --watch scss/main.scss:css/styles.css
-  ```
-3. Do your styles in the `/scss/main.scss` file, ideally taking advantage of SCSS features.
-4. When you save your `main.scss
-5. Open a new tab in your terminal (one tab for watching, another tab for navigating and operating on your file system)
-6. `ctrl` + `C` will stop the SCSS watcher
+5. Create the project files: (index.html, css folder, style.css file)
 
 
-####Apply the style rule `box-sizing: border-box` to *all* elements
 
+## Notes
+**(1) Apply some useful CSS style rules**
 ```css
 * {
     box-sizing: border-box
 }
+
+img{
+   width: 100%;
+   display: block;
+}
 ```
 
-The font stack for the project is: Helvetica Neue, Helvetica, sans-serif
+**(2) Designer Notes**
++ font-family is sans-serif
+
 
 
 ###Adventure Mode
 Create a menu that appears on hover for the desktop version.
-![adventure mode](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/04-mobile-layout-strange-beautiful/mockup/sb-adventure-mode-hover-menu.gif)
-
-###Epic Mode 
-Create a menu whose display toggles on click for the mobile version.
-![epic mode](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/04-mobile-layout-strange-beautiful/mockup/sb-epic-mode-toggle-menu.gif)
+![adventure mode](./mockup/sb-adventure-mode-hover-menu.gif)
