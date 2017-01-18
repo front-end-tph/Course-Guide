@@ -1,7 +1,9 @@
 #Stride - Basic Layout + Element Positioning with CSS 
 
 ###Description
-Momofuku means lucky peach in Japanese. It is also a restaurant holding group with critically acclaimed and widely popular restaurants in various world class cities. For each restaurant, the company partners with a renowned chefs who support local farmers, sustainable food systems, and innovative  
+Momofuku means lucky peach in Japanese. It is also a restaurant holding group with critically acclaimed and widely popular restaurants in various world class cities. For each restaurant, the company partners with a renowned chefs who support local farmers, sustainable food systems, and innovative cuisines.
+
+They are contracting a frontend devloper to build an attractive landing page that underscores their existing branding efforts, targeting a simple elegance and a minimalist aesthetic. 	
 
 ###Objectives
 ####Learning Objectives
@@ -20,6 +22,7 @@ After completing this assignment you should:
   + `fixed`
   + `absolute`
   + `relative`
+- Integrate SCSS into your workflow
 - Create a responsive website
 
 ####Performance Objectives
@@ -37,23 +40,48 @@ To receive a passing grade on this assignment, you must
 
 <hr>
 
-##Mockups
-![mockup](./mockups/stride-mockup-demo.gif)
+## Normal Mode
+
+### Mobile Version
+![mobile-mockup](./mockups/demo-mobile.gif)
+
+### Medium Screen and Desktop Version
+![tablet-plus-mockup](./mockups/demo-tablet-plus.gif)
 
 
 <hr>
-##Additional
-####Designer notes
+## Additional
+#### Designer notes
 + Font for the project is **Hind** from Google fonts. Make sure you load the google font in your `<head/>` *before* your `style.css` file:
   ```
   <link href="https://fonts.googleapis.com/css?family=Hind:600" rel="stylesheet">
   ```
 
-####Image Assets
-[link to zip file](./images.zip)
 
-####Configuration
-**NOTE: At the top of your stylesheet make sure you apply the style rule `box-sizing: border-box` to *all* elements**
+###Setup
+##### 1. Create the following directory structure
+	```
+	+ assignment-XX/
+	|
+	| - index.html
+	|
+	| - + css/
+	|   | 
+	|   | - styles.css
+	|
+	| - + scss/
+	|   | 
+	|   | - main.scss
+
+	```
+
+##### 2. Download the image files, move them into your project-directory, and unzip from your project-directory
+  - [link to dowload image zip file](./images-momofuku.zip)
+    - *Note: will likely end up in your `~/Downloads/` directory*
+
+
+##### 3. Set Default Styles
+At the top of your stylesheet make sure you apply the style rule `box-sizing: border-box` to *all* elements:
 
 ```css
 * {
@@ -61,12 +89,34 @@ To receive a passing grade on this assignment, you must
 }
 ```
 
-##Adventure Mode
+##### 4. Configure `<head>` element of `index.html`
+- `<meta>` tags for utf-8 charset and device-width for mobile viewing
+- icon fonts + [google font](https://fonts.google.com/)
+  - note: you will reference the google font in your css markup : `font-family: "Hind", "Futura", "sans-serif"`
+```
+<head>	
+	  <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link href="https://fonts.googleapis.com/css?family=Hind:600" rel="stylesheet">
+	  <link href="./css/styles.css" rel="stylesheet">
+	<head>
+<head>
+```
+
+##### 5. In Terminal, start you SCSS watcher
+```
+scss ./scss/main.scss:./css/styles.css --watch
+```
+
+
+## Adventure Mode (optional)
 + Use the `:hover` pseudo class to apply hover-styles to the elements shown below 
    + *Note*: When you hover over the images it should reveal additional content.
 
 
 
-##Epic Mode
+
+##Epic Mode(optional)
 
 + Create a mobile menu for the that shows and hides additional navigation elements through a dropdown when the user clicks the toggleable navigation option.
