@@ -1,4 +1,4 @@
-#Stride - Basic Layout + Element Positioning with CSS 
+# Intro to SCSS - Responsive Design with SCSS - Momofuku 
 
 ###Description
 Momofuku means lucky peach in Japanese. It is also a restaurant holding group with critically acclaimed and widely popular restaurants in various world class cities. For each restaurant, the company partners with a renowned chefs who support local farmers, sustainable food systems, and innovative cuisines.
