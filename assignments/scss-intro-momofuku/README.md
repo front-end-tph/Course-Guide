@@ -59,7 +59,7 @@ To receive a passing grade on this assignment, you must
 
 
 ###Setup
-##### 1. Create the following directory structure
+#### 1. Create the following directory structure
 	```
 	+ assignment-XX/
 	|
@@ -75,12 +75,12 @@ To receive a passing grade on this assignment, you must
 
 	```
 
-##### 2. Download the image files, move them into your project-directory, and unzip from your project-directory
+#### 2. Download the image files, move them into your project-directory, and unzip from your project-directory
   - [link to dowload image zip file](./images-momofuku.zip)
     - *Note: will likely end up in your `~/Downloads/` directory*
 
 
-##### 3. Set Default Styles
+#### 3. Set Default Styles
 At the top of your stylesheet make sure you apply the style rule `box-sizing: border-box` to *all* elements:
 
 ```css
@@ -89,7 +89,7 @@ At the top of your stylesheet make sure you apply the style rule `box-sizing: bo
 }
 ```
 
-##### 4. Configure `<head>` element of `index.html`
+#### 4. Configure `<head>` element of `index.html`
 - `<meta>` tags for utf-8 charset and device-width for mobile viewing
 - icon fonts + [google font](https://fonts.google.com/)
   - note: you will reference the google font in your css markup : `font-family: "Hind", "Futura", "sans-serif"`
@@ -104,12 +104,13 @@ At the top of your stylesheet make sure you apply the style rule `box-sizing: bo
 <head>
 ```
 
-##### 5. In Terminal, start your SCSS watcher
+#### 5. In Terminal, start your SCSS watcher
 + *IMPORTANT:* you can only execute the watch task runner from the root directory of your project.
   - Example: `cd ~/TIY/assignment-07`
 ```
 scss ./scss/main.scss:./css/styles.css --watch
 ```
++ *NOTE*: You may want to have 2 tabs open : 1 for the watcher and 1 to navigate around your terminal. You can open a new tab in your terminal w/ `⌘T`.
 
 
 ## Adventure Mode (optional)
