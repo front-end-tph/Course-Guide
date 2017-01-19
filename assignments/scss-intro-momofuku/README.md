@@ -119,7 +119,6 @@ scss ./scss/main.scss:./css/styles.css --watch
 
 
 
-
 ##Epic Mode(optional)
 
 + Create a mobile menu for the that shows and hides additional navigation elements through a dropdown when the user clicks the toggleable navigation option.
