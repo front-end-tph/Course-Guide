@@ -32,11 +32,11 @@ After completing this assignment you should be able to
 ##Mockups
 
 ###Mobile
-[link to mobile mockup](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/06-css-frameworks-solrod-strandd/mockup/solriod-landing-mobile-layout.png)
+[link to mobile mockup](./mockup/solrod-landing-mobile-layout.png)
 <hr/>
 
 ###Full Screen
-[link to full-screen mockup](https://github.com/t3patterson/TIY-2016-Q3/blob/master/assignments/06-css-frameworks-solrod-strandd/mockup/solrod-landing-full-layout.png)
+[link to full-screen mockup](./mockup/solrod-landing-full-layout.png)
 
 
 <hr>
