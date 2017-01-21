@@ -47,7 +47,7 @@ After completing this assignment you should be able to
 - the fancy header fonts are  _Palatino_
 
 ####Image Assets
-[link to zip file](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/06-css-frameworks-solrod-strandd/image-assets.zip)
+[link to zip file](./image-assets.zip)
 <small>(you will have to download from github and move it to your project directory)</small>
 
 ####Make sure you include Bootstrap and fontawesome in your `<head/>` *before* your `style.css` file
