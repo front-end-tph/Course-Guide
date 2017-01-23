@@ -6,6 +6,7 @@
 // it does not count towards the sum.
 
 
+//*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 
 console.assert( loneSum(1,2,3) === 6)
 console.assert( loneSum(11,9,5) === 25)

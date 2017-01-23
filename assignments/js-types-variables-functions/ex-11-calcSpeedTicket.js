@@ -21,28 +21,11 @@
 //  calcSpeedTicket(20, 30, true) 
 //  => 150
 
-function calcSpeedTicket(speedLimit, userSpeed, fineDoubles){
-	var fineTotal = 0
 
-	if( userSpeed < speedLimit + 5 ){
-		return fineTotal
-	}
-	
-	if(userSpeed < speedLimit + 20){
-		fineTotal = 150
-	}
-	
-	if(userSpeed >= speedLimit + 20){
-		fineTotal = 250
-	}
 
-	if(fineDoubles){
-		fineTotal = fineTotal * 2
-	}
 
-	return fineTotal
-	
-}
+
+//*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 
 console.assert( calcSpeedTicket(25, 40, false) === 150  )
 console.assert( calcSpeedTicket(65, 72, true) === 300  )
