@@ -1,5 +1,5 @@
 let problemGroup = [
-   // Demo-1: addMoreEnthusiam()
+   // ex-1: addMoreEnthusiam()
 	{
      //(SETUP-1)
 		name: 'addMoreEnthusiam',   							//(SETUP-2a)                          //(SETUP-2b)
@@ -45,55 +45,7 @@ let problemGroup = [
 		
 	},
 	
-	// Demo-2: makeSimpleGreeting()
-	{
-		name: 'makeSimpleGreeting',
-		globalFunc: typeof makeSimpleGreeting !== 'undefined' && makeSimpleGreeting || 'undefined-function',
-		runTests: function(){
-			let assertions = []
-
-			//PART 1
-			let userOutput_1 = makeSimpleGreeting("Atushi", true) 
-			let assert_1 = new Assertion({
-            assertion_description: '<code>funcOutput1  === "Welcome back, Atushi."</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: "Welcome back, Atushi.",
-            actual: userOutput_1
-         })
-        
-			
-			//PART 2
-			let userOutput_2 = makeSimpleGreeting("Mira", false)
-			let assert_2 = new Assertion({
-            assertion_description: '<code>funcOutput2 === "Hello there, Mira!"</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: "Hello there, Mira!",
-				actual: userOutput_2
-         })
-			
-			let userOutput_3 = makeSimpleGreeting("Nico", false);
-			let assert_3 = new Assertion({
-            assertion_description: '<code>funcOutput3 !== "Welcome back, Nico.</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 !== arg2 },
-            expected: "Hello there, Nico!",
-				actual: userOutput_3
-         })
-
-
-			
-			assert_1.testAssertion( userOutput_1, assert_1.expected)
-			assert_2.testAssertion( userOutput_2, assert_2.expected)
-			assert_3.testAssertion( userOutput_3, "Welcome back, Nico." )
-
-			assertions.push(assert_1)
-			assertions.push(assert_2)
-			assertions.push(assert_3)
-
-			return assertions
-		},
-	},
-	
-	// ex-1: simpleSum()
+	// ex-2: simpleSum()
 	{
 		name: 'simpleSum',
 		globalFunc: typeof simpleSum !== 'undefined' && simpleSum || 'undefined-function',
@@ -142,7 +94,7 @@ let problemGroup = [
 		},
 	},
 	
-	// ex-2: getAverage()
+	// ex-3: getAverage()
 	{
 		name: 'getAverage',
 		globalFunc: typeof getAverage !== 'undefined' && getAverage || 'undefined-function',
@@ -178,7 +130,7 @@ let problemGroup = [
 		},
 	},
 	
-	// ex-3: isNegative()
+	// ex-4: isNegative()
 	{
 		name: 'isNegative',
 		globalFunc: typeof isNegative !== 'undefined' && isNegative || 'undefined-function',
@@ -227,7 +179,55 @@ let problemGroup = [
 		},
 	},
 	
-	// ex-4: robustSum()
+	// ex-5: makeSimpleGreeting()
+	{
+		name: 'makeSimpleGreeting',
+		globalFunc: typeof makeSimpleGreeting !== 'undefined' && makeSimpleGreeting || 'undefined-function',
+		runTests: function(){
+			let assertions = []
+
+			//PART 1
+			let userOutput_1 = makeSimpleGreeting("Atushi", true) 
+			let assert_1 = new Assertion({
+            assertion_description: '<code>funcOutput1  === "Welcome back, Atushi."</code>',
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: "Welcome back, Atushi.",
+            actual: userOutput_1
+         })
+        
+			
+			//PART 2
+			let userOutput_2 = makeSimpleGreeting("Mira", false)
+			let assert_2 = new Assertion({
+            assertion_description: '<code>funcOutput2 === "Hello there, Mira!"</code>',
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: "Hello there, Mira!",
+				actual: userOutput_2
+         })
+			
+			let userOutput_3 = makeSimpleGreeting("Nico", false);
+			let assert_3 = new Assertion({
+            assertion_description: '<code>funcOutput3 !== "Welcome back, Nico.</code>',
+            assertion_predicate:  function(arg1, arg2){ return arg1 !== arg2 },
+            expected: "Hello there, Nico!",
+				actual: userOutput_3
+         })
+
+
+			
+			assert_1.testAssertion( userOutput_1, assert_1.expected)
+			assert_2.testAssertion( userOutput_2, assert_2.expected)
+			assert_3.testAssertion( userOutput_3, "Welcome back, Nico." )
+
+			assertions.push(assert_1)
+			assertions.push(assert_2)
+			assertions.push(assert_3)
+
+			return assertions
+		},
+	},	
+	
+	// ex-6: robustSum()
 	{
 		name: 'robustSum',
 		globalFunc: typeof robustSum !== 'undefined' && robustSum || 'undefined-function',
@@ -276,7 +276,7 @@ let problemGroup = [
 		}
 	},
 
-	// ex-5: getMinimum()
+	// ex-7: getMinimum()
 	{
 		name: 'getMinimum',
 		globalFunc: typeof getMinimum !== 'undefined' && getMinimum || 'undefined-function',
@@ -335,7 +335,7 @@ let problemGroup = [
 		},
 	},
 	
-	// ex-6: justOneString()
+	// ex-8: justOneString()
 	{
 		name: 'justOneString',
 		globalFunc: typeof justOneString !== 'undefined' && justOneString || 'undefined-function',
@@ -394,7 +394,7 @@ let problemGroup = [
 		},
 	},
 
-	// ex-7: getSeasonForMonth()
+	// ex-9: getSeasonForMonth()
 	{
 		name: 'getSeasonForMonth',
 		globalFunc: typeof getSeasonForMonth !== 'undefined' && getSeasonForMonth || 'undefined-function',
@@ -513,7 +513,7 @@ let problemGroup = [
 		},
 	},
 	
-	// ex-8: loneSum()
+	// ex-10: loneSum()
 	{
 		name: 'loneSum',
 		globalFunc: typeof loneSum !== 'undefined' && loneSum || 'undefined-function',
@@ -581,7 +581,8 @@ let problemGroup = [
 			return assertions
 		}
 	},
-	// ex-9: calcSpeedTicket()
+	
+	// ex-11: calcSpeedTicket()
 	{
 		name: 'calcSpeedTicket',
 		globalFunc: typeof calcSpeedTicket !== 'undefined' && calcSpeedTicket || 'undefined-function',

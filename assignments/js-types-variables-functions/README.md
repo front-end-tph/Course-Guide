@@ -11,10 +11,14 @@
 
 2. Curl and unzip the assignment files
   - Ex:
-  ```
-  unzip 
+  ```sh
+  curl  https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/js-types-variables-functions/js-types-variables-functions.zip > js-types-variables-functions.zip
+  unzip
   ```
   
+3. Write the functions for each exercise that make the tests pass. You will only be working in the files that are structured like so: `ex-00-someExercise.js`. You can see your output and 
 
+### Tips
+1. Use `console.log` to inspect what is happening inside your functions
+2. Make sure you are always `return` a value from your functions
 
-###Instructions
