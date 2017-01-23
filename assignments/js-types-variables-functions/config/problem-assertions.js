@@ -65,7 +65,7 @@ let problemGroup = [
 			//PART 2
 			let userOutput_2 = simpleSum(4, 101)
 			let assert_2 = new Assertion({
-            assertion_description: '<code>simpleSum(4, 101) === 19</code>',
+            assertion_description: '<code>simpleSum(4, 101) === 105</code>',
             assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
             expected: 105,
 				actual: userOutput_2
