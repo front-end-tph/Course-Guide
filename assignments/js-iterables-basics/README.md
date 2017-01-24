@@ -12,7 +12,7 @@
 2. Curl and unzip the assignment files
   - Ex:
   ```sh
-  curl  https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/js-types-variables-functions/js-types-variables-functions.zip > js-types-variables-functions.zip
+  curl  https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/js-iterables-basics/js-iterables-basics.zip > js-types-variables-functions.zip
   unzip js-types-variables-functions.zip
   open index.html
   ```
