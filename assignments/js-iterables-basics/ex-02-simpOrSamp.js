@@ -8,19 +8,11 @@
  * 
 */
 
-function simpOrSamp(list){
-	var newList = [];
-	for( var i = 0; i < list.length; i++){
-		if( list[i].length < 6 ){
- 			newList.push(list[i] + " Sampson")
-		} else {
-			newList.push(list[i] + " Simpson")
-		}
-	}
-	
-	console.log(newList)
-	return newList
-}
+
+
+
+
+
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
