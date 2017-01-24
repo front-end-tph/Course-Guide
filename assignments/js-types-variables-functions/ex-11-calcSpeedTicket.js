@@ -13,12 +13,13 @@
 //   less than 20 mph             : $150
 //   20 mph or more               : $250
 //
+//   x 2
 
 // Examples:
 //  calcSpeedTicket(20, 30, true) 
 //  => 300
 
-//  calcSpeedTicket(20, 30, true) 
+//  calcSpeedTicket(20, 30, false) 
 //  => 150
 
 

@@ -2,8 +2,8 @@ let problemGroup = [
    // ex-1: addMoreEnthusiam()
 	{
      //(SETUP-1)
-		name: 'addMoreEnthusiam',   							//(SETUP-2a)                          //(SETUP-2b)
-		globalFunc: typeof addMoreEnthusiam !== 'undefined' && addMoreEnthusiam || 'undefined-function',
+		name: 'simpOrSamp',   							//(SETUP-2a)                          //(SETUP-2b)
+		globalFunc: typeof simpOrSamp !== 'undefined' && addMoreEnthusiam || 'undefined-function',
 		runTests: function(){
 			
 		   //(SETUP-4)
