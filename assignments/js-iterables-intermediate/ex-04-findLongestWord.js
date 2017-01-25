@@ -8,10 +8,6 @@
 
 
 
-
-
-
-
 console.assert(findLongestWord('i have baskets full of lemons') === 'baskets')
 console.assert(findLongestWord("Alexander shouldn't talk anymore") === 'Alexander')
 console.assert(findLongestWord("don't mess with Texas") === 'Texas')

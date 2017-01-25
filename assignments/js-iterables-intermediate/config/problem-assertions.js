@@ -234,7 +234,7 @@ let problemGroup = [
 			assert_1.testAssertion(userOutput_1, assert_1.expected)
 			assert_2.testAssertion(userOutput_2, assert_2.expected)
 			assert_3.testAssertion(userOutput_3, assert_3.expected)
-			assert_3.testAssertion(userOutput_4, assert_4.expected)
+			assert_4.testAssertion(userOutput_4, assert_4.expected)
 
 
 			//SETUP-5d
@@ -339,6 +339,223 @@ let problemGroup = [
 			return assertions
 		},
 		
+	},
+
+	// ex-6: hasComplements()
+	{
+		name: 'hasComplements',   							                              //(SETUP-2b)
+		globalFunc: typeof hasComplements !== 'undefined' && hasComplements || 'undefined-function',
+		runTests: function(){
+			
+		   //(SETUP-4)
+			let assertions = []
+			
+			var oddsArray = [1, 3, 5, 7, 9, 11, 13]
+			var anotherArray = [2, 5, 6, 8, 12]
+
+			//SETUP-5a
+			let userOutput_1 = hasComplements(6,  oddsArray)
+			//SETUP-5b
+			let assert_1 = new Assertion({
+            assertion_description: `<code>hasComplements(6,  oddsArray) === true</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: true,
+            actual: userOutput_1
+         })
+
+
+			//PART 2
+			let userOutput_2 = hasComplements(7, oddsArray)
+
+			let assert_2 = new Assertion({
+            assertion_description: `<code>hasComplements(7, oddsArray) === false</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: false,
+            actual: userOutput_2
+         })
+
+			//PART 2
+			let userOutput_3 = hasComplements(14, oddsArray)
+
+			let assert_3 = new Assertion({
+            assertion_description: `<code>hasComplements(14, oddsArray) === true</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: true,
+            actual: userOutput_3
+         })
+
+
+			let userOutput_4 = hasComplements(17, oddsArray)
+
+			let assert_4 = new Assertion({
+            assertion_description: `<code>hasComplements(17, oddsArray) === false</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: false,
+            actual: userOutput_4
+         })
+
+
+			let userOutput_5 = hasComplements(7, anotherArray)
+
+			let assert_5 = new Assertion({
+            assertion_description: `<code>hasComplements(7, anotherArray) === true</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: true,
+            actual: userOutput_5
+         })
+
+
+			let userOutput_6 = hasComplements(9,  anotherArray)
+
+			let assert_6 = new Assertion({
+            assertion_description: `<code>hasComplements(9,  anotherArray) === false</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: false,
+            actual: userOutput_6
+         })
+
+			let userOutput_7 = hasComplements(14,  anotherArray)
+
+			let assert_7 = new Assertion({
+            assertion_description: `<code>hasComplements(14, anotherArray) === true</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: true,
+            actual: userOutput_7
+         })
+
+			let userOutput_8 = hasComplements(15, anotherArray)
+
+			let assert_8 = new Assertion({
+            assertion_description: `<code>hasComplements(15, anotherArray) === false</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: false,
+            actual: userOutput_8
+         })
+			
+			//SETUP-5c
+			assert_1.testAssertion(userOutput_1, assert_1.expected)
+			assert_2.testAssertion(userOutput_2, assert_2.expected)
+			assert_3.testAssertion(userOutput_3, assert_3.expected)
+			assert_4.testAssertion(userOutput_4, assert_4.expected)
+			assert_5.testAssertion(userOutput_5, assert_5.expected)
+			assert_6.testAssertion(userOutput_6, assert_6.expected)
+			assert_7.testAssertion(userOutput_7, assert_7.expected)
+			assert_8.testAssertion(userOutput_8, assert_8.expected)
+
+
+			//SETUP-5d
+			assertions.push(assert_1)
+			assertions.push(assert_2)
+			assertions.push(assert_3)
+			assertions.push(assert_4)
+			assertions.push(assert_5)
+			assertions.push(assert_6)
+			assertions.push(assert_7)
+			assertions.push(assert_8)
+
+
+			return assertions
+		}
+	},
+		// ex-7: makePairs()
+
+	{
+		name: 'makePairs',   							                              //(SETUP-2b)
+		globalFunc: typeof makePairs !== 'undefined' && makePairs || 'undefined-function',
+		runTests: function(){
+			
+		   //(SETUP-4)
+			let assertions = []
+			
+			var pairsOutput = makePairs([10,20,30,40,50,60,70,80]) 
+			var firstPair = pairsOutput[0];
+			var thirdPair = pairsOutput[2];
+
+
+			//SETUP-5a
+			let userOutput_1 = pairsOutput.length 
+			//SETUP-5b
+			let assert_1 = new Assertion({
+            assertion_description: `<code>pairsOutput.length === 4</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: 4,
+            actual: userOutput_1
+         })
+
+
+			//PART 2
+			let userOutput_2 = firstPair.length
+
+			let assert_2 = new Assertion({
+            assertion_description: `<code>firstPair.length === 2</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: 2,
+            actual: userOutput_2
+         })
+
+			//PART 2
+			let userOutput_3 = firstPair[0]
+
+			let assert_3 = new Assertion({
+            assertion_description: `<code>firstPair[0] === 10</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: 10,
+            actual: userOutput_3
+         })
+
+
+			let userOutput_4 = firstPair[1]
+
+			let assert_4 = new Assertion({
+            assertion_description: `<code>firstPair[1] === 20</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: 20,
+            actual: userOutput_4
+         })
+
+
+			let userOutput_5 = thirdPair[0]
+
+			let assert_5 = new Assertion({
+            assertion_description: `<code>thirdPair[0] === 50</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: 50,
+            actual: userOutput_5
+         })
+
+
+			let userOutput_6 = thirdPair[1]
+
+			let assert_6 = new Assertion({
+            assertion_description: `<code>thirdPair[1] === 60</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: 60,
+            actual: userOutput_6
+         })
+
+			
+			//SETUP-5c
+			assert_1.testAssertion(userOutput_1, assert_1.expected)
+			assert_2.testAssertion(userOutput_2, assert_2.expected)
+			assert_3.testAssertion(userOutput_3, assert_3.expected)
+			assert_4.testAssertion(userOutput_4, assert_4.expected)
+			assert_5.testAssertion(userOutput_5, assert_5.expected)
+			assert_6.testAssertion(userOutput_6, assert_6.expected)
+
+
+			//SETUP-5d
+			assertions.push(assert_1)
+			assertions.push(assert_2)
+			assertions.push(assert_3)
+			assertions.push(assert_4)
+			assertions.push(assert_5)
+			assertions.push(assert_6)
+
+
+
+			return assertions
+		},
+	
 	},
 
 ]
