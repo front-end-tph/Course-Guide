@@ -258,7 +258,7 @@ let problemGroup = [
 			let assertions = []
 
 			//SETUP-5a
-			let userOutput_1 = fizzbuzz(1) === "."
+			let userOutput_1 = fizzbuzz(1) 
 			//SETUP-5b
 			let assert_1 = new Assertion({
             assertion_description: `<code>fizzbuzz(1) === "."`,
@@ -322,9 +322,9 @@ let problemGroup = [
 			assert_1.testAssertion(userOutput_1, assert_1.expected)
 			assert_2.testAssertion(userOutput_2, assert_2.expected)
 			assert_3.testAssertion(userOutput_3, assert_3.expected)
-			assert_3.testAssertion(userOutput_4, assert_4.expected)
-			assert_3.testAssertion(userOutput_5, assert_5.expected)
-			assert_3.testAssertion(userOutput_6, assert_6.expected)
+			assert_4.testAssertion(userOutput_4, assert_4.expected)
+			assert_5.testAssertion(userOutput_5, assert_5.expected)
+			assert_6.testAssertion(userOutput_6, assert_6.expected)
 
 
 			//SETUP-5d
