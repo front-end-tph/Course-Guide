@@ -1,654 +1,344 @@
 let problemGroup = [
-   // ex-1: addMoreEnthusiam()
+   // ex-1: sumPositives()
 	{
      //(SETUP-1)
-		name: 'simpOrSamp',   							//(SETUP-2a)                          //(SETUP-2b)
-		globalFunc: typeof simpOrSamp !== 'undefined' && addMoreEnthusiam || 'undefined-function',
+		name: 'sumPositives',   							//(SETUP-2a)                          //(SETUP-2b)
+		globalFunc: typeof sumPositives !== 'undefined' && sumPositives || 'undefined-function',
 		runTests: function(){
 			
 		   //(SETUP-4)
 			let assertions = []
 
 			//SETUP-5a
-			let userOutput_1 = addMoreEnthusiam("I want pizza")
+			let userOutput_1 = sumPositives([3, 4, 5, -3, -4])
 			//SETUP-5b
 			let assert_1 = new Assertion({
-            assertion_description: '<code>funcOutput1  === "I want pizza!!!"</code>',
+            assertion_description: '<code>sumPositives([3, 4, 5, -3, -4]) === 12</code>',
             assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: "I want pizza!!!",
+            expected: 12,
             actual: userOutput_1
          })
 
 
 			//PART 2
-			let userOutput_2 = addMoreEnthusiam("Hey")
+			let userOutput_2 = sumPositives([-11, 30,-20, 40, 100]);
 
 			let assert_2 = new Assertion({
-            assertion_description: '<code> funcOutput2 === "Hey!!!"</code>',
+            assertion_description: '<code>sumPositives([-11, 30,-20, 40, 100]) === 170</code>',
             assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: "Hey!!!",
+            expected: 170,
             actual: userOutput_2
+         })
+
+			//PART 2
+			let userOutput_3 = sumPositives([4 ,-10,-30, -4, 201]);
+
+			let assert_3 = new Assertion({
+            assertion_description: '<code>sumPositives([4 ,-10,-30, -4, 201]) === 205</code>',
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: 205,
+            actual: userOutput_3
          })
 
 			//SETUP-5c
 			assert_1.testAssertion(userOutput_1, assert_1.expected)
-			
 			assert_2.testAssertion(userOutput_2, assert_2.expected)
+			assert_3.testAssertion(userOutput_3, assert_3.expected)
 
 
 			//SETUP-5d
 			assertions.push(assert_1)
 			assertions.push(assert_2)
-		
-			return assertions
-		},
-		
-	},
-	
-	// ex-2: simpleSum()
-	{
-		name: 'simpleSum',
-		globalFunc: typeof simpleSum !== 'undefined' && simpleSum || 'undefined-function',
-		runTests: function(){
-			let assertions = []
-
-			//PART 1
-			let userOutput_1 = simpleSum(8, 11) 
-			let assert_1 = new Assertion({
-            assertion_description: '<code>simpleSum(8, 11) === 19</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 19,
-            actual: userOutput_1
-         })
-        
-			
-			//PART 2
-			let userOutput_2 = simpleSum(4, 101)
-			let assert_2 = new Assertion({
-            assertion_description: '<code>simpleSum(4, 101) === 105</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 105,
-				actual: userOutput_2
-         })
-
-			
-			let userOutput_3 = simpleSum(2,2);
-			let assert_3 = new Assertion({
-            assertion_description: '<code>simpleSum(2, 2) !== 5</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 !== arg2 },
-            expected: 4,
-				actual: userOutput_3
-         })
-
-
-			
-			assert_1.testAssertion( userOutput_1, assert_1.expected)
-         assert_2.testAssertion( userOutput_2, assert_2.expected)
-			assert_3.testAssertion( userOutput_3 , 5 )
-
-			assertions.push(assert_1)
-			assertions.push(assert_2)
 			assertions.push(assert_3)
 
 			return assertions
 		},
+		
 	},
 	
-	// ex-3: getAverage()
+   // ex-2: hasDoubleLetters()
 	{
-		name: 'getAverage',
-		globalFunc: typeof getAverage !== 'undefined' && getAverage || 'undefined-function',
+		name: 'hasDoubleLetters',   							                              //(SETUP-2b)
+		globalFunc: typeof hasDoubleLetters !== 'undefined' && hasDoubleLetters || 'undefined-function',
 		runTests: function(){
+			
+		   //(SETUP-4)
 			let assertions = []
 
-			//PART 1
-			let userOutput_1 = getAverage(18, 22) 
+			//SETUP-5a
+			let userOutput_1 = hasDoubleLetters('stutter')
+			//SETUP-5b
 			let assert_1 = new Assertion({
-            assertion_description: '<code>getAverage(8, 11) === 19</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 20,
-            actual: userOutput_1
-         })
-        
-			
-			//PART 2
-			let userOutput_2 = getAverage(100, 200)
-			let assert_2 = new Assertion({
-            assertion_description: '<code>getAverage(4, 101) === 19</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 150,
-				actual: userOutput_2
-         })
-			
-			assert_1.testAssertion( userOutput_1, assert_1.expected)
-         assert_2.testAssertion( userOutput_2, assert_2.expected)
-
-			assertions.push(assert_1)
-			assertions.push(assert_2)
-
-			return assertions
-		},
-	},
-	
-	// ex-4: isNegative()
-	{
-		name: 'isNegative',
-		globalFunc: typeof isNegative !== 'undefined' && isNegative || 'undefined-function',
-		runTests: function(){
-			let assertions = []
-
-			//PART 1
-			let userOutput_1 = isNegative(10) 
-			let assert_1 = new Assertion({
-            assertion_description: '<code>isNegative(10) === false</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: false,
-            actual: userOutput_1
-         })
-        
-			
-			//PART 2
-			let userOutput_2 = isNegative(0)
-			let assert_2 = new Assertion({
-            assertion_description: `<code>isNegative(0) === false</code>`,
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: false,
-				actual: userOutput_2
-         })
-
-			//PART 3
-			let userOutput_3 = isNegative(-999) 
-			let assert_3 = new Assertion({
-            assertion_description: '<code>isNegative(-999) === true</code>',
+            assertion_description: "<code>hasDoubleLetters('stutter') === true",
             assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
             expected: true,
-				actual: userOutput_3
-         })
-			
-			
-			assert_1.testAssertion( userOutput_1, assert_1.expected)
-         assert_2.testAssertion( userOutput_2, assert_2.expected)
-         assert_3.testAssertion( userOutput_3, assert_3.expected)
-
-			assertions.push(assert_1)
-			assertions.push(assert_2)
-			assertions.push(assert_3)
-
-
-			return assertions
-		},
-	},
-	
-	// ex-5: makeSimpleGreeting()
-	{
-		name: 'makeSimpleGreeting',
-		globalFunc: typeof makeSimpleGreeting !== 'undefined' && makeSimpleGreeting || 'undefined-function',
-		runTests: function(){
-			let assertions = []
-
-			//PART 1
-			let userOutput_1 = makeSimpleGreeting("Atushi", true) 
-			let assert_1 = new Assertion({
-            assertion_description: '<code>funcOutput1  === "Welcome back, Atushi."</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: "Welcome back, Atushi.",
             actual: userOutput_1
          })
-        
-			
+
+
 			//PART 2
-			let userOutput_2 = makeSimpleGreeting("Mira", false)
+			let userOutput_2 = hasDoubleLetters('prospect');
+
 			let assert_2 = new Assertion({
-            assertion_description: '<code>funcOutput2 === "Hello there, Mira!"</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: "Hello there, Mira!",
-				actual: userOutput_2
-         })
-			
-			let userOutput_3 = makeSimpleGreeting("Nico", false);
-			let assert_3 = new Assertion({
-            assertion_description: '<code>funcOutput3 !== "Welcome back, Nico.</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 !== arg2 },
-            expected: "Hello there, Nico!",
-				actual: userOutput_3
-         })
-
-
-			
-			assert_1.testAssertion( userOutput_1, assert_1.expected)
-			assert_2.testAssertion( userOutput_2, assert_2.expected)
-			assert_3.testAssertion( userOutput_3, "Welcome back, Nico." )
-
-			assertions.push(assert_1)
-			assertions.push(assert_2)
-			assertions.push(assert_3)
-
-			return assertions
-		},
-	},	
-	
-	// ex-6: robustSum()
-	{
-		name: 'robustSum',
-		globalFunc: typeof robustSum !== 'undefined' && robustSum || 'undefined-function',
-		runTests: function(){
-			let assertions = []
-
-			//PART 1
-			let userOutput_1 = robustSum(867, 5309) 
-			let assert_1 = new Assertion({
-            assertion_description: '<code>robustSum(867, 5309) === 6176</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 6176,
-            actual: userOutput_1
-         })
-        
-			
-			//PART 2
-			let userOutput_2 = robustSum('867', 5309)
-			let assert_2 = new Assertion({
-            assertion_description: `<code>robustSum('867', 5309) === false</code>`,
+            assertion_description: "<code>hasDoubleLetters('prospect') === false</code>",
             assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
             expected: false,
-				actual: userOutput_2
-         })
-
-			//PART 3
-			let userOutput_3 = robustSum(true, 5) 
-			let assert_3 = new Assertion({
-            assertion_description: '<code>robustSum(true, 5) === false</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: false,
-				actual: userOutput_3
-         })
-			
-			
-			assert_1.testAssertion( userOutput_1, assert_1.expected)
-         assert_2.testAssertion( userOutput_2, assert_2.expected)
-         assert_3.testAssertion( userOutput_3, assert_3.expected)
-
-			assertions.push(assert_1)
-			assertions.push(assert_2)
-			assertions.push(assert_3)
-
-
-			return assertions
-		}
-	},
-
-	// ex-7: getMinimum()
-	{
-		name: 'getMinimum',
-		globalFunc: typeof getMinimum !== 'undefined' && getMinimum || 'undefined-function',
-		runTests: function(){
-			let assertions = []
-
-       
-			//PART 1
-			let userOutput_1 = getMinimum(1,2,4,0)
-			let assert_1 = new Assertion({
-            assertion_description: `<code>getMinimum(1,2,4,0) === 0</code>`,
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 0,
-				actual: userOutput_1
-         })
-
-			//PART 2	
-			let userOutput_2 = getMinimum(1000,-2,-99,50) 
-			let assert_2 = new Assertion({
-            assertion_description: '<code>getMinimum(1000,-2,-99,50) === -99</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: -99,
             actual: userOutput_2
          })
-	
-			//PART 3
-			let userOutput_3 = getMinimum(-1000,-2,-99,50)
-			let assert_3 = new Assertion({
-            assertion_description: '<code>getMinimum(-1000,-2,-99,50) === -1000</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: -1000,
-				actual: userOutput_3
-         })
-			
-			let userOutput_4 = getMinimum(400,-11,12,-5)
-			let assert_4 = new Assertion({
-            assertion_description: '<code>getMinimum(400,-11,12,-5) === -11</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: -11,
-				actual: userOutput_4
-         })
-			
-			
-			assert_1.testAssertion( userOutput_1, assert_1.expected)
-         assert_2.testAssertion( userOutput_2, assert_2.expected)
-         assert_3.testAssertion( userOutput_3, assert_3.expected)
-	      assert_4.testAssertion( userOutput_4, assert_4.expected)
 
+			//PART 2
+			let userOutput_3 = hasDoubleLetters('shoehorn')
+
+			let assert_3 = new Assertion({
+            assertion_description: "<code>hasDoubleLetters('shoehorn') === false</code>",
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: false,
+            actual: userOutput_3
+         })
+
+			//PART 2
+			let userOutput_4 = hasDoubleLetters('Aardvark')
+
+			let assert_4 = new Assertion({
+            assertion_description: "<code>hasDoubleLetters('Aardvark') === true</code>",
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: true,
+            actual: userOutput_4
+         })
+
+			//SETUP-5c
+			assert_1.testAssertion(userOutput_1, assert_1.expected)
+			assert_2.testAssertion(userOutput_2, assert_2.expected)
+			assert_3.testAssertion(userOutput_3, assert_3.expected)
+			assert_4.testAssertion(userOutput_4, assert_4.expected)
+
+
+			//SETUP-5d
 			assertions.push(assert_1)
 			assertions.push(assert_2)
 			assertions.push(assert_3)
 			assertions.push(assert_4)
 
-	
 			return assertions
 		},
+		
 	},
-	
-	// ex-8: justOneString()
+
+	// ex-3: maxOfArray()
 	{
-		name: 'justOneString',
-		globalFunc: typeof justOneString !== 'undefined' && justOneString || 'undefined-function',
+		name: 'maxOfArray',   							                              //(SETUP-2b)
+		globalFunc: typeof maxOfArray !== 'undefined' && maxOfArray || 'undefined-function',
 		runTests: function(){
+			
+		   //(SETUP-4)
 			let assertions = []
 
-       
-			//PART 1
-			let userOutput_1 = justOneString('a',5)
+			//SETUP-5a
+			let userOutput_1 = maxOfArray([2,7,3,4,21,0])
+			//SETUP-5b
 			let assert_1 = new Assertion({
-            assertion_description: `<code>justOneString('a',5) === true</code>`,
+            assertion_description: "<code>maxOfArray([2,7,3,4,21,0]) === 21</code>",
             assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: true,
-				actual: userOutput_1
+            expected: 21,
+            actual: userOutput_1
          })
 
-			//PART 2	
-			let userOutput_2 = justOneString(6,'dotron')
+
+			//PART 2
+			let userOutput_2 = maxOfArray([100,9,8,7,6,10]);
+
 			let assert_2 = new Assertion({
-            assertion_description: `<code>justOneString(6,'dotron') === true</code>`,
+            assertion_description: "<code>maxOfArray([100,9,8,7,6,10]) === 100</code>",
             assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: true,
+            expected: 100,
             actual: userOutput_2
          })
-	
-			//PART 3
-			let userOutput_3 = justOneString('peanut','butter')
-			let assert_3 = new Assertion({
-            assertion_description: `<code>justOneString('peanut','butter') === false</code>`,
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: false	,
-				actual: userOutput_3
-         })
-			
-			let userOutput_4 = justOneString(8,null)
-			let assert_4 = new Assertion({
-            assertion_description: '<code>justOneString(8,true) === false</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: false,
-				actual: userOutput_4
-         })
-			
-			
-			assert_1.testAssertion( userOutput_1, assert_1.expected)
-         assert_2.testAssertion( userOutput_2, assert_2.expected)
-         assert_3.testAssertion( userOutput_3, assert_3.expected)
-	      assert_4.testAssertion( userOutput_4, assert_4.expected)
 
+			//PART 2
+			let userOutput_3 = maxOfArray([84,32,11,31,12,201])
+
+			let assert_3 = new Assertion({
+            assertion_description: "<code>maxOfArray([84,32,11,31,12,201]) === 201</code>",
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: 201,
+            actual: userOutput_3
+         })
+
+			//SETUP-5c
+			assert_1.testAssertion(userOutput_1, assert_1.expected)
+			assert_2.testAssertion(userOutput_2, assert_2.expected)
+			assert_3.testAssertion(userOutput_3, assert_3.expected)
+
+
+			//SETUP-5d
+			assertions.push(assert_1)
+			assertions.push(assert_2)
+			assertions.push(assert_3)
+
+			return assertions
+		},
+		
+	},
+	
+	// ex-4: findLongestWord()
+	{
+		name: 'findLongestWord',   							                              //(SETUP-2b)
+		globalFunc: typeof findLongestWord !== 'undefined' && findLongestWord || 'undefined-function',
+		runTests: function(){
+			
+		   //(SETUP-4)
+			let assertions = []
+
+			//SETUP-5a
+			let userOutput_1 = findLongestWord("i have baskets full of lemons")
+			//SETUP-5b
+			let assert_1 = new Assertion({
+            assertion_description: `<code>findLongestWord('i have baskets full of lemons') === 'baskets'</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: 'baskets',
+            actual: userOutput_1
+         })
+
+
+			//PART 2
+			let userOutput_2 = findLongestWord("Alexander shouldn't talk anymore");
+
+			let assert_2 = new Assertion({
+            assertion_description: `<code>findLongestWord("Alexander shouldn't talk anymore") === 'Alexander'</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: 'Alexander',
+            actual: userOutput_2
+         })
+
+			//PART 2
+			let userOutput_3 = findLongestWord("don't mess with Texas")
+
+			let assert_3 = new Assertion({
+            assertion_description: `<code>findLongestWord("don't mess with Texas") === 'Texas'</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: 'Texas',
+            actual: userOutput_3
+         })
+
+			let userOutput_4 = findLongestWord('a time to act.')
+
+			let assert_4 = new Assertion({
+            assertion_description: `<code>findLongestWord('a time to act.') === 'time'</code>`,
+            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
+            expected: 'time',
+            actual: userOutput_4
+         })
+
+			
+			//SETUP-5c
+			assert_1.testAssertion(userOutput_1, assert_1.expected)
+			assert_2.testAssertion(userOutput_2, assert_2.expected)
+			assert_3.testAssertion(userOutput_3, assert_3.expected)
+			assert_3.testAssertion(userOutput_4, assert_4.expected)
+
+
+			//SETUP-5d
 			assertions.push(assert_1)
 			assertions.push(assert_2)
 			assertions.push(assert_3)
 			assertions.push(assert_4)
 
-	
 			return assertions
 		},
+		
 	},
-
-	// ex-9: getSeasonForMonth()
+	
+	// ex-5: fizzbuzz()
 	{
-		name: 'getSeasonForMonth',
-		globalFunc: typeof getSeasonForMonth !== 'undefined' && getSeasonForMonth || 'undefined-function',
+		name: 'fizzbuzz',   							                              //(SETUP-2b)
+		globalFunc: typeof fizzbuzz !== 'undefined' && fizzbuzz || 'undefined-function',
 		runTests: function(){
+			
+		   //(SETUP-4)
 			let assertions = []
 
-       
-			//PART 1
-			let userOutput_1 = getSeasonForMonth(1)
+			//SETUP-5a
+			let userOutput_1 = fizzbuzz(1) === "."
+			//SETUP-5b
 			let assert_1 = new Assertion({
-            assertion_description: `<code>getSeasonForMonth(1) === "winter"</code>`,
+            assertion_description: `<code>fizzbuzz(1) === "."`,
             assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: "winter",
-				actual: userOutput_1
+            expected: ".",
+            actual: userOutput_1
          })
 
-			//PART 2	
-			let userOutput_2 = getSeasonForMonth(3)
+
+			//PART 2
+			let userOutput_2 = fizzbuzz(2);
+
 			let assert_2 = new Assertion({
-            assertion_description: `<code>getSeasonForMonth(3) === "spring"</code>`,
+            assertion_description: `<code>fizzbuzz(2) === ".."</code>`,
             assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: "spring",
+            expected: '..',
             actual: userOutput_2
          })
-	
-			//PART 3
-			let userOutput_3 = getSeasonForMonth(5)
+
+			//PART 2
+			let userOutput_3 = fizzbuzz(3)
+
 			let assert_3 = new Assertion({
-            assertion_description: `<code>getSeasonForMonth(5) === "spring"</code>`,
+            assertion_description: `<code>fizzbuzz(3) === "..fizz"</code>`,
             assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: "spring"	,
-				actual: userOutput_3
+            expected: '..fizz',
+            actual: userOutput_3
          })
-			
-			let userOutput_4 = getSeasonForMonth(7)
+
+
+			let userOutput_4 = fizzbuzz(5)
+
 			let assert_4 = new Assertion({
-            assertion_description: '<code>getSeasonForMonth(7) === "summer"</code>',
+            assertion_description: `<code>fizzbuzz(5) === "..fizz.buzz"</code>`,
             assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: "summer",
-				actual: userOutput_4
+            expected: "..fizz.buzz",
+            actual: userOutput_4
          })
-		
-			let userOutput_5 = getSeasonForMonth(9)
+
+
+			let userOutput_5 = fizzbuzz(10)
+
 			let assert_5 = new Assertion({
-            assertion_description: '<code>getSeasonForMonth(9) === "fall"</code>',
+            assertion_description: `<code>fizzbuzz(10) === "..fizz.buzzfizz..fizzbuzz"</code>`,
             assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: "fall",
-				actual: userOutput_5
+            expected: "..fizz.buzzfizz..fizzbuzz",
+            actual: userOutput_5
          })
 
-			let userOutput_6 = getSeasonForMonth(12)
+
+			let userOutput_6 = fizzbuzz(20)
+
 			let assert_6 = new Assertion({
-            assertion_description: '<code>getSeasonForMonth(12) === "winter"</code>',
+            assertion_description: `<code>fizzbuzz(20) === "..fizz.buzzfizz..fizzbuzz.fizz..FizZBuzZ..fizz.buzz"</code>`,
             assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: "winter",
-				actual: userOutput_6
-         })
-
-			let userOutput_7 = getSeasonForMonth(13)
-			let assert_7 = new Assertion({
-            assertion_description: '<code>getSeasonForMonth(13) === false</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: false,
-				actual: userOutput_7
-         })
-
-			let userOutput_8 = getSeasonForMonth(32)
-			let assert_8 = new Assertion({
-            assertion_description: '<code>getSeasonForMonth(32) === false</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: false,
-				actual: userOutput_8
-         })
-
-			let userOutput_9 = getSeasonForMonth(0)
-			let assert_9 = new Assertion({
-            assertion_description: '<code>getSeasonForMonth(0) === false</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: false,
-				actual: userOutput_9
-         })
-
-			let userOutput_10 = getSeasonForMonth("June")
-			let assert_10 = new Assertion({
-            assertion_description: '<code>getSeasonForMonth("June") === false</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: false,
-				actual: userOutput_10
+            expected: "..fizz.buzzfizz..fizzbuzz.fizz..FizZBuzZ..fizz.buzz",
+            actual: userOutput_6
          })
 			
-			
-			assert_1.testAssertion( userOutput_1, assert_1.expected)
-         assert_2.testAssertion( userOutput_2, assert_2.expected)
-         assert_3.testAssertion( userOutput_3, assert_3.expected)
-	      assert_4.testAssertion( userOutput_4, assert_4.expected)
-	      assert_5.testAssertion( userOutput_5, assert_5.expected)
-	      assert_6.testAssertion( userOutput_6, assert_6.expected)
-	      assert_7.testAssertion( userOutput_7, assert_7.expected)
-	      assert_8.testAssertion( userOutput_8, assert_8.expected)
-	      assert_9.testAssertion( userOutput_9, assert_9.expected)
-		   assert_10.testAssertion( userOutput_10, assert_10.expected)
+			//SETUP-5c
+			assert_1.testAssertion(userOutput_1, assert_1.expected)
+			assert_2.testAssertion(userOutput_2, assert_2.expected)
+			assert_3.testAssertion(userOutput_3, assert_3.expected)
+			assert_3.testAssertion(userOutput_4, assert_4.expected)
+			assert_3.testAssertion(userOutput_5, assert_5.expected)
+			assert_3.testAssertion(userOutput_6, assert_6.expected)
 
+
+			//SETUP-5d
 			assertions.push(assert_1)
 			assertions.push(assert_2)
 			assertions.push(assert_3)
 			assertions.push(assert_4)
 			assertions.push(assert_5)
 			assertions.push(assert_6)
-			assertions.push(assert_7)
-			assertions.push(assert_8)
-			assertions.push(assert_9)
-			assertions.push(assert_10)
 
-	
+
 			return assertions
 		},
-	},
-	
-	// ex-10: loneSum()
-	{
-		name: 'loneSum',
-		globalFunc: typeof loneSum !== 'undefined' && loneSum || 'undefined-function',
-		runTests: function(){
-			let assertions = []
-
-       
-			//PART 1
-			let userOutput_1 = loneSum(1,2,3)
-			let assert_1 = new Assertion({
-            assertion_description: `<code>loneSum(1,2,3) === 6</code>`,
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 6,
-				actual: userOutput_1
-         })
-
-			//PART 2	
-			let userOutput_2 = loneSum(11,9,5) 
-			let assert_2 = new Assertion({
-            assertion_description: '<code>loneSum(11,9,5) === 25</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 25,
-            actual: userOutput_2
-         })
-	
-			//PART 3
-			let userOutput_3 = loneSum(4,2,4)
-			let assert_3 = new Assertion({
-            assertion_description: '<code>loneSum(4,2,4) === 2</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 2,
-				actual: userOutput_3
-         })
-			
-			let userOutput_4 = loneSum(13,8,8)
-			let assert_4 = new Assertion({
-            assertion_description: '<code>loneSum(13,8,8) === 13</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 13,
-				actual: userOutput_4
-         })
-
-			let userOutput_5 = loneSum(10,10,10)
-			let assert_5 = new Assertion({
-            assertion_description: '<code>loneSum(10,10,10) === 0</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 0,
-				actual: userOutput_5
-         })
-			
-			
-			assert_1.testAssertion( userOutput_1, assert_1.expected)
-         assert_2.testAssertion( userOutput_2, assert_2.expected)
-         assert_3.testAssertion( userOutput_3, assert_3.expected)
-	      assert_4.testAssertion( userOutput_4, assert_4.expected)
-	      assert_5.testAssertion( userOutput_5, assert_5.expected)
-
-			assertions.push(assert_1)
-			assertions.push(assert_2)
-			assertions.push(assert_3)
-			assertions.push(assert_4)
-			assertions.push(assert_5)
-
-	
-			return assertions
-		}
-	},
-	
-	// ex-11: calcSpeedTicket()
-	{
-		name: 'calcSpeedTicket',
-		globalFunc: typeof calcSpeedTicket !== 'undefined' && calcSpeedTicket || 'undefined-function',
-		runTests: function(){
-			let assertions = []
-
-       
-			//PART 1
-			let userOutput_1 = calcSpeedTicket(25, 40, false)
-			let assert_1 = new Assertion({
-            assertion_description: `<code>calcSpeedTicket(25, 29, true) === 0</code>`,
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 150,
-				actual: userOutput_1
-         })
-
-			//PART 2	
-			let userOutput_2 = calcSpeedTicket(65, 72, true)
-			let assert_2 = new Assertion({
-            assertion_description: '<code>calcSpeedTicket(65, 72, true) === 300 </code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 300,
-            actual: userOutput_2
-         })
-	
-			//PART 3
-			let userOutput_3 = calcSpeedTicket(75, 97, false)
-			let assert_3 = new Assertion({
-            assertion_description: '<code>calcSpeedTicket(75, 97, false) === 250</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 250,
-				actual: userOutput_3
-         })
-			
-			let userOutput_4 =  calcSpeedTicket(55, 83, true)
-			let assert_4 = new Assertion({
-            assertion_description: '<code> calcSpeedTicket(55, 83, true) === 500</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 500,
-				actual: userOutput_4
-         })
-
-			let userOutput_5 = calcSpeedTicket(25, 29, true)
-			let assert_5 = new Assertion({
-            assertion_description: '<code>calcSpeedTicket(25, 29, true) === 0</code>',
-            assertion_predicate:  function(arg1, arg2){ return arg1 === arg2 },
-            expected: 0,
-				actual: userOutput_5
-         })
-			
-			
-			assert_1.testAssertion( userOutput_1, assert_1.expected)
-         assert_2.testAssertion( userOutput_2, assert_2.expected)
-         assert_3.testAssertion( userOutput_3, assert_3.expected)
-	      assert_4.testAssertion( userOutput_4, assert_4.expected)
-	      assert_5.testAssertion( userOutput_5, assert_5.expected)
-
-			assertions.push(assert_1)
-			assertions.push(assert_2)
-			assertions.push(assert_3)
-			assertions.push(assert_4)
-			assertions.push(assert_5)
-
-	
-			return assertions
-		}
+		
 	},
 
 ]

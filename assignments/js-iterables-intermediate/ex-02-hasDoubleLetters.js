@@ -7,12 +7,9 @@
  *
 **/
 
-function hasDoubleLetters(){
-
-}
 
 console.assert( hasDoubleLetters('stutter') === true )
 console.assert( hasDoubleLetters('prospect') === false )
-console.assert( hasDoubleLetters('') === true )
-console.assert( hasDoubleLetters('') === true )
+console.assert( hasDoubleLetters('shoehorn') === false )
+console.assert( hasDoubleLetters('Aardvark') === true )
 
