@@ -1,9 +1,16 @@
-// ex-04 getFullNames()
+// ex-04 createListOfObjects()
 
-// Write a function called getFullNames that accepts an an array of strings
+// Write a function called createListOfObjects that accepts an an array of strings
 // with first and last names and returns an array of objects
 // that each have the property `firstName` and `lastName` and
 // corresponding value
+
+
+
+
+
+
+
 
 
 
