@@ -1,5 +1,11 @@
+//ex-02: `makeNamesObject`
+
+// Create a function that accepts 3 strings with first + last names as arguments 
+// The function should return an object with 3 properties:
+// The first name will be a property-name and the last name will be the value
+
 // EXAMPLE:
-// makeNamesObject("George Washington, John Adams, Kanye West")
+// makeNamesObject("George Washington", "John Adams", "Kanye West")
 //   => {
 //     George: "Washington",
 //     John: "Adams",
