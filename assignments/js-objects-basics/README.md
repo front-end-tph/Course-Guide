@@ -12,8 +12,8 @@
 2. Curl and unzip the assignment files
   - Ex:
   ```sh
-  curl  https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/js-iterables-basics/js-iterables-basics.zip > js-iterables-basics.zip
-  unzip js-iterables-basics.zip
+  curl  https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/js-objects-basics/js-objects-basics.zip > js-objects-basics.zip
+  unzip js-objects-basics.zip
   open index.html
   ```
   

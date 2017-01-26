@@ -258,7 +258,7 @@ let problemGroup = [
 			let assertions = []
 
 			//SETUP-5a
-			let userOutput_1 = fizzbuzz(1) 
+			let userOutput_1 = fizzbuzz(1)
 			//SETUP-5b
 			let assert_1 = new Assertion({
             assertion_description: `<code>fizzbuzz(1) === "."`,

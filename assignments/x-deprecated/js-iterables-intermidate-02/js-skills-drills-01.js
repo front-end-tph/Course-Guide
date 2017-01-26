@@ -8,25 +8,25 @@
 ////------------------------------------------------------------------
 
 
-function makeNameObjects(str) {
+	function makeNamesObject(str) {
 
-}
+	}
 
-// EXAMPLE:
-// names("George Washington, John Adams, Kanye West")
-//   => {
-//     George: "Washington",
-//     John: "Adams",
-//     Kanye: "West",
-//     ...
-//   }
+	// EXAMPLE:
+	// makeNameObjects("George Washington, John Adams, Kanye West")
+	//   => {
+	//     George: "Washington",
+	//     John: "Adams",
+	//     Kanye: "West",
+	//     ...
+	//   }
 
 
-var results = names("George Washington, John Adams, Kanye West, Charolette Webb")
-console.assert(results.George === "Washington")
-console.assert(results['John'] === "Adams")
-console.assert(results['Kanye'] === "West")
-console.assert(results.Charolette === "Webb")
+	var results = makeNamesObject("George Washington, John Adams, Kanye West, Charolette Webb")
+	console.assert(results.George === "Washington")
+	console.assert(results['John'] === "Adams")
+	console.assert(results['Kanye'] === "West")
+	console.assert(results.Charolette === "Webb")
 
 
 ////------------------------------------------------------------------
@@ -98,7 +98,7 @@ console.assert(mergedObj1.accountActive === true)
 
 
 var obj3 = {title: "How to Wear a Bowtie", artist: "Showtime", released: 1984 }
-var obj3 = {artist: "The Riverboat", released: 1980, album: "Wishy Washy", quantity: 10 }
+var obj4 = {artist: "The Riverboat", released: 1980, album: "Wishy Washy", quantity: 10 }
 
 var mergedObj2 = merge(obj3, obj4)
 console.assert( mergedObj2.artist === "The Riverboat" )
