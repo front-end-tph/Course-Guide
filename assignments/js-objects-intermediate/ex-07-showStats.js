@@ -2,10 +2,10 @@
  * Ex-07: showStats()
  *
  * Write a function called showStats() that takes a number and an array of numbers
- * it should return an object with 3 properties:
- *    1) inputGreaterThan: the number of elements in the array that the input number is greater than 
- *    2) inputLessThan: the number of elements in the array that the input is less than
- *    3) inputEqualTo : the number of elements in the array that the input is equal to.
+ * it should return an object with 4 properties:
+ *    1) count_inputEqualTo: the number of elements in the array that the input number is greater than 
+ *    2) count_inputGreaterThan: the number of elements in the array that the input is less than
+ *    3) count_inputLessThan : the number of elements in the array that the input is equal to.
  *    4) setSize: the quantity of elements in the set (not including input, obvs.)
  * 
  *  Ex:   showStats(3, [1,2,3,4,5,6,5,4,3,2,1])
