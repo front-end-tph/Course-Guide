@@ -1,7 +1,11 @@
 // ex-04 makeAcronym()
 
-// Write a function called makeAcronym() that converts a name like Portable Document Format 
-// to its acronym (PNG).
+//
+// Write a function called makeAcronym() that converts a name like Portable Network Graphics 
+// to its acronym (PDF).
+//
+// makeAcronym('PNG')
+//  => 'PDF'
 
 
 
