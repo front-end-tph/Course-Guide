@@ -13,6 +13,20 @@
 
 
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
+var object1 = {
+	 occupants: 4,
+	 apartment_no: "2b",
+	 structuralIntegrity: "failing",
+	 squareFeet: 700
+}
+
+var object2 = {
+	name: "Abby",
+	gender: "female",
+	description: "dog",
+	paws: 4
+}
+
 var reversedObj_1 = reverseObject(object1)
 var reversedObj_2 = reversedObj(object2)
 
