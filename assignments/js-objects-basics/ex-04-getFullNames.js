@@ -30,7 +30,7 @@ var moreCustomersList = [
 
 console.assert(getFullNames(customersList)[0] === "Joe Blogs")
 console.assert(getFullNames(customersList)[1] === "John Smith")
-console.assert(getFullNames(moreCustomersList)[0] === "Jack White")
+console.assert(getFullNames(moreCustomersList)[0] === "Ruby Scooby")
 console.assert(getFullNames(moreCustomersList)[2] === "Dan Theman")
 
 

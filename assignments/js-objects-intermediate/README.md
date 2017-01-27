@@ -1,4 +1,4 @@
-# JS Objects Basics
+# JS Objects Intermediate
 
 ### Setup 
 1. Go into your assingment folder, create the correctly numbered assignment directory, and cd into it.
@@ -12,8 +12,8 @@
 2. Curl and unzip the assignment files
   - Ex:
   ```sh
-  curl  https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/js-objects-basics/js-objects-basics.zip > js-objects-basics.zip
-  unzip js-objects-basics.zip
+  curl  https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/js-objects-intermediate/js-objects-intermediate.zip > js-objects-intermediate.zip
+  unzip js-objects-intermediate.zip
   open index.html
   ```
   

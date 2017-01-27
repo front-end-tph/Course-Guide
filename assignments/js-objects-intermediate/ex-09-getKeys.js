@@ -1,36 +1,37 @@
-// Part 9
+// ex-09: getKeys() 
 
-// Create an object that has a name attribute and a method called personalize.
-// personalize should take a function as input. when personalize is called,
-// an introductory string should be inserted before the input function's
-// return valu e. Use the example in the console.assert to understand
-// exactly how you should write the method. Including the period!
-
-var politeObject = {
-    name: "Frank"
-}
+// Create a method called getKeys() that accepts an object as an argument and returns
+// an array of the object's proerties
+//
+// getKeys({pid: 1238, title: 'Gold Necklace', price: 33})
+//   => ['pid', 'title', 'price']
 
 
 
-//*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
- //  you may need to use the special `this` keyword for this problem.
 
-var tellEm = function() {
-    return "I know what is going on here"
-}
 
-var promoteJS = function(){
-   return "JavaScript is quite amazing"
-}
 
-var thinkHard = function(){
-   return "whoa thats deep man"
-}
 
-var personalizedResult = politeObject.personalize(tellEm)
-var anotherPersonalNote = politeObject.personalize(promoteJS)
-var finalNote = politeObject.personalize(thinkHard)
 
-console.assert( personalizedResult === "Hi, my name is Frank, and the result is I know what is going on here." )
-console.assert( anotherPersonalNote === "Hi, my name is Frank, and the result is JavaScript is quite amazing." )
-console.assert( finalNote === "Hi, my name is Frank, and the result is whoa thats deep man." )
+
+
+
+//*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
+var output_1 = getKeys({firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"})
+
+var output_2 = getKeys({
+	_id:"588b560", 
+	name: 'Sally Pittman', 
+	gender:"male", 
+	favoriteFruit: "apple", 
+	company: "Ersum" 
+})
+
+console.assert( output_1.length === 4 )
+console.assert( output_1.indexOf('age') >= 0 )
+console.assert( output_1.indexOf('Doe') === -1 )
+//--------------
+console.assert( output_2.indexOf('age') === -1 )
+console.assert( output_2.indexOf('favoriteFruit') >= 0 )
+console.assert( output_2.indexOf('company') >= 0 )
+

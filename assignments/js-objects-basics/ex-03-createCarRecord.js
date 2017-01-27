@@ -15,7 +15,17 @@
 //   
 
 
+function createCarRecord(make, model, yr, lic){
+	if(!make || !model || !yr || !lic) return "new record must have make, model, year, and license values"
+	if(typeof make !=='string' || typeof model !=='string' || typeof lic !=='string') return "1st, 2nd, and 4th arguments must be String"
 
+	return {
+		make: make,
+		model: model,
+		year: yr,
+		license: lic
+	}
+}
 
 
 
@@ -26,27 +36,27 @@
 
 var newCar1 = createCarRecord('Ford', 'Pinto', 1969, 'IOU7S2')
 var newCar2 = createCarRecord('Pontiac', 'Azteca', 2001, '48NLL1' ) 
-var newCar2 = createCarRecord('Jeep', 'Wrangler', 1987, '8HPN02' )
+var newCar3 = createCarRecord('Jeep', 'Wrangler', 1987, '8HPN02' )
 // ---------------------------
-var newCar3 = createCarRecord()
-var newCar4 = createCarRecord('Volkswagen', 'Beatle') 
+var newCar4 = createCarRecord()
+var newCar5 = createCarRecord('Volkswagen', 'Beatle') 
 // ---------------------------
-var newCar5 = createCarRecord('Ferrari', true, 2015, 'K9KPL2' ) 
-var newCar6 = createCarRecord( true, 'Spider', 2012, 93933) 
+var newCar6 = createCarRecord('Ferrari', true, 2015, 'K9KPL2' ) 
+var newCar7 = createCarRecord( true, 'Spider', 2012, 93933) 
 // ---------------------------
-var newCar7 = createCarRecord( 'Ferrari', 'Spider', '2013', '8IOL32') 
+var newCar8 = createCarRecord( 'Ferrari', 'Spider', '2013', '8IOL32') 
 
 
 console.assert( typeof newCar1 === 'object')
 // ---------------------------
 console.assert( newCar1.make === "Ford" && newCar1.model === "Pinto")
 console.assert( newCar2.make === "Pontiac" && newCar2.year === 2001)
-console.assert( newCar2.model === "Wrangler" && newCar1.license === '8HPN02')
+console.assert( newCar3.model === "Wrangler" && newCar3.license === '8HPN02')
 // ---------------------------
-console.assert( newCar3 === 'new record must have make, model, year, and license values')
 console.assert( newCar4 === 'new record must have make, model, year, and license values')
+console.assert( newCar5 === 'new record must have make, model, year, and license values')
 // ---------------------------
-console.assert( newCar5 === '1st, 2nd, and 4th arguments must be String')
 console.assert( newCar6 === '1st, 2nd, and 4th arguments must be String')
+console.assert( newCar7 === '1st, 2nd, and 4th arguments must be String')
 // ---------------------------
-console.assert( newCar7 === '3rd argument must be a Number')
+console.assert( newCar8 === '3rd argument must be a Number')
