@@ -9,7 +9,12 @@
  *    4) setSize: the quantity of elements in the set (not including input, obvs.)
  * 
  *  Ex:   showStats(3, [1,2,3,4,5,6,5,4,3,2,1])
- *          => {count_inputEqualTo: 2, count_inputGreaterThan: 4, count_inputLessThan: 5, setSize: 11 } 
+ *          => { 
+  *                count_inputEqualTo: 2, 
+ *					    count_inputGreaterThan: 4, 
+ *                 count_inputLessThan: 5, 
+ *                 setSize: 11 
+ *              } 
 **/
 
 
