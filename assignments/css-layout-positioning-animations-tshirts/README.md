@@ -39,18 +39,13 @@ Recreate the following layout in HTML and CSS:
 When a user clicks on the rotation icon at the top-right corner of a t-shirt box, the image of the t-shirt(s? hint hint) should rotate, showing the back of the shirt. Clicking again should return the front. 
 [Card flip](https://desandro.github.io/3dtransforms/docs/card-flip.html)
 
-## Media
-
-  - shirts
-    - http://tympanus.net/Blueprints/ProductGridLayout/images/1_front.png
-    - http://tympanus.net/Blueprints/ProductGridLayout/images/2_front.png
-    - http://tympanus.net/Blueprints/ProductGridLayout/images/3_front.png
-
 ## Setup
 1. Create a new project with `gen-project-scss`
 2. Create images directory
 3. CD into image directory
 4. curl and unzip 
 ```
+curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/css-layout-positioning-animations-tshirts/image-files.zip > ./image-files.zip
 
+unzip image-files.zip
 ```
