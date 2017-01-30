@@ -42,9 +42,9 @@ When a user clicks on the rotation icon at the top-right corner of a t-shirt box
 1. Create a new project with `gen-project-scss`
 2. Create images directory
 3. CD into image directory
-4. curl and unzip 
-```
-curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/css-layout-positioning-animations-tshirts/image-files.zip > ./image-files.zip
-
-unzip image-files.zip
-```
+4. curl and unzip the tshirt images
+  ```
+  curl   https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/css-layout-positioning-animations-tshirts/image-files.zip > ./image-files.zip
+  
+  unzip image-files.zip
+  ```
