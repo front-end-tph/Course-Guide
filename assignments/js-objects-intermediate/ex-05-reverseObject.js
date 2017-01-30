@@ -9,7 +9,7 @@
 
 
 
-
+ 
 
 
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
@@ -28,7 +28,7 @@ var object2 = {
 }
 
 var reversedObj_1 = reverseObject(object1)
-var reversedObj_2 = reversedObj(object2)
+var reversedObj_2 = reverseObject(object2)
 
 console.assert( reversedObj_1['2b'] === 'apartment_no' )
 console.assert( reversedObj_1.failing === 'structuralIntegrity' )

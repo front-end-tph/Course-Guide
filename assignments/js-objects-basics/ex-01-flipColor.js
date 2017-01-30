@@ -8,7 +8,10 @@
 // 
 
 
-
+function flipColor(obj){
+   obj.color = obj.color === 'blue' ? 'red' : 'blue'
+   return obj
+}
 
 
 

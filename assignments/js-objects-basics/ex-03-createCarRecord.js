@@ -15,17 +15,8 @@
 //   
 
 
-function createCarRecord(make, model, yr, lic){
-	if(!make || !model || !yr || !lic) return "new record must have make, model, year, and license values"
-	if(typeof make !=='string' || typeof model !=='string' || typeof lic !=='string') return "1st, 2nd, and 4th arguments must be String"
 
-	return {
-		make: make,
-		model: model,
-		year: yr,
-		license: lic
-	}
-}
+
 
 
 
