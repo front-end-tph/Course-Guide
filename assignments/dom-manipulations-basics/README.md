@@ -14,7 +14,7 @@ cd assignment-XX
 
 3 -- Inside your `assignment-XX` folder, download + unzip the file:
 ```
-curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/dom-manipulations-basics/ssignment-dom-manipulations-basics.zip > assignment-dom-manipulations-basics.zip
+curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/dom-manipulations-basics/assignment-dom-manipulations-basics.zip > assignment-dom-manipulations-basics.zip
 
 unzip assignment-dom-manipulations-basics.zip
 ```
