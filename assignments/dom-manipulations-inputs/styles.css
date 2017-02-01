@@ -207,3 +207,82 @@ span.hint{
    padding-left: .75rem;
    font-weight: 400;
 }
+
+
+/*add-guest Task*/
+
+#add-guest .answer-box {
+  text-align: center;
+}
+#add-guest input {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 6px;
+  font-size: 1.125rem;
+}
+
+#add-guest ul {
+  border: 3px solid #555;
+  max-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#add-guest .guest {
+  list-style: none;
+  margin: 0;
+  padding: 10px 6px;
+  text-align: left;
+}
+
+#add-guest .guest:nth-child(even) {
+  background: #E08283;
+}
+
+/*add item bonus*/
+
+#add-item-bonus .answer-box {
+  text-align: center;
+}
+#add-item-bonus input {
+   display: block;
+   margin: 15px auto;
+   padding: 10px 6px;
+   font-size: 1.125rem;
+}
+
+#add-item-bonus ul {
+  border: 3px solid #555;
+  max-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#add-item-bonus .item {
+   list-style: none;
+   margin: 0;
+   padding: 10px 45px 10px 6px;
+   text-align: left;
+   position: relative;
+}
+
+#add-item-bonus .item:nth-child(even) {
+  background: #89C4F4;
+}
+
+#add-item-bonus button.remove {
+    position: absolute;
+    top: 5%; right: 5px;
+    padding: 0;
+    text-align: center;
+    width: 40px;
+    height: 90%;
+    background: #96281B;
+    color: #fff;
+    border: 0;
+    margin: 0;
+    }
+
+

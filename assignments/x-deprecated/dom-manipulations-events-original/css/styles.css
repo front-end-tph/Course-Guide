@@ -32,14 +32,7 @@ hr.q-divider{
   padding: 20px 18px;
   margin: 0;
   font-weight:600;
-  text-align: left;
 }
-
-span.hint {
-    font-weight: 200;
-    font-style: italic;
-}
-
 
 .exercise-container > *{
   font-size: medium;
@@ -74,7 +67,7 @@ span.hint {
   font-size: 12px;
   cursor: pointer;
   margin: 15px auto;
-  background: #F9BF3B;
+  background: #f1c40f;
   border: 1px solid #333;
   font-weight: 700;
 }
@@ -198,7 +191,7 @@ span.hint {
 
 
 /*
- *  Juggling Lists Task
+ * Task 2 - Juggling Lists
 */
  .good-standing-section,
  .probation-section  {
@@ -247,7 +240,7 @@ span.hint {
 }
 
 /*
- *  Wish List Options Task
+ * Task 2 - Options
  */
 .wish-list{ font-size: 0; max-width: 600px; margin: 0 auto;}
 .wish-list > *{
@@ -266,50 +259,4 @@ span.hint {
  .selected {
    background:  #67809F;
    color: #fff;
-}
-
-/*
- * Add Points Task
- */
-
-h4.total-points{
-   background: #8E44AD;
-   font-size: 2rem;
-}
-
-.add-points .point{ border: 2px solid #333;  width: 50px; line-height: 50px; height: 50px; padding: 0; border-radius: 50%;}
-.add-points .point:nth-of-type(1){ background: #F9BF3B;}
-.add-points .point:nth-of-type(2){ background: #E87E04;}
-.add-points .point:nth-of-type(3){ background: #EF4836;}
-.add-points .point:hover{background: #C8F7C5; }
-.add-points .point:active{background: #1BA39C; }
-
-
-
-/*
- * Change Color Task
- */
-.palette{
-	text-align: center;
-}
-.palette span{
-	width: 50px; height: 50px;
-	margin-right: 10px;
-	display: inline-block;
-	margin-bottom: 10px;
-}
-
-.palette span:active{ opacity: .4; border: 3px solid rgba(0,0,0,.2)}
-
-.bg-red{background-color: #E08283;}
-.bg-yellow{background-color: #F4D03F;}
-.bg-orange{background-color: #EB974E;}
-.bg-green{background-color: #C8F7C5;}
-.bg-purple{background-color: #89C4F4;}
-.bg-red{background-color: #E08283;}
-
-.msg{
-	padding: 1rem;
-	text-align: left;
-	margin: 0;
 }
