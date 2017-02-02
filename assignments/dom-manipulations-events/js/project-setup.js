@@ -68,17 +68,7 @@ var tasks = [
      <br/>class that exists on the <code>&lt;p class='msg'&gt'</code> before adding \
 	  <br/> the new <code>bg-«color»</code> class from the clicked element.</span>",
     link: "gifs/change-colors.gif"
-  },
-  {
-    html_id: "add-guest",
-    task: "When the user hits enter while focus is on the input (i.e. while the cursor is blinking), the content of the input should be added to the list below.",
-    link: "gifs/guestList.gif"
-  },
-  {
-    html_id: "add-item-bonus",
-    task: "<u>Adventure Mode </u><br/><br/>Each added item should come with a remove button. Clicking that button should remove the item from the list.",
-    link: "gifs/add-to-list-and-delete.gif"
-  },
+  }
 ]
 
 function findEl(els, fn){
