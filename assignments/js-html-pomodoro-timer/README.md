@@ -37,7 +37,7 @@ You should:
 - in `~/TIY/assignments`, create a new project directory:
   - `gen-project-scss assignment-XX` (with XX being the number of the assignment)
 
-- in the root of your, create an images directory
+- in the root of your project directory, create an images directory
 
 - curl the image files into the images directory + unzip the image files
 ```
