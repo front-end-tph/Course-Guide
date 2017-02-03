@@ -34,17 +34,17 @@ You should:
 - a Github repository and a live static site on Github Pages.
 
 ## Setup
-- in `~/TIY/assignments`, create a new project directory:
+1. in `~/TIY/assignments`, create a new project directory:
   - `gen-project-scss assignment-XX` (with XX being the number of the assignment)
 
-- in the root of your project directory, create an images directory
+2. in the root of your project directory, create an images directory
 
-- curl the image files into the images directory + unzip the image files
-```
-curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/js-html-pomodoro-timer/image-files.zip > ./images/image-files.zip
-
-unzip ./images/image-files.zip
-```
+3.   curl the image files into the images directory + unzip the image files
+  ```
+  curl   https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/js-html-pomodoro-timer/image-files.zip > ./images/image-files.zip
+  
+  unzip ./images/image-files.zip
+  ```
 
 
 ### Normal Mode
