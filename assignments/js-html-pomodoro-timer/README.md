@@ -49,17 +49,17 @@ unzip ./images/image-files.zip
 
 ### Normal Mode
 ##### (1) Adding Inputs + Starting the Timer
-![basic mode](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-normal-part-1.gif?raw=true)
+![basic mode](./gif-examples/pomodoro-normal-part-1.gif?raw=true)
 
 ##### (2) The Final Countdown
-![basic mode 2](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-normal-part-2.gif?raw=true)
+![basic mode 2](./gif-examples/pomodoro-normal-part-2.gif?raw=true)
 
 ### Explorer Mode (optional)
 ##### (1) Change Background at One Minute
-![explorer mode](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-explorer-mode-part-1.gif?raw=true)
+![explorer mode](./gif-examples/pomodoro-explorer-mode-part-1.gif?raw=true)
 
 ##### (2)And Change it Back at theEnd
-![explorer mode](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-explorer-mode-part-2.gif?raw=true)
+![explorer mode](./gif-examples/pomodoro-explorer-mode-part-2.gif?raw=true)
 
 ### Epic Mode
 - Create a list of pomodoros
@@ -68,4 +68,4 @@ unzip ./images/image-files.zip
   - When a user tries to run 2 pomodoros concurrently
   - When a user tries to submit a pomodoro task with no input
 
-![epic mode](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/15-js-html-pomodoro-timer/gif-examples/pomodoro-epic-mode.gif?raw=true)
+![epic mode](./gif-examples/pomodoro-epic-mode.gif?raw=true)
