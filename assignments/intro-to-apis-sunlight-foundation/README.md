@@ -6,7 +6,7 @@
   * Effectively implement the promise pattern
   * Format retrieved data into HTML
 
-##Instructions
+##Setup
 
 * use the `gen-project-scss` tool to create a new web project
 * `cd` into the project
@@ -18,7 +18,7 @@
 ##Resources
 
  * Sunlight Foundation API: https://sunlightfoundation.com/api/
- * jquery source code: https://code.jquery.com/jquery-3.0.0.min.js
+ * jquery source code: https://code.jquery.com/jquery-2.2.4.min.js
 
 ###Normal Mode
 
@@ -35,7 +35,3 @@ Include a text input at the top of your page. If the user enters a ZIP code and 
 Reconfigure your api request so that the database only returns 10 requests at once. Add a "see more" button at the bottom of the page. If the user clicks this button, 10 additional congresspersons should be *appended* to the bottom of the list. The user should be able to click for more legislators repeatedly until they exhaust the database (there are 540 legislators total).
 
 Note that for this feature you'll have to use the optional `per_page` and `page` parameters that can be sent with the request.
-
-##Deliverables
-
-A link to a live site on gh-pages showcasing your work.
