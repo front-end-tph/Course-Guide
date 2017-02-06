@@ -14,6 +14,10 @@
 * hub create [repoName]
 * include a script tag in your `index.html` that links to the jquery source code (make sure you put it *above* your own script)
 * hack away at your `app.js` to create the patterns below!
+* Note: you will need to use JSONP in your application and format your request with a callback so:
+  ```
+  https://congress.api.sunlightfoundation.com/legislators?callback=?
+  ```
 
 ##Resources
 
