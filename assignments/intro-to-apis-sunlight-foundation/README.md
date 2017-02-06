@@ -14,7 +14,7 @@
 * hub create [repoName]
 * include a script tag in your `index.html` that links to the jquery source code (make sure you put it *above* your own script)
 * hack away at your `app.js` to create the patterns below!
-* Note the Sunlight Foutdation API is not [CORS supported](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS), and you will need to ensure that JSONP is specified in your request. In order to do this, you will have to append `callback=?` as a query string parameter to your request. Thus, the request to the Sunlight Foundation API should be formatted like so:
+* Note the Sunlight Foutdation API is not [CORS supported](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS), and you will need to ensure that JSONP is specified in your request. In order to do this, you will have to append `callback=?` as a query string parameter to your request. Thus, the request-url to the Sunlight Foundation API in your `app.js` should be formatted like so:
   ```
   https://congress.api.sunlightfoundation.com/legislators?callback=?
   ```
