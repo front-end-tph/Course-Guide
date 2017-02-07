@@ -39,5 +39,5 @@ Implement hash routing to render the UI below:
 ![iceland-flights](./demos/iceland-flights.png)
 
 ####Carpools Page
-![iceland-carpools](./iceland-carpools.png)
+![iceland-carpools](./demos/iceland-carpools.png)
 
