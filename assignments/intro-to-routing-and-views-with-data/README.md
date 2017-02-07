@@ -26,6 +26,7 @@
 ###Normal Mode
 
 Implement hash routing to render the UI below:
++ *NOTE*: the home page is showing static data, you do not need to fetch anything from any of the iceland APIs.
 
 ![iceland-ui](./demos/iceland-ui-demo.gif)
 
@@ -48,4 +49,6 @@ Implement hash routing to render the UI below:
 3. In your promise handler, iterate over the data and render something simple to the page `$.getJSON.then(...)`
 4. Build static-HTML with dummy data for a given route to make sure the layout is operational.
 5. Create the HTML dynamically based on the data returned from the server -- this will certainly require iterating over some array of objects returned by the API server.  
-6. Put event-listeners on the `<nav>` button elements to highlight and show which route is active. 
+6. Put event-listeners on the nav-button elements to highlight and show which route is active. You will need to implement the DOM logic that applies the correct class-names for when 
+  - (A) the application starts
+  - (B) a user navigates by clicking a button 
