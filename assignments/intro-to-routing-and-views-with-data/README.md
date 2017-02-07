@@ -27,16 +27,16 @@
 
 Implement hash routing to render the UI below:
 
-![iceland-ui](./iceland-ui-demo.gif)
+![iceland-ui](./demos/iceland-ui-demo.gif)
 
 ####Home Page
-![iceland-home](./iceland-home.png)
+![iceland-home](./demos/iceland-home.png)
 
 ####Concerts Page
-![iceland-home](./iceland-concerts.png)
+![iceland-home](./demos/iceland-concerts.png)
 
 ####Flights Page
-![iceland-flights](./iceland-concerts.png)
+![iceland-flights](./demos/iceland-concerts.png)
 
 ####Carpools Page
 ![iceland-carpools](./iceland-concerts.png)
