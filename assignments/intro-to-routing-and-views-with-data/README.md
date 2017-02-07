@@ -30,6 +30,7 @@ Implement hash routing to render the UI below:
 ![iceland-ui](./demos/iceland-ui-demo.gif)
 
 ####Home Page
+(showing static HTML, no fetch from the API required)
 ![iceland-home](./demos/iceland-home.png)
 
 ####Concerts Page
@@ -41,3 +42,10 @@ Implement hash routing to render the UI below:
 ####Carpools Page
 ![iceland-carpools](./demos/iceland-carpools.png)
 
+##Roadmap to Success
+1. Build a router function that will render a simple view in the `#app-container` element based on what is in the hash. 
+2. Have your router execute a `$.getJSON(...)` request that fetches data from the appropriate URL endpoint
+3. In your promise handler, iterate over the data and render something simple to the page `$.getJSON.then(...)`
+4. Build static-HTML with dummy data for a given route to make sure the layout is operational.
+5. Create the HTML dynamically based on the data returned from the server -- this will certainly require iterating over some array of objects returned by the API server.  
+6. Put event-listeners on the `<nav>` button elements to highlight and show which route is active. 
