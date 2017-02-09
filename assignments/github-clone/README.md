@@ -1,4 +1,4 @@
-# github-api-profile
+# Github Clone
 
 ## Objectives
 
@@ -35,6 +35,8 @@ After completing this assignment, you should be able to:
 * All functions and code should work according to the following description.
 
 
+
+
 ## Normal Mode
 
 
@@ -62,10 +64,30 @@ You will also need to include an `<input>` tag on your page that will allow user
 
 <hr/>
 ###API Notes
+Docs: https://developer.github.com/v3/
+
 1. [Get an API key](https://github.com/settings/tokens/new)
   - Click 'Generate Token', leave all options *unselected*
 2. Copy the access token
   - You won't be able to see it again from github!
 3. Make sure you can fetch a user from the API with your token
-  - https://api.github.com/users/matthiasak?access_token=«your-access-token»
+  - https://api.github.com/users/t3patterson?access_token=«your-access-token»
 
+###Roadmap to Success
+1. Successfully fetch user profile data + repo data for your github profile in your `app.js`
+
+2. In the promise-handler, render a minimal amount of data to the page.
+
+3. Create a simple layout in HTML + CSS for the layout per the mockup -- initially build it with static hard-coded HTML to make sure that the elements are mostly in place.
+ 
+4. Create a function that builds the html dynamically and returns an output string. To build the html-string, the function should accept 2 arguments, one argument for the user profile data, another argument for the repo data. The function should execute inside the promise-handler when the repo + user data has returned and it put the html-string inside `div id='app-container'`. 
+
+5. Create the `controllerRouter()` function. The function should get the current value in the `window.location.hash`. 
+  + If there is a value for a github user in the hash, it should execute the fetches for the profile data and repo data, 
+  + if there is no value in the hash it should fetch + return the default github profile (i.e. your profile). 
+
+  When the data returns, do the same as the previous step (i.e. creating an html-string from the profile + repo data that you will put as innerHTML to `app-container`) 
+
+6. Add an eventListener that listens for the `hashchange` event type on the `window`. The callback function should be the `controllerRouter` -- the controllerRouter which will check what's in the hash, fetch the user profile/repo info, and render to the page.
+
+7. After rendering the html to the page, put an event listener on the `<input>` tag in the navbar. It should listen for the enter-key and update the hash with whatever value is in the input.
