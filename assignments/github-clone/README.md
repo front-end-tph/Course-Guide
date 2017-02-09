@@ -8,11 +8,12 @@ After completing this assignment, you should be able to:
 * Be able to breakdown a simple process of procedural steps into a series of statements in JS
 * Demonstrate use of Promises and AJAX methods
 * Demonstrate ability to update DOM elements and their attributes/innerHTML via JS
+* Create an event listener for an input element.  
 * Utilize routing and a controllerRouter() function to simplify your navigation code.
 
 ## Details
 
-### Instructions
+### Setup Instructions
 
 ```sh
 # cd into ~/TIY/assignments folder
@@ -33,8 +34,6 @@ After completing this assignment, you should be able to:
 
 * No JS errors in the browser
 * All functions and code should work according to the following description.
-
-
 
 
 ## Normal Mode
@@ -63,7 +62,7 @@ You will also need to include an `<input>` tag on your page that will allow user
 ![demo pic](./demos/github-example.png)
 
 <hr/>
-###API Notes
+### API Notes
 Docs: https://developer.github.com/v3/
 
 1. [Get an API key](https://github.com/settings/tokens/new)
@@ -73,7 +72,7 @@ Docs: https://developer.github.com/v3/
 3. Make sure you can fetch a user from the API with your token
   - https://api.github.com/users/t3patterson?access_token=«your-access-token»
 
-###Roadmap to Success
+### Roadmap to Success
 1. Successfully fetch user profile data + repo data for your github profile in your `app.js`
 
 2. In the promise-handler, render a minimal amount of data to the page. Note: you may want to use `$.when(...)` to resolve multiple promises.
