@@ -76,7 +76,7 @@ Docs: https://developer.github.com/v3/
 ###Roadmap to Success
 1. Successfully fetch user profile data + repo data for your github profile in your `app.js`
 
-2. In the promise-handler, render a minimal amount of data to the page.
+2. In the promise-handler, render a minimal amount of data to the page. Note: you may want to use `$.when(...)` to resolve multiple promises.
 
 3. Create a simple layout in HTML + CSS for the layout per the mockup -- initially build it with static hard-coded HTML to make sure that the elements are mostly in place.
  
@@ -90,4 +90,6 @@ Docs: https://developer.github.com/v3/
 
 6. Add an eventListener that listens for the `hashchange` event type on the `window`. The callback function should be the `controllerRouter` -- the controllerRouter which will check what's in the hash, fetch the user profile/repo info, and render to the page.
 
-7. After rendering the html to the page, put an event listener on the `<input>` tag in the navbar. It should listen for the enter-key and update the hash with whatever value is in the input.
+7. After rendering the html to the page, put an event listener on the `<input>` tag in the navbar. It should listen for the enter-key and update the hash with whatever value is in the input -- if you've done steps 5 & 6, the user's data in the `<input>` should fetch + render to the page.  
+
+8. Fine tune your styles.
