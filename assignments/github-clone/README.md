@@ -69,11 +69,23 @@ Docs: https://developer.github.com/v3/
   - Click 'Generate Token', leave all options *unselected*
 2. Copy the access token
   - You won't be able to see it again from github!
-3. Make sure you can fetch a user from the API with your token
+3. At the root of your project directory, create a `secrets.js` file. Inside of it, export your githubApiKey:
+  ```
+  export const githubApiKey = '«your github access token»'
+  ``` 
+4. In your `app.js`, import your `githubApiKey`
+  ```
+  import { githubApiKey } from '../../secrets.js'    
+  ```
+5. Make sure you can fetch a user from the API with your token
   - https://api.github.com/users/t3patterson?access_token=«your-access-token»
 
+Why all of this? Github puts a rate limit on unauthenticated requests to their API at 60 per hour *per IP address*. As a class, we will be sharing the same IP address on campus, and will exceed this threshold quickly. Therefore, we need an api key for our application (i.e. an access token).
+
+Normally we would put our api key in a variable in `app.js`, but if we do that _Github will detect the key and delete it_ because it is usually very bad practice to push an access token to a public repository. The solution is to put our api key in a file we are hiding from version control (`secrets.js` in `.gitignore`). With these steps above, we can import the api key from another file locally without having the key getting invalidated when we push our code up to github.  
+
 ### Roadmap to Success
-1. Successfully fetch user profile data + repo data for your github profile in your `app.js`
+1. Import jQuery, and successfully fetch user profile data + repo data for your github profile in your `app.js`
 
 2. In the promise-handler, render a minimal amount of data to the page. Note: you may want to use `$.when(...)` to resolve multiple promises.
 
