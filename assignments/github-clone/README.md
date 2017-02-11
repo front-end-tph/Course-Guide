@@ -97,10 +97,10 @@ Normally we would put our api key in a variable in `app.js`, but if we do that _
   + If there is a value for a github user in the hash, it should execute the fetches for the profile data and repo data, 
   + if there is no value in the hash it should fetch + return the default github profile (i.e. your profile). 
 
-  When the data returns, do the same as the previous step (i.e. creating an html-string from the profile + repo data that you will put as innerHTML to `app-container`). [Example of progress](./demos/roadmap-step4.png)
+  When the data returns, do the same as the previous step (i.e. creating an html-string from the profile + repo data that you will put as innerHTML to `app-container`). 
 
-6. Add an eventListener that listens for the `hashchange` event type on the `window`. The callback function should be the `controllerRouter` -- the controllerRouter which will check what's in the hash, fetch the user profile/repo info, and render to the page.
+6. Add an eventListener that listens for the `hashchange` event type on the `window`. The callback function should be the `controllerRouter` -- the controllerRouter which will check what's in the hash, fetch the user profile/repo info, and render to the page. [Example of progress](./demos/roadmap-step5.gif)
 
-7. After rendering the html to the page, put an event listener on the `<input>` tag in the navbar. It should listen for the enter-key and update the hash with whatever value is in the input -- if you've done steps 5 & 6, the user's data in the `<input>` should fetch + render to the page.  
+7. After rendering the html to the page, put an event listener on the `<input>` tag in the navbar. It should listen for the enter-key and update the hash with whatever value is in the input -- if you've done steps 5 & 6, the user's data in the `<input>` should fetch + render to the page.  [Example of progress](./demos/roadmap-step6.gif)
 
-8. Fine tune your styles.
+8. Fine tune your styles. 
