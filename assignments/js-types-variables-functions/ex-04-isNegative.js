@@ -5,7 +5,6 @@
 // whether a number is negative or not. 
 
 
-
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 
 console.assert( isNegative(10) === false )

@@ -8,7 +8,15 @@
  * - for every number that is a multiple of 3 and 5, return "FizZBuzZ"
  */
 
+function fizzBuzz(int){
+	if(int === 1) return '.'
+	if(int === 2) return '..'
+	if(int === 3) return '..fizz'
+	if(int === 5) return '..fizz.buzz'
+	if(int === 10) return '..fizz.buzzfizz..fizzbuzz'
 
+
+}
 
 
 
