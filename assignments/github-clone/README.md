@@ -53,7 +53,7 @@ After loading data from the Github API, write at least the following information
 - email
 - an `<img>` with its source as the avatar_url
 - html_url
-- for each repo owned by your user, list that repo in a `<ul>`
+- for each repo that belongs by your user, create an html-component 
 
 #### Part 2
 You will also need to include an `<input>` tag on your page that will allow users to search for a particular GitHub account. Once the user presses enter in the `<input>` tag, your app should change the hash, which will trigger a new request to the GitHub server, and display information for the corresponding user.
