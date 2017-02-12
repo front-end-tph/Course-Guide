@@ -103,4 +103,4 @@ Normally we would put our api key in a variable in `app.js`, but if we do that _
 
 7. After rendering the html to the page, put an event listener on the `<input>` tag in the navbar. It should listen for the enter-key and update the hash with whatever value is in the input -- if you've done steps 5 & 6, the user's data in the `<input>` should fetch + render to the page.  [Example of progress](./demos/roadmap-step6.gif)
 
-8. Fine tune your styles. 
+8. Fine tune your styles. [Example of progress](./demos/roadmap-step7.gif)
