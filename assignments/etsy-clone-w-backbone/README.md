@@ -47,6 +47,11 @@ https://www.etsy.com/developers/register
 
 3. Get the key (which you will include as a query string parameter)
 
+4. Active listings url: 
+```
+https://openapi.etsy.com/v2/listings/active.js?api_key=«your-api-key»
+```
+(note the `.js` before the `?` in the request url,  this is how etsy’s api does jsonp)
 
 ## Deliverables
 
