@@ -34,7 +34,7 @@ After completing this assignment, you should be able to:
   ```
   + *Local Webserver*
   ```
-  npm run go
+  npm start
   ```
 
 ####Etsy API
