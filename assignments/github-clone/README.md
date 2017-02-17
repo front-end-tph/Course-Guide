@@ -84,6 +84,8 @@ Why all of this? Github puts a rate limit on unauthenticated requests to their A
 
 Normally we would put our api key in a variable in `app.js`, but if we do that _Github will detect the key and delete it_ because it is usually very bad practice to push an access token to a public repository. The solution is to put our api key in a file we are hiding from version control (`secrets.js` in `.gitignore`). With these steps above, we can import the api key from another file locally without having the key getting invalidated when we push our code up to github.  
 
+
+
 ### Roadmap to Success
 1. Import jQuery, and successfully fetch user profile data + repo data for your github profile in your `app.js`
 

@@ -82,16 +82,6 @@ On the home screen, add a searchbar that would allow the user to enter a keyword
 
 Notice the `&keywords=...` in the following example URL for searching: https://openapi.etsy.com/v2/listings/active.js?api_key=aavnvygu0h5r52qes74x9zvo&keywords=banana+costume&callback=?.
 
-## Adventure Mode
-
-An addition to Easy Mode, display left/right arrows on the details screen (like one would a photo gallery):
-
-- if the user taps the left/right arrow on the page, animate the previous item in the list onto the screen
-- if the user hits the left or right arrow on the keyboard, do the same
-
-In addition to the arrows, the details screen should list other products made by the same Etsy artist below in a section titled "Other Listings from this Artist". To find this information, you will need to get the artists unique id from the details JSON, and use that id as the "shop_id" in a request. Notice the `:shop_id` in the the following URL: https://openapi.etsy.com/v2/shops/:shop_id/listings/active.js?api_key=aavnvygu0h5r52qes74x9zvo&callback=?.
-
-> reference https://www.etsy.com/developers/documentation/reference/listing#method_findallshoplistingsactive
 
 ## Master Mode
 
@@ -102,3 +92,15 @@ An addition to Normal and Adventure Modes, provide a list of checkboxes on the h
 - has 3 pictures
 
 When these checkboxes are selected, the home and search screens should show the results from Etsy, filtered to match the items in the checkboxes.
+
+
+## Master Mode
+
+An addition to Easy Mode, display left/right arrows on the details screen (like one would a photo gallery):
+
+- if the user taps the left/right arrow on the page, animate the previous item in the list onto the screen
+- if the user hits the left or right arrow on the keyboard, do the same
+
+In addition to the arrows, the details screen should list other products made by the same Etsy artist below in a section titled "Other Listings from this Artist". To find this information, you will need to get the artists unique id from the details JSON, and use that id as the "shop_id" in a request. Notice the `:shop_id` in the the following URL: https://openapi.etsy.com/v2/shops/:shop_id/listings/active.js?api_key=aavnvygu0h5r52qes74x9zvo&callback=?.
+
+> reference https://www.etsy.com/developers/documentation/reference/listing#method_findallshoplistingsactive
