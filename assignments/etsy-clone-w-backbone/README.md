@@ -54,6 +54,8 @@ https://www.etsy.com/developers/register
 
 ## Normal Mode
 
+[Link to demo](http://etsy-clone-normal-mode.herokuapp.com/)
+
 You're going to create an application that:
 
 - has two screens (will be drawn out on the whiteboard)
@@ -62,8 +64,7 @@ You're going to create an application that:
     - screen 1 (the "home" screen) will display a list of products from Etsy
     - screen 2 (the "details" screen) will display details of a single product from Etsy in greater detail
 
-Here is a demo:
-http://etsy-clone-normal-mode.herokuapp.com/
+
 
 **Etsy API "getting started":** https://www.etsy.com/developers/documentation/getting_started/api_basics
 
