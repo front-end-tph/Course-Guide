@@ -10,30 +10,30 @@ After completing this assignment, you should be able to:
 * Demonstrate use of Promises and AJAX methods
 * Demonstrate ability to update DOM elements and their attributes/innerHTML via JS
 * __Demonstrate an understanding of routing, and it's role in "single page apps"__
-* Demonstrate uderstanding of the concepts of MVC, such as Backbone Models, Views and Routers
+* Demonstrate understanding of the concepts of MVC, such as Backbone Models, Views and Routers
 * Demonstrate knowledge of `new`, constructors, and the prototype chain
 
 ## Setup
 
 ####The Project Build
-1. `cd` into your `~/TIY/assignments` directory and clone [*simple-server*](https://github.com/TIY-Charleston-Front-End-Engineering/simple-server) repo into **assignment-20-etsy-clone** project-directory
+1. `cd` into your `~/TIY/assignments` directory and clone [*webpack-simple-server*](https://github.com/t3tools/webpack-simple-server) repo into an `assignment-«XX»` project-directory
+
   ```sh
-  git clone git@github.com:TIY-Charleston-Front-End-Engineering/simple-server.git assignment-20-etsy-clone
+  git clone git@github.com:t3tools/webpack-simple-server.git assignment-xx
   ```
 
-2. `cd` into `assignment-20-etsy-clone/, remove the origin, and create your remote repo on github
-  ```sh
-  git remote remove origin
-  hub create
-  ```
-
-3. Install the project's dependencies from the `package.json`
+2. Install the project's dependencies from the `package.json`
   ```sh
   npm install
   ```
 
-4. After installation completes, start the local server
+4. After installation completes, start the task runner and local webserver:
+  + *Task Runner*
   ```sh
+  npm run go
+  ```
+  + *Local Webserver*
+  ```
   npm run go
   ```
 
