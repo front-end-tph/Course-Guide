@@ -1,6 +1,6 @@
 // ex-09: getKeys() 
 
-// Create a method called getKeys() that accepts an object as an argument and returns
+// Create a function called getKeys() that accepts an object as an argument and returns
 // an array of the object's proerties
 //
 // getKeys({pid: 1238, title: 'Gold Necklace', price: 33})

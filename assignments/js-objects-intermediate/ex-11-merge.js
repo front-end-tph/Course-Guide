@@ -37,7 +37,7 @@ var obj4 = {artist: "The Riverboat", released: 1980, album: "Wishy Washy", quant
 
 var mergedObj2 = merge(obj3, obj4)
 
-console.assert( mergedObj_2.artist === "The Riverboat" )
-console.assert( mergedObj_2.released === 1980 )
-console.assert( mergedObj_2.title === "How to Wear a Bowtie")
-console.assert( mergedObj_2.quantity === 10 )
+console.assert( mergedObj2.artist === "The Riverboat" )
+console.assert( mergedObj2.released === 1980 )
+console.assert( mergedObj2.title === "How to Wear a Bowtie")
+console.assert( mergedObj2.quantity === 10 )

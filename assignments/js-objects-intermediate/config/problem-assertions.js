@@ -496,10 +496,6 @@ let problemGroup = [
 			Let's see some bananas and nuts! This was a big get for God. They don't allow you to have bees in here. I want to cry so bad, but I don't think I can spare the moisture. No, Pop-pop does not get a treat, I just brought you a [bleep]ing pizza. It walked on my pillow! I'll buy you a hundred George Michaels that you can teach to drive! A group of British builders operating outside the O.C."
 
 			var userOutput_1 = getWordCount(sampleText)
-			
-			console.assert( )
-			console.assert( )
-			console.assert( wordFrequencyObject.you === 9 )
 
 			let assert_1 = new Assertion({
 				assertion_description: `<code> wordFrequencyObject.be === 3 </code>`,
@@ -690,8 +686,6 @@ let problemGroup = [
 
 
 	   	let userOutput_3 = pluck(stooges, 'age')
-						console.assert( )
-						console.assert(  )
 
 			let assert_5 = new Assertion({
 				assertion_description: `<code> outputArray_3[2] === 53</code>`,
@@ -911,7 +905,6 @@ let problemGroup = [
 			})
 
 			let userOutput_4 = where(plays, {year: 1949})
- 		   console.assert(  )
 
 			let assert_6 = new Assertion({
 				assertion_description: `<code>midCentPlays.length === 3</code>`,
