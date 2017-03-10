@@ -1,6 +1,6 @@
 ## Week by Week Overview
 
-## Week 1: Structure
+### Week 1: Structure
 - Getting Started:
   1. User Stories & Minimum Viable Product
   2. Data Models (Tables + Columns + Column Data Types + Relationships)
@@ -11,13 +11,13 @@
 - Organizing git workflows 
 - Main Feature Working
 
-## Week 2: Functionality
+### Week 2: Functionality
 - User Authentication
 - App Idea Working Well, May Not Be Pretty Yet
 - App Idea Feature Cuts & Additions
 
 
-## Week 3: Polish
+### Week 3: Polish
 - App Polished, Refined, & Mostly Bug Free
 - Practice pitches
 - Demo Day!
