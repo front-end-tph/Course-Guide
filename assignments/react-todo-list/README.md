@@ -2,11 +2,11 @@
 
 ## Objectives
   * Apply event listeners in React.
+  * Understand the distinction between state and props in React.
   * Change state of react components.
   * Capture user input using refs on elements.
   * Modify the top-level state of a component from a lower-level component.
-  * Pass data down as props to lower level components.
-
+  
 ## Setup Instructions
 
 1. `cd` into your `~/TIY/assignments` directory and clone [*webpack-simple-server*](https://github.com/t3tools/webpack-simple-server) repo into an `assignment-«XX»` project-directory

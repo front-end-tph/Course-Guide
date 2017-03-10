@@ -31,7 +31,7 @@
 
 ### Normal Mode
 
-Retrieve data on all legislators, reproducing the page shown below as **React Components**: ![](./static.png)
+Retrieve data on all legislators, reproducing the page shown below as **React Components**: ![img](./static.png)
 
 At a minimum, you should have two components: 
   - `<ProfileList/>` a container for the congress persons. Here, you will map over  array or data objects and return an array of React  components of each congressperson. 
