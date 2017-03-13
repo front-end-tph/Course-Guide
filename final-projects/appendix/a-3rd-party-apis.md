@@ -1,15 +1,13 @@
 # APIs
 ---
 
-APIs provide 3 primary methods for us front-end devs to access them:
+APIs provide 3 primary methods to access them:
 
 1. CORS - JSON (not all are CORS)
 2. non-CORS - JSONP (not all are JSONP)
-3. server-side proxy (our local server makes the JSON request for us, and returns it to the browser)
+3. server-side proxy (server makes the JSON request for us, and returns it to the browser)
 
-Methods 1 and 2 let JS developers make direct requests from the Browser.
-
-Method 3 is a little harder for us to implement in the browser. Instead, use either a Node.js proxy (like the heroku-server.js file provided with the package.json), or try https://jsonp.nodejitsu.com/.
+Methods 1 and 2 let JS developers make direct requests from the Browser. Method 3 requires the backend to forward a client-request to the API.
 
 You can also host your own separate RESTful server. Ask you instructor about a plethora of server-side Node options.
 
