@@ -52,7 +52,7 @@ You can also host your own separate RESTful server. Ask you instructor about a p
 
 ## Weather APIs
 
-- Forecast.io - https://developer.forecast.io/
+- Darksky - https://darksky.net/dev/
 
 ## Google APIs
 
@@ -145,7 +145,11 @@ You can also host your own separate RESTful server. Ask you instructor about a p
 - Tessel - https://tessel.io/ - https://tessel.io/docs
 - Nest - https://nest.com/ - https://developer.nest.com/documentation/control - https://developer.nest.com/documentation/alert
 
-## Other / HackerNews / Startup-y APIs
+## Movies/Music
+- IMDB / OMDB - http://www.omdbapi.com/
+- Rotten Tomatoes - http://developer.rottentomatoes.com/docs/read/JSON
+
+## Other  
 - Producthunt - https://github.com/karan/Hook
 - Trello - https://trello.com/docs/
 - Wunderlist - https://developer.wunderlist.com/documentation/tools/wunderlist.js
@@ -155,13 +159,11 @@ You can also host your own separate RESTful server. Ask you instructor about a p
 - Wit - natural language processing - http://labs.wit.ai/demo/index.html
 - Nest - https://developer.nest.com/documentation/control
 - FlightAware - http://flightaware.com/commercial/flightxml/
-- IMDB / OMDB - http://www.omdbapi.com/
-- Rotten Tomatoes - http://developer.rottentomatoes.com/docs/read/JSON
 - Evernote - https://dev.evernote.com/doc/
 - Marvel - http://developer.marvel.com/docs
 - Starwars - http://swapi.co/
 
 
-## Large Databases of APIs
-
+## Large Databases/Lists of APIs
+- https://github.com/toddmotto/public-apis
 - https://www.mashape.com/explore
