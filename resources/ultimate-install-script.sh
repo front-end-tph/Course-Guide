@@ -5,8 +5,6 @@
 ##   navigate in the terminal to the location of the file.
 ##   execute it using the command "bash <filename>". for example, "bash ultimate-install-script.sh."
 
-set -e
-
 echo 'Boostrapping your computer...'
 
 # Install xcode command line tools
@@ -24,12 +22,8 @@ fi
 
 
 ###############################################################################
-# SSH
+# Install things
 ###############################################################################
-
-# ssh-keygen
-
-#############
 
 # setup casks/taps
 brew tap homebrew/dupes
@@ -48,6 +42,7 @@ binaries=(
   python
   git
   node
+  postgres
   npm
   hub
   mongodb
@@ -58,7 +53,7 @@ binaries=(
 apps=(
   google-chrome
   atom
-  flux
+  flux 
 )
 
 # "installing binaries..."
@@ -78,12 +73,3 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until script has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-###############################################################################
-# Class SETP
-###############################################################################
-
-curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/resources/.bash_profile > ~/.bash_profile
-
-mkdir ~/TIY
-cd ~/TIY
-mkdir assignments sandbox warmups notes
