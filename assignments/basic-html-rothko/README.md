@@ -43,10 +43,6 @@ Mark Rothko, Untitled (Seagram Mural Sketch), 1959. National Gallery of Art, Was
 ```
 
 <hr/>
+
 ### Image resource links
-- [River Oaks District Logo](https://www.filestackapi.com/api/file/NNpLztTxTAmJocy2iCJQ)
-- [Rothko Artwork Mural](https://www.filestackapi.com/api/file/sc3rUXfESL2wrpnemPJh)
-- [Houston Public Media Logo](https://www.filestackapi.com/api/file/MyAIvrR5TrWr4ij8HHzW)
-- [Museum of Fine Arts Logo](https://www.filestackapi.com/api/file/RdrgBHORu2MzQCBu43xF)
-
-
+[download](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/basic-html-rothko/rothko-images.zip)
