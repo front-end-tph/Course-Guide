@@ -45,5 +45,5 @@ Mark Rothko, Untitled (Seagram Mural Sketch), 1959. National Gallery of Art, Was
 
 <hr/>
 
-### Image resource links
+### Images `.zip` download
 [download](https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/basic-html-rothko/rothko-images.zip)
