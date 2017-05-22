@@ -20,6 +20,7 @@ All of your work and markup should be created in an `index.html` file inside of 
 *This is the text from the copywriter that is currently on the flier.*
 
 <hr/>
+
 ```
 Mark Rothko
 
