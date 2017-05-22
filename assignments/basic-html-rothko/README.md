@@ -14,7 +14,7 @@ All of your work and markup should be created in an `index.html` file inside of 
 
 
 ### The flier
-![rothko flier](https://www.filestackapi.com/api/file/kwGf6nseTRKw38c4mbDs)
+![rothko flier](./assignments/basic-html-rothko/assets/mark-rotho-retrospective-sample.jpg)
 
 ### The text copy
 *This is the text from the copywriter that is currently on the flier.*
