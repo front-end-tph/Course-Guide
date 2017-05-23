@@ -43,6 +43,7 @@ link color: 77A8D2
 + use a `<span>` tag and give it a class attribute to apply targeted styles to the 'Monotype' text
 
 <hr/>
+
 ### Menu List
 
 ![menu list](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/menu-list.png)
@@ -77,6 +78,7 @@ images:
 - to link to the images in the `src` attribute, you may have to go up a directory (`../`) in order to access the image-file in the `/images` directory 	
 
 <hr/>
+
 ### Navigation Menu
 
 ![mini nav menu](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/mini-nav-menu.png)
