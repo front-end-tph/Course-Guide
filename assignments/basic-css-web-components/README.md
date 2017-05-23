@@ -1,5 +1,5 @@
-#Assignment 2 - Basic CSS - Recreating Web Components
-##Instructions
+# Assignment 2 - Basic CSS - Recreating Web Components
+## Instructions
 Use what you've learned of CSS styles and properties to recreate the site components shown below. You likely will need to use CSS properties like:
 
 - `margin`, `padding`, `border`
@@ -9,7 +9,7 @@ Use what you've learned of CSS styles and properties to recreate the site compon
 - `text-align`
 - `display: block` and `display: inline-block`
 
-##Setup
+## Setup
 ```sh
 cd ~/TIY/assignments
 mkdir assignment-02
@@ -20,12 +20,12 @@ unzip assignment-02
 
 *NOTE:* You will likely want to include `*{box-sizing: border-box}` at the top of your stylesheet
 
-##Normal Mode
+## Normal Mode
 
-###Simple Article Layout
+### Simple Article Layout
 ![nice typeface](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/nice-typeface.png)
 
-#####Design Specs
+##### Design Specs
 
 ```
 fonts: Georgia & Geneva
@@ -34,15 +34,16 @@ background-color: FBF9F1
 link color: 77A8D2
 ```
 
-#####Hint
+##### Hint
 
 + use a `<span>` tag and give it a class attribute to apply targeted styles to the 'Monotype' text
 
 <hr/>
-###Menu List
+### Menu List
 ![menu list](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/menu-list.png)
 
-#####*Design Specs*
+##### *Design Specs*
+
 ```
 fonts: Avenir
 selected itmem font color: `#66CC99`
@@ -50,10 +51,12 @@ selected itmem font color: `#66CC99`
 
 
 <hr/>
-###Icon Set
+
+### Icon Set
 ![inline block icon set](./example-components/inline-icon-set.png)
 
-#####*Design Specs*
+##### *Design Specs*
+
 ```
 fonts: sans-serif
 images:
@@ -68,10 +71,10 @@ images:
 - to link to the images in the `src` attribute, you may have to go up a directory (`../`) in order to access the image-file in the `/images` directory 	
 
 <hr/>
-###Navigation Menu
+### Navigation Menu
 ![mini nav menu](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/mini-nav-menu.png)
 
-#####*Design Specs*
+##### *Design Specs*
 ```
 font: Futura
 link background color: rgb(205,92,92)
@@ -89,7 +92,7 @@ link background color: rgb(205,92,92)
 ### Simple Multi Column Layout
 ![multi column layout](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/basic-column-layout.png)
 
-#####*Design Specs*
+##### *Design Specs*
 ```
 font: Helvetica Neue
 top-bar color: #004
@@ -102,10 +105,11 @@ link color: `#DE5233`
 <hr/>
 ## Adventurer Mode
 
-###Complex Multi Column Layout
+### Complex Multi Column Layout
 ![layout](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/extended-layout.png)
 
-#####*Design Specs*
+##### *Design Specs*
+
 ```
 font: Avenir
 link color: `#ff5a5f`
