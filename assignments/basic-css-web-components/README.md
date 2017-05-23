@@ -1,5 +1,7 @@
 # Assignment 2 - Basic CSS - Recreating Web Components
+
 ## Instructions
+
 Use what you've learned of CSS styles and properties to recreate the site components shown below. You likely will need to use CSS properties like:
 
 - `margin`, `padding`, `border`
@@ -10,6 +12,7 @@ Use what you've learned of CSS styles and properties to recreate the site compon
 - `display: block` and `display: inline-block`
 
 ## Setup
+
 ```sh
 cd ~/TIY/assignments
 mkdir assignment-02
@@ -108,9 +111,11 @@ link color: `#DE5233`
 
 
 <hr/>
+
 ## Adventurer Mode
 
 ### Complex Multi Column Layout
+
 ![layout](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/extended-layout.png)
 
 ##### *Design Specs*
