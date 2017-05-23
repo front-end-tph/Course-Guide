@@ -23,6 +23,7 @@ unzip assignment-02
 ## Normal Mode
 
 ### Simple Article Layout
+
 ![nice typeface](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/nice-typeface.png)
 
 ##### Design Specs
@@ -40,6 +41,7 @@ link color: 77A8D2
 
 <hr/>
 ### Menu List
+
 ![menu list](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/menu-list.png)
 
 ##### *Design Specs*
@@ -53,6 +55,7 @@ selected itmem font color: `#66CC99`
 <hr/>
 
 ### Icon Set
+
 ![inline block icon set](./example-components/inline-icon-set.png)
 
 ##### *Design Specs*
@@ -72,9 +75,11 @@ images:
 
 <hr/>
 ### Navigation Menu
+
 ![mini nav menu](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/basic-css-web-components/example-components/mini-nav-menu.png)
 
 ##### *Design Specs*
+
 ```
 font: Futura
 link background color: rgb(205,92,92)
