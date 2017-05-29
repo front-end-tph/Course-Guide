@@ -1,10 +1,11 @@
-#Stride - Basic Layout + Element Positioning with CSS 
+# Stride - Basic Layout + Element Positioning with CSS
 
-###Description
+### Description
 Stride is a start-up looking to build a web platform to connect roommates of similar interests and compatible lifestyles. They are looking to build a web application similar to Airbnb, but that is based on successful long-term roommate arrangements. They have assembled a backend team to create the business logic, database, and API for the mobile application, and they are now looking for a front-end developer to build a sample static page of the designer's mockup.
 
-###Objectives
-####Learning Objectives
+### Objectives
+
+#### Learning Objectives
 After completing this assignment you should:
 - Recognize sensible nesting of HTML elements
 - Use CSS classes for styling elements on the page.
@@ -20,35 +21,36 @@ After completing this assignment you should:
   + `relative`
 
 
-####Performance Objectives
+#### Performance Objectives
 To receive a passing grade on this assignment, you must
 - Create a static web page that links to a `.css` stylesheet
 - Create a faithful representation of the design-mockup with respect to fonts, colors + spacing.
 - Have content displayed in multiple columns where shown per the mockup.
-- Utilize the `position` property to manipulate the positioning of: 
+- Utilize the `position` property to manipulate the positioning of:
   + the heart in the upper-right corner of the room-listing example
-  + the price in bottom-left corner of the room-listing example 
+  + the price in bottom-left corner of the room-listing example
   + the arrow tab for the *Got Questions* chat box.
 
-##Deliverables
+## Deliverables
 - an `index.html` file with the content
 - a `style.css` file
 - a repository on github titled `basic-layout-and-positioning-stride`
 
-##Setup
+## Setup
 
 Create the assignment-folder and download the images into the assignment-folder.
-```
+
+```sh
 cd ~/TIY/assignments
 mkdir assignment-04
 cd assignment-04
-curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/basic-layout-and-positioning-stride/images.zip > images.zip 
+curl https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/basic-layout-and-positioning-stride/images.zip > images.zip
 ```
 
-Inside of the `assignment-04/` directory you will need to: 
-+ create the `index.html` 
+Inside of the `assignment-04/` directory you will need to:
++ create the `index.html`
 + `style.css` file in a `css/` folder
-+  link the `index.html` file to the `style.css` 
++  link the `index.html` file to the `style.css`
 
 **NOTE:** At the top of your stylesheet make sure you apply the style rule `box-sizing: border-box` to *all* elements
 
@@ -59,11 +61,12 @@ Inside of the `assignment-04/` directory you will need to:
 ```
 
 
-##Part 1 -- Basic Layout
+## Part 1 -- Basic Layout
+
 ![mockup pt 1](./mockups/stride-layout-part-1.png)
 
-####Note: 
-- for the background image on the *Find Roommates You Like*, you will need to add the folowing CSS properties to : 
+#### Note:
+- for the background image on the *Find Roommates You Like*, you will need to add the folowing CSS properties to :
 + `background-image: url(../images/hero-splash')`
 + `background-size: cover`
 
@@ -86,7 +89,7 @@ light-green color: #B0E6E2
 font stack : "Libre Franklin", "Helvetica", "sans-serif"
 ```
 
-####Font 
+####Font
 1. Load the font from googlefonts:
 
   ```html
@@ -104,12 +107,11 @@ font stack : "Libre Franklin", "Helvetica", "sans-serif"
   }
   ```
 
-##Adventure Mode
+## Adventure Mode
 + Use the `:hover` pseudo class to apply hover-styles to the buttons
 + Use the `:focus` pseudo class to apply styles to the border of the input box when it is selected
 
 
-##Epic Mode
+## Epic Mode
 
 Use media-queries (CSS `@media` rule) so that the site works on mobile devices and at the full wide-screen desktop.
-
